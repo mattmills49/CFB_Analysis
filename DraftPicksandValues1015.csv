@@ -1,0 +1,1529 @@
+"Round","Pick","Team","Player","Position","Age","College","Year","New_College","College_Team","Value","Team Code","Conference Code"
+"1",1,"STL","Sam Bradford","QB","22","Oklahoma",2010,"Oklahoma","Oklahoma",23,522,25354
+"1",2,"DET","Ndamukong Suh","DT","23","Nebraska",2010,"Nebraska","Nebraska",20.1,463,827
+"1",3,"TAM","Gerald McCoy","DT","22","Oklahoma",2010,"Oklahoma","Oklahoma",18.4,522,25354
+"1",4,"WAS","Trent Williams","T","22","Oklahoma",2010,"Oklahoma","Oklahoma",17.1,522,25354
+"1",5,"KAN","Eric Berry","DB","21","Tennessee",2010,"Tennessee","Tennessee",16.2,694,911
+"1",6,"SEA","Russell Okung","T","22","Oklahoma St.",2010,"Oklahoma State","Oklahoma State",15.4,521,25354
+"1",7,"CLE","Joe Haden","DB","21","Florida",2010,"Florida","Florida",14.8,235,911
+"1",8,"OAK","Rolando McClain","LB","21","Alabama",2010,"Alabama","Alabama",14.2,8,911
+"1",9,"BUF","C.J. Spiller","RB","23","Clemson",2010,"Clemson","Clemson",13.7,147,821
+"1",10,"JAX","Tyson Alualu","DT","23","California",2010,"California","California",13.3,107,905
+"1",11,"SFO","Anthony Davis","T","20","Rutgers",2010,"Rutgers","Rutgers",12.9,587,827
+"1",12,"SDG","Ryan Mathews","RB","23","Fresno St.",2010,"Fresno State","Fresno State",12.5,96,5486
+"1",13,"PHI","Brandon Graham","DE","22","Michigan",2010,"Michigan","Michigan",12.2,418,827
+"1",14,"SEA","Earl Thomas","DB","21","Texas",2010,"Texas","Texas",11.9,703,25354
+"1",15,"NYG","Jason Pierre-Paul","DE","21","South Florida",2010,"South Florida","South Florida",11.6,651,823
+"1",16,"TEN","Derrick Morgan","DE","21","Georgia Tech",2010,"Georgia Tech","Georgia Tech",11.3,255,821
+"1",17,"SFO","Mike Iupati","G","23","Idaho",2010,"Idaho","Idaho",11,295,818
+"1",18,"PIT","Maurkice Pouncey","C","21","Florida",2010,"Florida","Florida",10.8,235,911
+"1",19,"ATL","Sean Weatherspoon","LB","22","Missouri",2010,"Missouri","Missouri",10.6,434,911
+"1",20,"HOU","Kareem Jackson","DB","22","Alabama",2010,"Alabama","Alabama",10.4,8,911
+"1",21,"CIN","Jermaine Gresham","TE","22","Oklahoma",2010,"Oklahoma","Oklahoma",10.1,522,25354
+"1",22,"DEN","Demaryius Thomas","WR","22","Georgia Tech",2010,"Georgia Tech","Georgia Tech",10,255,821
+"1",23,"GNB","Bryan Bulaga","T","21","Iowa",2010,"Iowa","Iowa",9.8,312,827
+"1",24,"DAL","Dez Bryant","WR","21","Oklahoma St.",2010,"Oklahoma State","Oklahoma State",9.6,521,25354
+"1",25,"DEN","Tim Tebow","QB","23","Florida",2010,"Florida","Florida",9.4,235,911
+"1",26,"ARI","Dan Williams","DT","23","Tennessee",2010,"Tennessee","Tennessee",9.2,694,911
+"1",27,"NWE","Devin McCourty","DB","23","Rutgers",2010,"Rutgers","Rutgers",9.1,587,827
+"1",28,"MIA","Jared Odrick","DE","22","Penn St.",2010,"Penn State","Penn State",8.9,539,827
+"1",29,"NYJ","Kyle Wilson","DB","23","Boise St.",2010,"Boise State","Boise State",8.8,66,5486
+"1",30,"DET","Jahvid Best","RB","21","California",2010,"California","California",8.6,107,905
+"1",31,"IND","Jerry Hughes","DE","22","TCU",2010,"TCU","TCU",8.5,698,25354
+"1",32,"NOR","Patrick Robinson","DB","23","Florida St.",2010,"Florida State","Florida State",8.4,234,821
+"2",33,"STL","Rodger Saffold","T","22","Indiana",2010,"Indiana","Indiana",8.2,306,827
+"2",34,"MIN","Chris Cook","DB","23","Virginia",2010,"Virginia","Virginia",8.1,746,821
+"2",35,"TAM","Brian Price","DT","21","UCLA",2010,"UCLA","UCLA",8,110,905
+"2",36,"KAN","Dexter McCluster","WR","21","Mississippi",2010,"Mississippi","Mississippi",7.9,433,911
+"2",37,"PHI","Nate Allen","DB","22","South Florida",2010,"South Florida","South Florida",7.8,651,823
+"2",38,"CLE","T.J. Ward","DB","23","Oregon",2010,"Oregon","Oregon",7.6,529,905
+"2",39,"TAM","Arrelious Benn","WR","22","Illinois",2010,"Illinois","Illinois",7.5,301,827
+"2",40,"MIA","Koa Misi","LB","23","Utah",2010,"Utah","Utah",7.4,732,905
+"2",41,"BUF","Torell Troup","DT","21","Central Florida",2010,"Central Florida","UCF",7.3,128,823
+"2",42,"NWE","Rob Gronkowski","TE","21","Arizona",2010,"Arizona","Arizona",7.2,29,905
+"2",43,"BAL","Sergio Kindle","LB","23","Texas",2010,"Texas","Texas",7.1,703,25354
+"2",44,"OAK","Lamarr Houston","DE","23","Texas",2010,"Texas","Texas",7,703,25354
+"2",45,"DEN","Zane Beadles","G","23","Utah",2010,"Utah","Utah",6.9,732,905
+"2",46,"NYG","Linval Joseph","DT","21","East Carolina",2010,"East Carolina","East Carolina",6.8,196,823
+"2",47,"ARI","Daryl Washington","LB","23","TCU",2010,"TCU","TCU",6.7,698,25354
+"2",48,"CAR","Jimmy Clausen","QB","23","Notre Dame",2010,"Notre Dame","Notre Dame",6.7,513,99001
+"2",49,"SFO","Taylor Mays","DB","22","USC",2010,"USC","USC",6.6,657,905
+"2",50,"KAN","Javier Arenas","DB","22","Alabama",2010,"Alabama","Alabama",6.5,8,911
+"2",51,"MIN","Toby Gerhart","RB","23","Stanford",2010,"Stanford","Stanford",6.4,674,905
+"2",52,"PIT","Jason Worilds","DE","22","Virginia Tech",2010,"Virginia Tech","Virginia Tech",6.3,742,821
+"2",53,"NWE","Jermaine Cunningham","LB","22","Florida",2010,"Florida","Florida",6.2,235,911
+"2",54,"CIN","Carlos Dunlap","DE","21","Florida",2010,"Florida","Florida",6.2,235,911
+"2",55,"DAL","Sean Lee","LB","24","Penn St.",2010,"Penn State","Penn State",6.1,539,827
+"2",56,"GNB","Mike Neal","DE","23","Purdue",2010,"Purdue","Purdue",6,559,827
+"2",57,"BAL","Terrence Cody","DT","22","Alabama",2010,"Alabama","Alabama",5.9,8,911
+"2",58,"HOU","Ben Tate","RB","22","Auburn",2010,"Auburn","Auburn",5.9,37,911
+"2",59,"CLE","Montario Hardesty","RB","23","Tennessee",2010,"Tennessee","Tennessee",5.8,694,911
+"2",60,"SEA","Golden Tate","WR","22","Notre Dame",2010,"Notre Dame","Notre Dame",5.7,513,99001
+"2",61,"NYJ","Vlad Ducasse","T","22","Massachusetts",2010,"Massachusetts","Massachusetts",5.6,400,875
+"2",62,"NWE","Brandon Spikes","LB","23","Florida",2010,"Florida","Florida",5.6,235,911
+"2",63,"IND","Pat Angerer","LB","23","Iowa",2010,"Iowa","Iowa",5.5,312,827
+"2",64,"NOR","Charles Brown","T","23","USC",2010,"USC","USC",5.4,657,905
+"3",65,"STL","Jerome Murphy","DB","23","South Florida",2010,"South Florida","South Florida",5.4,651,823
+"3",66,"DET","Amari Spievey","DB","22","Iowa",2010,"Iowa","Iowa",5.3,312,827
+"3",67,"TAM","Myron Lewis","DB","22","Vanderbilt",2010,"Vanderbilt","Vanderbilt",5.3,736,911
+"3",68,"KAN","Jon Asamoah","G","22","Illinois",2010,"Illinois","Illinois",5.2,301,827
+"3",69,"OAK","Jared Veldheer","T","23","Hillsdale",2010,"Hillsdale","",5.1,NA,NA
+"3",70,"BAL","Ed Dickson","TE","23","Oregon",2010,"Oregon","Oregon",5.1,529,905
+"3",71,"GNB","Morgan Burnett","DB","21","Georgia Tech",2010,"Georgia Tech","Georgia Tech",5,255,821
+"3",72,"BUF","Alex Carrington","DE","23","Arkansas St.",2010,"Arkansas State","Arkansas State",4.9,30,818
+"3",73,"MIA","John Jerry","T","24","Mississippi",2010,"Mississippi","Mississippi",4.9,433,911
+"3",74,"JAX","D'Anthony Smith","DT","22","Louisiana Tech",2010,"Louisiana Tech","Louisiana Tech",4.8,366,24312
+"3",75,"CHI","Major Wright","DB","22","Florida",2010,"Florida","Florida",4.8,235,911
+"3",76,"NYG","Chad Jones","DB","","LSU",2010,"LSU","LSU",4.7,365,911
+"3",77,"TEN","Damian Williams","WR","22","USC",2010,"USC","USC",4.7,657,905
+"3",78,"CAR","Brandon LaFell","WR","23","LSU",2010,"LSU","LSU",4.6,365,911
+"3",79,"SDG","Donald Butler","LB","21","Washington",2010,"Washington","Washington",4.6,756,905
+"3",80,"DEN","J.D. Walton","C","23","Baylor",2010,"Baylor","Baylor",4.5,51,25354
+"3",81,"HOU","Earl Mitchell","DT","23","Arizona",2010,"Arizona","Arizona",4.5,29,905
+"3",82,"PIT","Emmanuel Sanders","WR","23","SMU",2010,"SMU","SMU",4.4,663,823
+"3",83,"ATL","Corey Peters","DT","22","Kentucky",2010,"Kentucky","Kentucky",4.3,334,911
+"3",84,"CIN","Jordan Shipley","WR","24","Texas",2010,"Texas","Texas",4.3,703,25354
+"3",85,"CLE","Colt McCoy","QB","23","Texas",2010,"Texas","Texas",4.2,703,25354
+"3",86,"PHI","Daniel Te'o-Nesheim","DE","23","Washington",2010,"Washington","Washington",4.2,756,905
+"3",87,"DEN","Eric Decker","WR","23","Minnesota",2010,"Minnesota","Minnesota",4.1,428,827
+"3",88,"ARI","Andre Roberts","WR","22","Citadel",2010,"Citadel","Citadel",4.1,141,912
+"3",89,"CAR","Armanti Edwards","WR","22","Appalachian St.",2010,"Appalachian State","Appalachian State",4.1,27,818
+"3",90,"NWE","Taylor Price","WR","22","Ohio",2010,"Ohio","Ohio",4,519,875
+"3",91,"SFO","NaVorro Bowman","LB","22","Penn St.",2010,"Penn State","Penn State",4,539,827
+"3",92,"CLE","Shawn Lauvao","G","22","Arizona St.",2010,"Arizona State","Arizona State",3.9,28,905
+"3",93,"KAN","Tony Moeaki","TE","23","Iowa",2010,"Iowa","Iowa",3.9,312,827
+"3",94,"IND","Kevin Thomas","DB","24","USC",2010,"USC","USC",3.8,657,905
+"3",95,"NOR","Jimmy Graham","TE","23","Miami (FL)",2010,"Miami (FL)","Miami (Florida)",3.8,415,821
+"3",96,"CIN","Brandon Ghee","DB","23","Wake Forest",2010,"Wake Forest","Wake Forest",3.7,749,821
+"3",97,"TEN","Rennie Curran","LB","21","Georgia",2010,"Georgia","Georgia",3.7,257,911
+"3",98,"ATL","Mike Johnson","G","23","Alabama",2010,"Alabama","Alabama",3.6,8,911
+"4",99,"STL","Mardy Gilyard","WR","23","Cincinnati",2010,"Cincinnati","Cincinnati",3.6,140,823
+"4",100,"MIN","Everson Griffen","DE","22","USC",2010,"USC","USC",3.6,657,905
+"4",101,"TAM","Mike Williams","WR","23","Syracuse",2010,"Syracuse","Syracuse",3.5,688,821
+"4",102,"HOU","Darryl Sharpton","LB","22","Miami (FL)",2010,"Miami (FL)","Miami (Florida)",3.5,415,821
+"4",103,"WAS","Perry Riley","LB","22","LSU",2010,"LSU","LSU",3.4,365,911
+"4",104,"TEN","Alterraun Verner","DB","21","UCLA",2010,"UCLA","UCLA",3.4,110,905
+"4",105,"PHI","Trevard Lindley","DB","24","Kentucky",2010,"Kentucky","Kentucky",3.4,334,911
+"4",106,"OAK","Bruce Campbell","T","22","Maryland",2010,"Maryland","Maryland",3.3,392,827
+"4",107,"BUF","Marcus Easley","WR","22","Connecticut",2010,"Connecticut","Connecticut",3.3,164,823
+"4",108,"OAK","Jacoby Ford","WR","23","Clemson",2010,"Clemson","Clemson",3.2,147,821
+"4",109,"CHI","Corey Wootton","DE","23","Northwestern",2010,"Northwestern","Northwestern",3.2,509,827
+"4",110,"SDG","Darrell Stuckey","DB","23","Kansas",2010,"Kansas","Kansas",3.2,328,25354
+"4",111,"SEA","Walter Thurmond","DB","23","Oregon",2010,"Oregon","Oregon",3.1,529,905
+"4",112,"NYJ","Joe McKnight","RB","22","USC",2010,"USC","USC",3.1,657,905
+"4",113,"NWE","Aaron Hernandez","TE","20","Florida",2010,"Florida","Florida",3,235,911
+"4",114,"BAL","Dennis Pitta","TE","25","BYU",2010,"BYU","BYU",3,77,99001
+"4",115,"NYG","Phillip Dillard","LB","23","Nebraska",2010,"Nebraska","Nebraska",3,463,827
+"4",116,"PIT","Thaddeus Gibson","DE","22","Ohio St.",2010,"Ohio State","Ohio State",2.9,518,827
+"4",117,"ATL","Joe Hawley","C","21","UNLV",2010,"UNLV","UNLV",2.9,465,5486
+"4",118,"HOU","Garrett Graham","TE","24","Wisconsin",2010,"Wisconsin","Wisconsin",2.9,796,827
+"4",119,"MIA","A.J. Edds","LB","23","Iowa",2010,"Iowa","Iowa",2.8,312,827
+"4",120,"CIN","Geno Atkins","DT","22","Georgia",2010,"Georgia","Georgia",2.8,257,911
+"4",121,"PHI","Keenan Clayton","LB","23","Oklahoma",2010,"Oklahoma","Oklahoma",2.8,522,25354
+"4",122,"PHI","Mike Kafka","QB","23","Northwestern",2010,"Northwestern","Northwestern",2.7,509,827
+"4",123,"NOR","Al Woods","DT","23","LSU",2010,"LSU","LSU",2.7,365,911
+"4",124,"CAR","Eric Norwood","LB","22","South Carolina",2010,"South Carolina","South Carolina",2.7,648,911
+"4",125,"PHI","Clay Harbor","TE","23","SW Missouri St.",2010,"SW Missouri State","",2.6,NA,NA
+"4",126,"DAL","Akwasi Owusu-Ansah","DB","22","Indiana (PA)",2010,"Indiana (PA)","",2.6,NA,NA
+"4",127,"SEA","E.J. Wilson","DE","22","North Carolina",2010,"North Carolina","North Carolina",2.6,457,821
+"4",128,"DET","Jason Fox","T","22","Miami (FL)",2010,"Miami (FL)","Miami (Florida)",2.5,415,821
+"4",129,"IND","Jacques McClendon","G","22","Tennessee",2010,"Tennessee","Tennessee",2.5,694,911
+"4",130,"ARI","O'Brien Schofield","DE","23","Wisconsin",2010,"Wisconsin","Wisconsin",2.5,796,827
+"4",131,"CIN","Roddrick Muckelroy","LB","23","Texas",2010,"Texas","Texas",2.4,703,25354
+"5",132,"STL","Michael Hoomanawanui","TE","22","Illinois",2010,"Illinois","Illinois",2.4,301,827
+"5",133,"SEA","Kam Chancellor","DB","22","Virginia Tech",2010,"Virginia Tech","Virginia Tech",2.4,742,821
+"5",134,"PHI","Ricky Sapp","DE","23","Clemson",2010,"Clemson","Clemson",2.3,147,821
+"5",135,"ATL","Dominique Franks","DB","22","Oklahoma",2010,"Oklahoma","Oklahoma",2.3,522,25354
+"5",136,"KAN","Kendrick Lewis","DB","22","Mississippi",2010,"Mississippi","Mississippi",2.3,433,911
+"5",137,"DEN","Perrish Cox","DB","23","Oklahoma St.",2010,"Oklahoma State","Oklahoma State",2.2,521,25354
+"5",138,"OAK","Walter McFadden","DB","23","Auburn",2010,"Auburn","Auburn",2.2,37,911
+"5",139,"NYJ","John Conner","RB","23","Kentucky",2010,"Kentucky","Kentucky",2.2,334,911
+"5",140,"BUF","Ed Wang","T","23","Virginia Tech",2010,"Virginia Tech","Virginia Tech",2.1,742,821
+"5",141,"CHI","Joshua Moore","DB","22","Kansas St.",2010,"Kansas State","Kansas State",2.1,327,25354
+"5",142,"KAN","Cameron Sheffield","DE","22","Troy",2010,"Troy","Troy",2.1,716,818
+"5",143,"JAX","Larry Hart","DE","23","Central Arkansas",2010,"Central Arkansas","Central Arkansas",2.1,1004,914
+"5",144,"HOU","Sherrick McManis","DB","22","Northwestern",2010,"Northwestern","Northwestern",2,509,827
+"5",145,"MIA","Nolan Carroll","DB","23","Maryland",2010,"Maryland","Maryland",2,392,827
+"5",146,"SDG","Cam Thomas","DT","23","North Carolina",2010,"North Carolina","North Carolina",2,457,821
+"5",147,"NYG","Mitch Petrus","G","23","Arkansas",2010,"Arkansas","Arkansas",1.9,31,911
+"5",148,"TEN","Robert Johnson","DB","23","Utah",2010,"Utah","Utah",1.9,732,905
+"5",149,"STL","Hall Davis","DE","23","La-Lafayette",2010,"La-Lafayette","",1.9,NA,NA
+"5",150,"NWE","Zoltan Mesko","P","24","Michigan",2010,"Michigan","Michigan",1.9,418,827
+"5",151,"PIT","Chris Scott","G","23","Tennessee",2010,"Tennessee","Tennessee",1.8,694,911
+"5",152,"CIN","Otis Hudson","T","24","East. Illinois",2010,"East. Illinois","Eastern Illinois",1.8,201,902
+"5",153,"JAX","Austen Lane","DE","22","Murray St.",2010,"Murray State","Murray State",1.8,454,902
+"5",154,"GNB","Andrew Quarless","TE","21","Penn St.",2010,"Penn State","Penn State",1.7,539,827
+"5",155,"ARI","John Skelton","QB","22","Fordham",2010,"Fordham","Fordham",1.7,236,838
+"5",156,"BAL","David Reed","WR","23","Utah",2010,"Utah","Utah",1.7,732,905
+"5",157,"BAL","Arthur Jones","DE","24","Syracuse",2010,"Syracuse","Syracuse",1.7,688,821
+"5",158,"NOR","Matt Tennant","C","23","Boston Col.",2010,"Boston Col.","Boston College",1.6,67,821
+"5",159,"PHI","Riley Cooper","WR","23","Florida",2010,"Florida","Florida",1.6,235,911
+"5",160,"CLE","Larry Asante","DB","22","Nebraska",2010,"Nebraska","Nebraska",1.6,463,827
+"5",161,"MIN","Chris DeGeare","G","23","Wake Forest",2010,"Wake Forest","Wake Forest",1.6,749,821
+"5",162,"IND","Brody Eldridge","TE","23","Oklahoma",2010,"Oklahoma","Oklahoma",1.5,522,25354
+"5",163,"MIA","Reshad Jones","DB","22","Georgia",2010,"Georgia","Georgia",1.5,257,911
+"5",164,"PIT","Crezdon Butler","DB","23","Clemson",2010,"Clemson","Clemson",1.5,147,821
+"5",165,"ATL","Kerry Meier","WR","23","Kansas",2010,"Kansas","Kansas",1.4,328,25354
+"5",166,"PIT","Stevenson Sylvester","LB","22","Utah",2010,"Utah","Utah",1.4,732,905
+"5",167,"MIN","Nate Triplett","LB","23","Minnesota",2010,"Minnesota","Minnesota",1.4,428,827
+"5",168,"SDG","Jonathan Crompton","QB","23","Tennessee",2010,"Tennessee","Tennessee",1.4,694,911
+"5",169,"GNB","Marshall Newhouse","G","22","TCU",2010,"TCU","TCU",1.3,698,25354
+"6",170,"STL","Fendi Onobun","TE","23","Arizona",2010,"Arizona","Arizona",1.3,29,905
+"6",171,"ATL","Shann Schillinger","DB","24","Montana",2010,"Montana","Montana",1.3,441,825
+"6",172,"TAM","Brent Bowden","P","","Virginia Tech",2010,"Virginia Tech","Virginia Tech",1.3,742,821
+"6",173,"SFO","Anthony Dixon","RB","23","Mississippi St.",2010,"Mississippi State","Mississippi State",1.2,430,911
+"6",174,"WAS","Dennis Morris","RB","","Louisiana Tech",2010,"Louisiana Tech","Louisiana Tech",1.2,366,24312
+"6",175,"CAR","Greg Hardy","DE","22","Mississippi",2010,"Mississippi","Mississippi",1.2,433,911
+"6",176,"TEN","Rusty Smith","QB","23","Florida Atlantic",2010,"Florida Atlantic","Florida Atlantic",1.2,229,24312
+"6",177,"CLE","Carlton Mitchell","WR","22","South Florida",2010,"South Florida","South Florida",1.2,651,823
+"6",178,"BUF","Arthur Moats","LB","22","James Madison",2010,"James Madison","James Madison",1.1,317,837
+"6",179,"DAL","Sam Young","T","23","Notre Dame",2010,"Notre Dame","Notre Dame",1.1,513,99001
+"6",180,"JAX","Deji Karim","RB","23","Southern Illinois",2010,"Southern Illinois","Southern Illinois",1.1,659,853
+"6",181,"CHI","Dan LeFevour","QB","23","Central Michigan",2010,"Central Michigan","Central Michigan",1.1,129,875
+"6",182,"SFO","Nate Byham","TE","22","Pittsburgh",2010,"Pittsburgh","Pittsburgh",1,545,821
+"6",183,"DEN","Eric Olsen","C","22","Notre Dame",2010,"Notre Dame","Notre Dame",1,513,99001
+"6",184,"NYG","Adrian Tracy","DE","23","William &amp; Mary",2010,"William &amp; Mary","William & Mary",1,786,837
+"6",185,"SEA","Anthony McCoy","TE","22","USC",2010,"USC","USC",1,657,905
+"6",186,"CLE","Clifton Geathers","DE","22","South Carolina",2010,"South Carolina","South Carolina",0.9,648,911
+"6",187,"HOU","Shelley Smith","G","23","Colorado St.",2010,"Colorado State","Colorado State",0.9,156,5486
+"6",188,"PIT","Jonathan Dwyer","RB","21","Georgia Tech",2010,"Georgia Tech","Georgia Tech",0.9,255,821
+"6",189,"STL","Eugene Sims","DE","24","West Texas A&amp;M",2010,"West Texas A&amp;M","",0.9,NA,NA
+"6",190,"OAK","Travis Goethel","LB","23","Arizona St.",2010,"Arizona State","Arizona State",0.9,28,905
+"6",191,"CIN","Dezmon Briscoe","WR","21","Kansas",2010,"Kansas","Kansas",0.8,328,25354
+"6",192,"BUF","Danny Batten","DE","22","South Dakota St.",2010,"South Dakota State","South Dakota State",0.8,649,853
+"6",193,"GNB","James Starks","RB","24","Buffalo",2010,"Buffalo","Buffalo",0.8,86,875
+"6",194,"BAL","Ramon Harewood","T","23","Morehouse",2010,"Morehouse","",0.8,NA,NA
+"6",195,"PIT","Antonio Brown","WR","22","Central Michigan",2010,"Central Michigan","Central Michigan",0.7,129,875
+"6",196,"DAL","Jamar Wall","DB","22","Texas Tech",2010,"Texas Tech","Texas Tech",0.7,700,25354
+"6",197,"HOU","Trindon Holliday","WR","24","LSU",2010,"LSU","LSU",0.7,365,911
+"6",198,"CAR","David Gettis","WR","23","Baylor",2010,"Baylor","Baylor",0.7,51,25354
+"6",199,"MIN","Joe Webb","WR","23","Ala-Birmingham",2010,"Ala-Birmingham","UAB",0.7,9,24312
+"6",200,"PHI","Charles Scott","RB","","LSU",2010,"LSU","LSU",0.6,365,911
+"6",201,"ARI","Jorrick Calvin","DB","23","Troy",2010,"Troy","Troy",0.6,716,818
+"6",202,"CAR","Jordan Pugh","DB","22","Texas A&amp;M",2010,"Texas A&amp;M","Texas A&M",0.6,697,911
+"6",203,"JAX","Scotty McGee","DB","","James Madison",2010,"James Madison","James Madison",0.6,317,837
+"6",204,"CAR","Tony Pike","QB","24","Cincinnati",2010,"Cincinnati","Cincinnati",0.6,140,823
+"6",205,"NWE","Ted Larsen","C","23","North Carolina St.",2010,"North Carolina State","North Carolina State",0.5,490,821
+"6",206,"SFO","Kyle Williams","WR","22","Arizona St.",2010,"Arizona State","Arizona State",0.5,28,905
+"6",207,"TEN","Myron Rolle","DB","","Florida St.",2010,"Florida State","Florida State",0.5,234,821
+"7",208,"NWE","Thomas Welch","T","23","Vanderbilt",2010,"Vanderbilt","Vanderbilt",0.5,736,911
+"7",209,"BUF","Levi Brown","QB","23","Troy",2010,"Troy","Troy",0.5,716,818
+"7",210,"TAM","Cody Grimm","DB","23","Virginia Tech",2010,"Virginia Tech","Virginia Tech",0.4,742,821
+"7",211,"STL","Marquis Johnson","DB","22","Alabama",2010,"Alabama","Alabama",0.4,8,911
+"7",212,"MIA","Chris McCoy","DE","","Middle Tenn. St.",2010,"Middle Tenn. State","Middle Tennessee",0.4,419,24312
+"7",213,"DET","Willie Young","DE","25","North Carolina St.",2010,"North Carolina State","North Carolina State",0.4,490,821
+"7",214,"MIN","Mickey Shuler","TE","23","Penn St.",2010,"Penn State","Penn State",0.4,539,827
+"7",215,"OAK","Jeremy Ware","DB","24","Michigan St.",2010,"Michigan State","Michigan State",0.3,416,827
+"7",216,"BUF","Kyle Calloway","T","","Iowa",2010,"Iowa","Iowa",0.3,312,827
+"7",217,"TAM","Dekoda Watson","LB","22","Florida St.",2010,"Florida State","Florida State",0.3,234,821
+"7",218,"CHI","J'Marcus Webb","T","22","West Texas A&amp;M",2010,"West Texas A&amp;M","",0.3,NA,NA
+"7",219,"WAS","Terrence Austin","WR","22","UCLA",2010,"UCLA","UCLA",0.3,110,905
+"7",220,"PHI","Jamar Chaney","LB","23","Mississippi St.",2010,"Mississippi State","Mississippi State",0.2,430,911
+"7",221,"NYG","Matt Dodge","P","23","East Carolina",2010,"East Carolina","East Carolina",0.2,196,823
+"7",222,"TEN","Marc Mariani","WR","23","Montana",2010,"Montana","Montana",0.2,441,825
+"7",223,"CAR","R.J. Stanford","DB","22","Utah",2010,"Utah","Utah",0.2,732,905
+"7",224,"SFO","Phillip Adams","DB","22","South Carolina St.",2010,"South Carolina State","South Carolina State",0.2,647,876
+"7",225,"DEN","Syd'Quan Thompson","DB","23","California",2010,"California","California",0.2,107,905
+"7",226,"STL","George Selvie","DE","23","South Florida",2010,"South Florida","South Florida",0.2,651,823
+"7",227,"HOU","Dorin Dickerson","WR","22","Pittsburgh",2010,"Pittsburgh","Pittsburgh",0.2,545,821
+"7",228,"CIN","Reggie Stephens","C","23","Iowa St.",2010,"Iowa State","Iowa State",0.2,311,25354
+"7",229,"WAS","Eric Cook","C","","New Mexico",2010,"New Mexico","New Mexico",0.2,473,5486
+"7",230,"GNB","C.J. Wilson","DE","23","East Carolina",2010,"East Carolina","East Carolina",0.2,196,823
+"7",231,"WAS","Selvish Capers","T","24","West Virginia",2010,"West Virginia","West Virginia",0.2,768,25354
+"7",232,"DEN","Jammie Kirlew","DE","23","Indiana",2010,"Indiana","Indiana",0.2,306,827
+"7",233,"ARI","Jim Dray","TE","23","Stanford",2010,"Stanford","Stanford",0.2,674,905
+"7",234,"DAL","Sean Lissemore","DT","23","William &amp; Mary",2010,"William &amp; Mary","William & Mary",0.2,786,837
+"7",235,"SDG","Dedrick Epps","TE","22","Miami (FL)",2010,"Miami (FL)","Miami (Florida)",0.2,415,821
+"7",236,"SEA","Dexter Davis","LB","23","Arizona St.",2010,"Arizona State","Arizona State",0.2,28,905
+"7",237,"MIN","Ryan D'Imperio","RB","23","Rutgers",2010,"Rutgers","Rutgers",0.2,587,827
+"7",238,"IND","Ricardo Mathews","DT","23","Cincinnati",2010,"Cincinnati","Cincinnati",0.2,140,823
+"7",239,"NOR","Sean Canfield","QB","24","Oregon St.",2010,"Oregon State","Oregon State",0.2,528,905
+"7",240,"IND","Kavell Conner","LB","23","Clemson",2010,"Clemson","Clemson",0.2,147,821
+"7",241,"TEN","David Howard","DT","","Brown",2010,"Brown","Brown",0.2,80,865
+"7",242,"PIT","Doug Worthington","DT","23","Ohio St.",2010,"Ohio State","Ohio State",0.2,518,827
+"7",243,"PHI","Jeff Owens","DT","23","Georgia",2010,"Georgia","Georgia",0.2,257,911
+"7",244,"PHI","Kurt Coleman","DB","22","Ohio St.",2010,"Ohio State","Ohio State",0.2,518,827
+"7",245,"SEA","Jameson Konz","TE","24","Kent St.",2010,"Kent State","Kent State",0.2,331,875
+"7",246,"IND","Ray Fisher","DB","","Indiana",2010,"Indiana","Indiana",0.2,306,827
+"7",247,"NWE","Brandon Deaderick","DE","23","Alabama",2010,"Alabama","Alabama",0.2,8,911
+"7",248,"NWE","Kade Weston","DT","","Georgia",2010,"Georgia","Georgia",0.2,257,911
+"7",249,"CAR","Robert McClain","DB","22","Connecticut",2010,"Connecticut","Connecticut",0.2,164,823
+"7",250,"NWE","Zac Robinson","QB","24","Oklahoma St.",2010,"Oklahoma State","Oklahoma State",0.2,521,25354
+"7",251,"OAK","Stevie Brown","DB","23","Michigan",2010,"Michigan","Michigan",0.2,418,827
+"7",252,"MIA","Austin Spitler","LB","23","Ohio St.",2010,"Ohio State","Ohio State",0.2,518,827
+"7",253,"TAM","Erik Lorig","DE","23","Stanford",2010,"Stanford","Stanford",0.2,674,905
+"7",254,"STL","Josh Hull","LB","23","Penn St.",2010,"Penn State","Penn State",0.2,539,827
+"7",255,"DET","Tim Toone","WR","25","Weber St.",2010,"Weber State","Weber State",0.2,758,825
+"1",1,"CAR","Cam Newton","QB","22","Auburn",2011,"Auburn","Auburn",23,37,911
+"1",2,"DEN","Von Miller","LB","22","Texas A&amp;M",2011,"Texas A&amp;M","Texas A&M",20.1,697,911
+"1",3,"BUF","Marcell Dareus","DT","21","Alabama",2011,"Alabama","Alabama",18.4,8,911
+"1",4,"CIN","A.J. Green","WR","23","Georgia",2011,"Georgia","Georgia",17.1,257,911
+"1",5,"ARI","Patrick Peterson","DB","21","LSU",2011,"LSU","LSU",16.2,365,911
+"1",6,"ATL","Julio Jones","WR","22","Alabama",2011,"Alabama","Alabama",15.4,8,911
+"1",7,"SFO","Aldon Smith","DE","22","Missouri",2011,"Missouri","Missouri",14.8,434,911
+"1",8,"TEN","Jake Locker","QB","23","Washington",2011,"Washington","Washington",14.2,756,905
+"1",9,"DAL","Tyron Smith","T","20","USC",2011,"USC","USC",13.7,657,905
+"1",10,"JAX","Blaine Gabbert","QB","21","Missouri",2011,"Missouri","Missouri",13.3,434,911
+"1",11,"HOU","J.J. Watt","DE","22","Wisconsin",2011,"Wisconsin","Wisconsin",12.9,796,827
+"1",12,"MIN","Christian Ponder","QB","23","Florida St.",2011,"Florida State","Florida State",12.5,234,821
+"1",13,"DET","Nick Fairley","DT","23","Auburn",2011,"Auburn","Auburn",12.2,37,911
+"1",14,"STL","Robert Quinn","DE","21","North Carolina",2011,"North Carolina","North Carolina",11.9,457,821
+"1",15,"MIA","Mike Pouncey","G","22","Florida",2011,"Florida","Florida",11.6,235,911
+"1",16,"WAS","Ryan Kerrigan","DE","23","Purdue",2011,"Purdue","Purdue",11.3,559,827
+"1",17,"NWE","Nate Solder","T","23","Colorado",2011,"Colorado","Colorado",11,157,905
+"1",18,"SDG","Corey Liuget","DT","21","Illinois",2011,"Illinois","Illinois",10.8,301,827
+"1",19,"NYG","Prince Amukamara","DB","22","Nebraska",2011,"Nebraska","Nebraska",10.6,463,827
+"1",20,"TAM","Adrian Clayborn","DE","23","Iowa",2011,"Iowa","Iowa",10.4,312,827
+"1",21,"CLE","Phil Taylor","DT","23","Baylor",2011,"Baylor","Baylor",10.1,51,25354
+"1",22,"IND","Anthony Castonzo","T","23","Boston Col.",2011,"Boston Col.","Boston College",10,67,821
+"1",23,"PHI","Danny Watkins","G","26","Baylor",2011,"Baylor","Baylor",9.8,51,25354
+"1",24,"NOR","Cameron Jordan","DE","22","California",2011,"California","California",9.6,107,905
+"1",25,"SEA","James Carpenter","T","22","Alabama",2011,"Alabama","Alabama",9.4,8,911
+"1",26,"KAN","Jonathan Baldwin","WR","22","Pittsburgh",2011,"Pittsburgh","Pittsburgh",9.2,545,821
+"1",27,"BAL","Jimmy Smith","DB","23","Colorado",2011,"Colorado","Colorado",9.1,157,905
+"1",28,"NOR","Mark Ingram","RB","21","Alabama",2011,"Alabama","Alabama",8.9,8,911
+"1",29,"CHI","Gabe Carimi","T","23","Wisconsin",2011,"Wisconsin","Wisconsin",8.8,796,827
+"1",30,"NYJ","Muhammad Wilkerson","DT","21","Temple",2011,"Temple","Temple",8.6,690,823
+"1",31,"PIT","Cameron Heyward","DE","22","Ohio St.",2011,"Ohio State","Ohio State",8.5,518,827
+"1",32,"GNB","Derek Sherrod","T","22","Mississippi St.",2011,"Mississippi State","Mississippi State",8.4,430,911
+"2",33,"NWE","Ras-I Dowling","DB","23","Virginia",2011,"Virginia","Virginia",8.2,746,821
+"2",34,"BUF","Aaron Williams","DB","21","Texas",2011,"Texas","Texas",8.1,703,25354
+"2",35,"CIN","Andy Dalton","QB","23","TCU",2011,"TCU","TCU",8,698,25354
+"2",36,"SFO","Colin Kaepernick","QB","23","Nevada",2011,"Nevada","Nevada",7.9,466,5486
+"2",37,"CLE","Jabaal Sheard","DE","22","Pittsburgh",2011,"Pittsburgh","Pittsburgh",7.8,545,821
+"2",38,"ARI","Ryan Williams","RB","21","Virginia Tech",2011,"Virginia Tech","Virginia Tech",7.6,742,821
+"2",39,"TEN","Akeem Ayers","LB","22","UCLA",2011,"UCLA","UCLA",7.5,110,905
+"2",40,"DAL","Bruce Carter","LB","23","North Carolina",2011,"North Carolina","North Carolina",7.4,457,821
+"2",41,"WAS","Jarvis Jenkins","DT","23","Clemson",2011,"Clemson","Clemson",7.3,147,821
+"2",42,"HOU","Brooks Reed","LB","24","Arizona",2011,"Arizona","Arizona",7.2,29,905
+"2",43,"MIN","Kyle Rudolph","TE","21","Notre Dame",2011,"Notre Dame","Notre Dame",7.1,513,99001
+"2",44,"DET","Titus Young","WR","22","Boise St.",2011,"Boise State","Boise State",7,66,5486
+"2",45,"DEN","Rahim Moore","DB","21","UCLA",2011,"UCLA","UCLA",6.9,110,905
+"2",46,"DEN","Orlando Franklin","T","23","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",6.8,415,821
+"2",47,"STL","Lance Kendricks","TE","23","Wisconsin",2011,"Wisconsin","Wisconsin",6.7,796,827
+"2",48,"OAK","Stefen Wisniewski","C","22","Penn St.",2011,"Penn State","Penn State",6.7,539,827
+"2",49,"IND","Ben Ijalana","T","22","Villanova",2011,"Villanova","Villanova",6.6,739,837
+"2",50,"SDG","Marcus Gilchrist","DB","22","Clemson",2011,"Clemson","Clemson",6.5,147,821
+"2",51,"TAM","Da'Quan Bowers","DE","21","Clemson",2011,"Clemson","Clemson",6.4,147,821
+"2",52,"NYG","Marvin Austin","DT","22","North Carolina",2011,"North Carolina","North Carolina",6.3,457,821
+"2",53,"CHI","Stephen Paea","DT","23","Oregon St.",2011,"Oregon State","Oregon State",6.2,528,905
+"2",54,"PHI","Jaiquawn Jarrett","DB","22","Temple",2011,"Temple","Temple",6.2,690,823
+"2",55,"KAN","Rodney Hudson","C","22","Florida St.",2011,"Florida State","Florida State",6.1,234,821
+"2",56,"NWE","Shane Vereen","RB","22","California",2011,"California","California",6,107,905
+"2",57,"DET","Mikel Leshoure","RB","21","Illinois",2011,"Illinois","Illinois",5.9,301,827
+"2",58,"BAL","Torrey Smith","WR","22","Maryland",2011,"Maryland","Maryland",5.9,392,827
+"2",59,"CLE","Greg Little","WR","22","North Carolina",2011,"North Carolina","North Carolina",5.8,457,821
+"2",60,"HOU","Brandon Harris","DB","21","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",5.7,415,821
+"2",61,"SDG","Jonas Mouton","LB","23","Michigan",2011,"Michigan","Michigan",5.6,418,827
+"2",62,"MIA","Daniel Thomas","RB","23","Kansas St.",2011,"Kansas State","Kansas State",5.6,327,25354
+"2",63,"PIT","Marcus Gilbert","T","23","Florida",2011,"Florida","Florida",5.5,235,911
+"2",64,"GNB","Randall Cobb","WR","21","Kentucky",2011,"Kentucky","Kentucky",5.4,334,911
+"3",65,"CAR","Terrell McClain","DT","23","South Florida",2011,"South Florida","South Florida",5.4,651,823
+"3",66,"CIN","Dontay Moch","LB","23","Nevada",2011,"Nevada","Nevada",5.3,466,5486
+"3",67,"DEN","Nate Irving","LB","23","North Carolina St.",2011,"North Carolina State","North Carolina State",5.3,490,821
+"3",68,"BUF","Kelvin Sheppard","LB","23","LSU",2011,"LSU","LSU",5.2,365,911
+"3",69,"ARI","Rob Housler","TE","23","Florida Atlantic",2011,"Florida Atlantic","Florida Atlantic",5.1,229,24312
+"3",70,"KAN","Justin Houston","LB","22","Georgia",2011,"Georgia","Georgia",5.1,257,911
+"3",71,"DAL","DeMarco Murray","RB","23","Oklahoma",2011,"Oklahoma","Oklahoma",5,522,25354
+"3",72,"NOR","Martez Wilson","LB","23","Illinois",2011,"Illinois","Illinois",4.9,301,827
+"3",73,"NWE","Stevan Ridley","RB","22","LSU",2011,"LSU","LSU",4.9,365,911
+"3",74,"NWE","Ryan Mallett","QB","23","Arkansas",2011,"Arkansas","Arkansas",4.8,31,911
+"3",75,"SEA","John Moffitt","G","24","Wisconsin",2011,"Wisconsin","Wisconsin",4.8,796,827
+"3",76,"JAX","Will Rackley","G","21","Lehigh",2011,"Lehigh","Lehigh",4.7,352,838
+"3",77,"TEN","Jurrell Casey","DT","21","USC",2011,"USC","USC",4.7,657,905
+"3",78,"STL","Austin Pettis","WR","23","Boise St.",2011,"Boise State","Boise State",4.6,66,5486
+"3",79,"WAS","Leonard Hankerson","WR","23","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",4.6,415,821
+"3",80,"SFO","Chris Culliver","DB","23","South Carolina",2011,"South Carolina","South Carolina",4.5,648,911
+"3",81,"OAK","DeMarcus Van Dyke","DB","22","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",4.5,415,821
+"3",82,"SDG","Vincent Brown","WR","22","San Diego St.",2011,"San Diego State","San Diego State",4.4,626,5486
+"3",83,"NYG","Jerrel Jernigan","WR","22","Troy",2011,"Troy","Troy",4.3,716,818
+"3",84,"TAM","Mason Foster","LB","22","Washington",2011,"Washington","Washington",4.3,756,905
+"3",85,"BAL","Jah Reid","T","23","Central Florida",2011,"Central Florida","UCF",4.2,128,823
+"3",86,"KAN","Allen Bailey","DE","22","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",4.2,415,821
+"3",87,"IND","Drake Nevis","DT","22","LSU",2011,"LSU","LSU",4.1,365,911
+"3",88,"NOR","Johnny Patrick","DB","23","Louisville",2011,"Louisville","Louisville",4.1,367,821
+"3",89,"SDG","Shareece Wright","DB","24","USC",2011,"USC","USC",4.1,657,905
+"3",90,"PHI","Curtis Marsh","DB","23","Utah St.",2011,"Utah State","Utah State",4,731,5486
+"3",91,"ATL","Akeem Dent","LB","24","Georgia",2011,"Georgia","Georgia",4,257,911
+"3",92,"OAK","Joe Barksdale","T","23","LSU",2011,"LSU","LSU",3.9,365,911
+"3",93,"CHI","Chris Conte","DB","22","California",2011,"California","California",3.9,107,905
+"3",94,"NYJ","Kenrick Ellis","DT","23","Hampton",2011,"Hampton","Hampton",3.8,270,876
+"3",95,"PIT","Curtis Brown","DB","23","Texas",2011,"Texas","Texas",3.8,703,25354
+"3",96,"GNB","Alex Green","RB","23","Hawaii",2011,"Hawaii","Hawai'i",3.7,277,5486
+"3",97,"CAR","Sione Fua","DT","23","Stanford",2011,"Stanford","Stanford",3.7,674,905
+"4",98,"CAR","Brandon Hogan","DB","23","West Virginia",2011,"West Virginia","West Virginia",3.6,768,25354
+"4",99,"SEA","K.J. Wright","LB","22","Mississippi St.",2011,"Mississippi State","Mississippi State",3.6,430,911
+"4",100,"BUF","Da'Norris Searcy","DB","22","North Carolina",2011,"North Carolina","North Carolina",3.6,457,821
+"4",101,"CIN","Clint Boling","G","22","Georgia",2011,"Georgia","Georgia",3.5,257,911
+"4",102,"CLE","Jordan Cameron","TE","23","USC",2011,"USC","USC",3.5,657,905
+"4",103,"ARI","Sam Acho","DE","23","Texas",2011,"Texas","Texas",3.4,703,25354
+"4",104,"TAM","Luke Stocker","TE","23","Tennessee",2011,"Tennessee","Tennessee",3.4,694,911
+"4",105,"WAS","Roy Helu","RB","22","Nebraska",2011,"Nebraska","Nebraska",3.4,463,827
+"4",106,"MIN","Christian Ballard","DT","22","Iowa",2011,"Iowa","Iowa",3.3,312,827
+"4",107,"SEA","Kris Durham","WR","23","Georgia",2011,"Georgia","Georgia",3.3,257,911
+"4",108,"DEN","Quinton Carter","DB","23","Oklahoma",2011,"Oklahoma","Oklahoma",3.2,522,25354
+"4",109,"TEN","Colin McCarthy","LB","22","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",3.2,415,821
+"4",110,"DAL","David Arkin","G","23","Missouri State",2011,"Missouri State","Missouri State",3.2,669,853
+"4",111,"MIA","Clyde Gates","WR","25","Abilene Christian",2011,"Abilene Christian","Abilene Christian",3.1,2,99005
+"4",112,"STL","Greg Salas","WR","23","Hawaii",2011,"Hawaii","Hawai'i",3.1,277,5486
+"4",113,"OAK","Chimdi Chekwa","DB","23","Ohio St.",2011,"Ohio State","Ohio State",3,518,827
+"4",114,"JAX","Cecil Shorts","WR","23","Mount Union",2011,"Mount Union","",3,NA,NA
+"4",115,"SFO","Kendall Hunter","RB","23","Oklahoma St.",2011,"Oklahoma State","Oklahoma State",3,521,25354
+"4",116,"PHI","Casey Matthews","LB","22","Oregon",2011,"Oregon","Oregon",2.9,529,905
+"4",117,"NYG","James Brewer","T","23","Indiana",2011,"Indiana","Indiana",2.9,306,827
+"4",118,"KAN","Jalil Brown","DB","23","Colorado",2011,"Colorado","Colorado",2.9,157,905
+"4",119,"IND","Delone Carter","RB","24","Syracuse",2011,"Syracuse","Syracuse",2.8,688,821
+"4",120,"PHI","Alex Henery","K","24","Nebraska",2011,"Nebraska","Nebraska",2.8,463,827
+"4",121,"JAX","Chris Prosinski","DB","24","Wyoming",2011,"Wyoming","Wyoming",2.8,811,5486
+"4",122,"BUF","Chris Hairston","T","22","Clemson",2011,"Clemson","Clemson",2.7,147,821
+"4",123,"BAL","Tandon Doss","WR","22","Indiana",2011,"Indiana","Indiana",2.7,306,827
+"4",124,"CLE","Owen Marecic","RB","22","Stanford",2011,"Stanford","Stanford",2.7,674,905
+"4",125,"OAK","Taiwan Jones","RB","23","East. Washington",2011,"East. Washington","Eastern Washington",2.6,207,825
+"4",126,"NYJ","Bilal Powell","RB","22","Louisville",2011,"Louisville","Louisville",2.6,367,821
+"4",127,"HOU","Roc Carmichael","DB","23","Virginia Tech",2011,"Virginia Tech","Virginia Tech",2.6,742,821
+"4",128,"PIT","Cortez Allen","DB","22","The Citadel",2011,"The Citadel","",2.5,NA,NA
+"4",129,"DEN","Julius Thomas","TE","23","Portland St.",2011,"Portland State","Portland State",2.5,550,825
+"4",130,"TEN","Jamie Harper","RB","22","Clemson",2011,"Clemson","Clemson",2.5,147,821
+"4",131,"GNB","Davon House","DB","22","New Mexico St.",2011,"New Mexico State","New Mexico State",2.4,472,818
+"5",132,"CAR","Kealoha Pilares","WR","23","Hawaii",2011,"Hawaii","Hawai'i",2.4,277,5486
+"5",133,"BUF","Johnny White","RB","23","North Carolina",2011,"North Carolina","North Carolina",2.4,457,821
+"5",134,"CIN","Robert Sands","DB","21","West Virginia",2011,"West Virginia","West Virginia",2.3,768,25354
+"5",135,"KAN","Ricky Stanzi","QB","24","Iowa",2011,"Iowa","Iowa",2.3,312,827
+"5",136,"ARI","Anthony Sherman","RB","22","Connecticut",2011,"Connecticut","Connecticut",2.3,164,823
+"5",137,"CLE","Buster Skrine","DB","22","Tenn-Chattanooga",2011,"Tenn-Chattanooga","",2.2,NA,NA
+"5",138,"NWE","Marcus Cannon","T","23","TCU",2011,"TCU","TCU",2.2,698,25354
+"5",139,"MIN","Brandon Burton","DB","22","Southern Utah",2011,"Southern Utah","Southern Utah",2.2,667,825
+"5",140,"KAN","Gabe Miller","LB","23","Oregon St.",2011,"Oregon State","Oregon State",2.1,528,905
+"5",141,"GNB","D.J. Williams","TE","23","Arkansas",2011,"Arkansas","Arkansas",2.1,31,911
+"5",142,"TEN","Karl Klug","DT","23","Iowa",2011,"Iowa","Iowa",2.1,312,827
+"5",143,"DAL","Josh Thomas","DB","22","Buffalo",2011,"Buffalo","Buffalo",2.1,86,875
+"5",144,"HOU","Shiloh Keo","DB","23","Idaho",2011,"Idaho","Idaho",2,295,818
+"5",145,"ATL","Jacquizz Rodgers","RB","21","Oregon St.",2011,"Oregon State","Oregon State",2,528,905
+"5",146,"WAS","DeJon Gomes","DB","21","Nebraska",2011,"Nebraska","Nebraska",2,463,827
+"5",147,"JAX","Rod Issac","DB","22","Middle Tenn. St.",2011,"Middle Tenn. State","Middle Tennessee",1.9,419,24312
+"5",148,"OAK","Denarius Moore","WR","22","Tennessee",2011,"Tennessee","Tennessee",1.9,694,911
+"5",149,"PHI","Dion Lewis","RB","21","Pittsburgh",2011,"Pittsburgh","Pittsburgh",1.9,545,821
+"5",150,"CLE","Jason Pinkston","T","24","Pittsburgh",2011,"Pittsburgh","Pittsburgh",1.9,545,821
+"5",151,"TAM","Ahmad Black","DB","21","Florida",2011,"Florida","Florida",1.8,235,911
+"5",152,"HOU","T.J. Yates","QB","24","North Carolina",2011,"North Carolina","North Carolina",1.8,457,821
+"5",153,"NYJ","Jeremy Kerley","WR","22","TCU",2011,"TCU","TCU",1.8,698,25354
+"5",154,"SEA","Richard Sherman","DB","23","Stanford",2011,"Stanford","Stanford",1.7,674,905
+"5",155,"WAS","Niles Paul","WR","22","Nebraska",2011,"Nebraska","Nebraska",1.7,463,827
+"5",156,"SEA","Mark LeGree","DB","22","Appalachian St.",2011,"Appalachian State","Appalachian State",1.7,27,818
+"5",157,"DET","Doug Hogue","LB","22","Syracuse",2011,"Syracuse","Syracuse",1.7,688,821
+"5",158,"STL","Jermale Hines","DB","23","Ohio St.",2011,"Ohio State","Ohio State",1.6,518,827
+"5",159,"NWE","Lee Smith","TE","23","Tennessee",2011,"Tennessee","Tennessee",1.6,694,911
+"5",160,"CHI","Nathan Enderle","QB","23","Idaho",2011,"Idaho","Idaho",1.6,295,818
+"5",161,"PHI","Julian Vandervelde","G","23","Iowa",2011,"Iowa","Iowa",1.6,312,827
+"5",162,"PIT","Chris Carter","LB","22","Fresno St.",2011,"Fresno State","Fresno State",1.5,96,5486
+"5",163,"SFO","Daniel Kilgore","G","23","Appalachian St.",2011,"Appalachian State","Appalachian State",1.5,27,818
+"5",164,"BAL","Chykie Brown","DB","24","Texas",2011,"Texas","Texas",1.5,703,25354
+"5",165,"BAL","Pernell McPhee","DE","22","Mississippi St.",2011,"Mississippi State","Mississippi State",1.4,430,911
+"6",166,"CAR","Lawrence Wilson","LB","23","Central Connecticut St.",2011,"Central Connecticut State","",1.4,NA,NA
+"6",167,"CIN","Ryan Whalen","WR","22","Stanford",2011,"Stanford","Stanford",1.4,674,905
+"6",168,"MIN","Demarcus Love","OL","23","Arkansas",2011,"Arkansas","Arkansas",1.4,31,911
+"6",169,"BUF","Chris White","LB","22","Mississippi St.",2011,"Mississippi State","Mississippi State",1.3,430,911
+"6",170,"MIN","Mistral Raymond","DB","24","South Florida",2011,"South Florida","South Florida",1.3,651,823
+"6",171,"ARI","Quan Sturdivant","LB","22","North Carolina",2011,"North Carolina","North Carolina",1.3,457,821
+"6",172,"MIN","Brandon Fusco","C","23","Slippery Rock",2011,"Slippery Rock","",1.3,NA,NA
+"6",173,"SEA","Byron Maxwell","DB","23","Clemson",2011,"Clemson","Clemson",1.2,147,821
+"6",174,"MIA","Charles Clay","TE","22","Tulsa",2011,"Tulsa","Tulsa",1.2,719,823
+"6",175,"TEN","Byron Stingily","T","23","Louisville",2011,"Louisville","Louisville",1.2,367,821
+"6",176,"DAL","Dwayne Harris","WR","24","East Carolina",2011,"East Carolina","East Carolina",1.2,196,823
+"6",177,"WAS","Evan Royster","RB","23","Penn St.",2011,"Penn State","Penn State",1.2,539,827
+"6",178,"WAS","Aldrick Robinson","WR","23","SMU",2011,"SMU","SMU",1.1,663,823
+"6",179,"GNB","Caleb Schlauderaff","G","23","Southern Utah",2011,"Southern Utah","Southern Utah",1.1,667,825
+"6",180,"BAL","Tyrod Taylor","QB","22","Virginia Tech",2011,"Virginia Tech","Virginia Tech",1.1,742,821
+"6",181,"OAK","Richard Gordon","TE","24","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",1.1,415,821
+"6",182,"SFO","Ronald Johnson","WR","23","USC",2011,"USC","USC",1,657,905
+"6",183,"SDG","Jordan Todman","RB","21","Connecticut",2011,"Connecticut","Connecticut",1,164,823
+"6",184,"ARI","David Carter","DT","23","UCLA",2011,"UCLA","UCLA",1,110,905
+"6",185,"NYG","Greg Jones","LB","22","Michigan St.",2011,"Michigan State","Michigan State",1,416,827
+"6",186,"GNB","D.J. Smith","LB","22","Appalachian St.",2011,"Appalachian State","Appalachian State",0.9,27,818
+"6",187,"TAM","Allen Bradford","RB","23","USC",2011,"USC","USC",0.9,657,905
+"6",188,"IND","Chris Rucker","DB","22","Michigan St.",2011,"Michigan State","Michigan State",0.9,416,827
+"6",189,"DEN","Mike Mohamed","LB","23","California",2011,"California","California",0.9,107,905
+"6",190,"SFO","Colin Jones","DB","23","TCU",2011,"TCU","TCU",0.9,698,25354
+"6",191,"PHI","Jason Kelce","C","23","Cincinnati",2011,"Cincinnati","Cincinnati",0.8,140,823
+"6",192,"ATL","Matthew Bosher","K","23","Miami (FL)",2011,"Miami (FL)","Miami (Florida)",0.8,415,821
+"6",193,"PHI","Brian Rolle","LB","22","Ohio St.",2011,"Ohio State","Ohio State",0.8,518,827
+"6",194,"NWE","Markell Carter","LB","21","Central Arkansas",2011,"Central Arkansas","Central Arkansas",0.8,1004,914
+"6",195,"CHI","J.T. Thomas","LB","23","West Virginia",2011,"West Virginia","West Virginia",0.7,768,25354
+"6",196,"PIT","Keith Williams","G","23","Nebraska",2011,"Nebraska","Nebraska",0.7,463,827
+"6",197,"GNB","Ricky Elmore","DL","23","Arizona",2011,"Arizona","Arizona",0.7,29,905
+"6",198,"NYG","Tyler Sash","DB","23","Iowa",2011,"Iowa","Iowa",0.7,312,827
+"6",199,"KAN","Jerrell Powe","DT","24","Mississippi",2011,"Mississippi","Mississippi",0.7,433,911
+"6",200,"MIN","Ross Homan","LB","24","Ohio St.",2011,"Ohio State","Ohio State",0.6,518,827
+"6",201,"SDG","Stephen Schilling","G","23","Michigan",2011,"Michigan","Michigan",0.6,418,827
+"6",202,"NYG","Jacquian Williams","LB","23","South Florida",2011,"South Florida","South Florida",0.6,651,823
+"6",203,"CAR","Zachary Williams","OL","22","Washington St.",2011,"Washington State","Washington State",0.6,754,905
+"7",204,"DEN","Virgil Green","TE","23","Nevada",2011,"Nevada","Nevada",0.6,466,5486
+"7",205,"SEA","Lazarius Levingston","DL","23","LSU",2011,"LSU","LSU",0.5,365,911
+"7",206,"BUF","Justin Rogers","DB","23","Richmond",2011,"Richmond","Richmond",0.5,575,837
+"7",207,"CIN","Korey Lindsey","DB","22","Southern Illinois",2011,"Southern Illinois","Southern Illinois",0.5,659,853
+"7",208,"NYJ","Greg McElroy","QB","23","Alabama",2011,"Alabama","Alabama",0.5,8,911
+"7",209,"DET","Johnny Culbreath","OL","23","South Carolina St.",2011,"South Carolina State","South Carolina State",0.5,647,876
+"7",210,"ATL","Andrew Jackson","OL","22","Fresno St.",2011,"Fresno State","Fresno State",0.4,96,5486
+"7",211,"SFO","Bruce Miller","DE","24","Central Florida",2011,"Central Florida","UCF",0.4,128,823
+"7",212,"TEN","Zach Clayton","DT","23","Auburn",2011,"Auburn","Auburn",0.4,37,911
+"7",213,"WAS","Brandyn Thompson","DB","21","Boise St.",2011,"Boise State","Boise State",0.4,66,5486
+"7",214,"HOU","Derek Newton","T","23","Arkansas St.",2011,"Arkansas State","Arkansas State",0.4,30,818
+"7",215,"MIN","D'Aundre Reed","DE","23","Arizona",2011,"Arizona","Arizona",0.3,29,905
+"7",216,"STL","Mikail Baker","DB","24","Baylor",2011,"Baylor","Baylor",0.3,51,25354
+"7",217,"WAS","Maurice Hurt","G","24","Florida",2011,"Florida","Florida",0.3,235,911
+"7",218,"GNB","Ryan Taylor","TE","23","North Carolina",2011,"North Carolina","North Carolina",0.3,457,821
+"7",219,"NWE","Malcolm Williams","DB","23","TCU",2011,"TCU","TCU",0.3,698,25354
+"7",220,"DAL","Shaun Chapas","RB","23","Georgia",2011,"Georgia","Georgia",0.2,257,911
+"7",221,"NYG","Da'Rel Scott","RB","23","Maryland",2011,"Maryland","Maryland",0.2,392,827
+"7",222,"TAM","Anthony Gaitor","DB","22","Florida International",2011,"Florida International","Florida International",0.2,231,24312
+"7",223,"KAN","Shane Bannon","RB","22","Yale",2011,"Yale","Yale",0.2,813,865
+"7",224,"WAS","Markus White","DE","23","Florida St.",2011,"Florida State","Florida State",0.2,234,821
+"7",225,"BAL","Anthony Allen","RB","23","Georgia Tech",2011,"Georgia Tech","Georgia Tech",0.2,255,821
+"7",226,"NOR","Greg Romeus","DL","23","Pittsburgh",2011,"Pittsburgh","Pittsburgh",0.2,545,821
+"7",227,"NYJ","Scotty McKnight","WR","23","Colorado",2011,"Colorado","Colorado",0.2,157,905
+"7",228,"STL","Jabara Williams","LB","22","S.F. Austin",2011,"S.F. Austin","",0.2,NA,NA
+"7",229,"STL","Jonathan Nelson","DB","23","Oklahoma",2011,"Oklahoma","Oklahoma",0.2,522,25354
+"7",230,"ATL","Cliff Matthews","DE","22","South Carolina",2011,"South Carolina","South Carolina",0.2,648,911
+"7",231,"MIA","Frank Kearse","DT","22","Alabama A&amp;M",2011,"Alabama A&amp;M","Alabama A&M",0.2,6,916
+"7",232,"PIT","Baron Batch","RB","23","Texas Tech",2011,"Texas Tech","Texas Tech",0.2,700,25354
+"7",233,"GNB","Lawrence Guy","DT","21","Arizona St.",2011,"Arizona State","Arizona State",0.2,28,905
+"7",234,"SDG","Andrew Gachkar","LB","22","Missouri",2011,"Missouri","Missouri",0.2,434,911
+"7",235,"MIA","Jimmy Wilson","DB","25","Montana",2011,"Montana","Montana",0.2,441,825
+"7",236,"MIN","Stephen Burton","WR","21","Long Beach CC",2011,"Long Beach CC","",0.2,NA,NA
+"7",237,"PHI","Greg Lloyd","LB","22","Connecticut",2011,"Connecticut","Connecticut",0.2,164,823
+"7",238,"TAM","Daniel Hardy","TE","24","Idaho",2011,"Idaho","Idaho",0.2,295,818
+"7",239,"SFO","Michael Person","G","23","Montana St.",2011,"Montana State","Montana State",0.2,440,825
+"7",240,"PHI","Stanley Havili","RB","23","USC",2011,"USC","USC",0.2,657,905
+"7",241,"OAK","David Ausberry","WR","24","USC",2011,"USC","USC",0.2,657,905
+"7",242,"SEA","Malcolm Smith","LB","22","USC",2011,"USC","USC",0.2,657,905
+"7",243,"NOR","Nate Bussey","LB","22","Illinois",2011,"Illinois","Illinois",0.2,301,827
+"7",244,"CAR","Lee Ziemba","T","22","Auburn",2011,"Auburn","Auburn",0.2,37,911
+"7",245,"BUF","Michael Jasper","DT","24","",2011,"","",0.2,NA,NA
+"7",246,"CIN","Jay Finley","RB","23","Baylor",2011,"Baylor","Baylor",0.2,51,25354
+"7",247,"DEN","Jeremy Beal","DL","23","Oklahoma",2011,"Oklahoma","Oklahoma",0.2,522,25354
+"7",248,"CLE","Eric Hagg","DB","22","Nebraska",2011,"Nebraska","Nebraska",0.2,463,827
+"7",249,"ARI","DeMarco Sampson","WR","25","San Diego St.",2011,"San Diego State","San Diego State",0.2,626,5486
+"7",250,"SFO","Curtis Holcomb","DB","23","Florida A&amp;M",2011,"Florida A&amp;M","Florida A&M",0.2,228,876
+"7",251,"TEN","Tommie Campbell","DB","24","Pittsburgh",2011,"Pittsburgh","Pittsburgh",0.2,545,821
+"7",252,"DAL","Bill Nagy","G","23","Wisconsin",2011,"Wisconsin","Wisconsin",0.2,796,827
+"7",253,"WAS","Chris Neild","DT","23","West Virginia",2011,"West Virginia","West Virginia",0.2,768,25354
+"7",254,"HOU","Cheta Ozougwu","DE","22","Rice",2011,"Rice","Rice",0.2,574,24312
+"1",1,"IND","Andrew Luck","QB","23","Stanford",2012,"Stanford","Stanford",23,674,905
+"1",2,"WAS","Robert Griffin","QB","22","Baylor",2012,"Baylor","Baylor",20.1,51,25354
+"1",3,"CLE","Trent Richardson","RB","22","Alabama",2012,"Alabama","Alabama",18.4,8,911
+"1",4,"MIN","Matt Kalil","T","23","USC",2012,"USC","USC",17.1,657,905
+"1",5,"JAX","Justin Blackmon","WR","22","Oklahoma St.",2012,"Oklahoma State","Oklahoma State",16.2,521,25354
+"1",6,"DAL","Morris Claiborne","DB","22","LSU",2012,"LSU","LSU",15.4,365,911
+"1",7,"TAM","Mark Barron","DB","22","Alabama",2012,"Alabama","Alabama",14.8,8,911
+"1",8,"MIA","Ryan Tannehill","QB","24","Texas A&amp;M",2012,"Texas A&amp;M","Texas A&M",14.2,697,911
+"1",9,"CAR","Luke Kuechly","LB","21","Boston Col.",2012,"Boston Col.","Boston College",13.7,67,821
+"1",10,"BUF","Stephon Gilmore","DB","22","South Carolina",2012,"South Carolina","South Carolina",13.3,648,911
+"1",11,"KAN","Dontari Poe","DT","22","Memphis",2012,"Memphis","Memphis",12.9,404,823
+"1",12,"PHI","Fletcher Cox","DT","21","Mississippi St.",2012,"Mississippi State","Mississippi State",12.5,430,911
+"1",13,"ARI","Michael Floyd","WR","22","Notre Dame",2012,"Notre Dame","Notre Dame",12.2,513,99001
+"1",14,"STL","Michael Brockers","DT","21","LSU",2012,"LSU","LSU",11.9,365,911
+"1",15,"SEA","Bruce Irvin","DE","24","West Virginia",2012,"West Virginia","West Virginia",11.6,768,25354
+"1",16,"NYJ","Quinton Coples","DE","22","North Carolina",2012,"North Carolina","North Carolina",11.3,457,821
+"1",17,"CIN","Dre Kirkpatrick","DB","22","Alabama",2012,"Alabama","Alabama",11,8,911
+"1",18,"SDG","Melvin Ingram","DE","23","South Carolina",2012,"South Carolina","South Carolina",10.8,648,911
+"1",19,"CHI","Shea McClellin","DE","22","Boise St.",2012,"Boise State","Boise State",10.6,66,5486
+"1",20,"TEN","Kendall Wright","WR","22","Baylor",2012,"Baylor","Baylor",10.4,51,25354
+"1",21,"NWE","Chandler Jones","DE","22","Syracuse",2012,"Syracuse","Syracuse",10.1,688,821
+"1",22,"CLE","Brandon Weeden","QB","28","Oklahoma St.",2012,"Oklahoma State","Oklahoma State",10,521,25354
+"1",23,"DET","Riley Reiff","T","23","Iowa",2012,"Iowa","Iowa",9.8,312,827
+"1",24,"PIT","David DeCastro","G","22","Stanford",2012,"Stanford","Stanford",9.6,674,905
+"1",25,"NWE","Dont'a Hightower","LB","22","Alabama",2012,"Alabama","Alabama",9.4,8,911
+"1",26,"HOU","Whitney Mercilus","DE","22","Illinois",2012,"Illinois","Illinois",9.2,301,827
+"1",27,"CIN","Kevin Zeitler","G","22","Wisconsin",2012,"Wisconsin","Wisconsin",9.1,796,827
+"1",28,"GNB","Nick Perry","DE","22","USC",2012,"USC","USC",8.9,657,905
+"1",29,"MIN","Harrison Smith","DB","23","Notre Dame",2012,"Notre Dame","Notre Dame",8.8,513,99001
+"1",30,"SFO","A.J. Jenkins","WR","23","Illinois",2012,"Illinois","Illinois",8.6,301,827
+"1",31,"TAM","Doug Martin","RB","23","Boise St.",2012,"Boise State","Boise State",8.5,66,5486
+"1",32,"NYG","David Wilson","RB","21","Virginia Tech",2012,"Virginia Tech","Virginia Tech",8.4,742,821
+"2",33,"STL","Brian Quick","WR","23","Appalachian St.",2012,"Appalachian State","Appalachian State",8.2,27,818
+"2",34,"IND","Coby Fleener","TE","24","Stanford",2012,"Stanford","Stanford",8.1,674,905
+"2",35,"BAL","Courtney Upshaw","LB","22","Alabama",2012,"Alabama","Alabama",8,8,911
+"2",36,"DEN","Derek Wolfe","DT","22","Cincinnati",2012,"Cincinnati","Cincinnati",7.9,140,823
+"2",37,"CLE","Mitchell Schwartz","T","23","California",2012,"California","California",7.8,107,905
+"2",38,"JAX","Andre Branch","LB","23","Clemson",2012,"Clemson","Clemson",7.6,147,821
+"2",39,"STL","Janoris Jenkins","DB","23","North Alabama",2012,"North Alabama","",7.5,NA,NA
+"2",40,"CAR","Amini Silatolu","G","24","Midwestern St.",2012,"Midwestern State","",7.4,NA,NA
+"2",41,"BUF","Cordy Glenn","G","23","Georgia",2012,"Georgia","Georgia",7.3,257,911
+"2",42,"MIA","Jonathan Martin","T","22","Stanford",2012,"Stanford","Stanford",7.2,674,905
+"2",43,"NYJ","Stephen Hill","WR","21","Georgia Tech",2012,"Georgia Tech","Georgia Tech",7.1,255,821
+"2",44,"KAN","Jeff Allen","T","22","Illinois",2012,"Illinois","Illinois",7,301,827
+"2",45,"CHI","Alshon Jeffery","WR","22","South Carolina",2012,"South Carolina","South Carolina",6.9,648,911
+"2",46,"PHI","Mychal Kendricks","LB","22","California",2012,"California","California",6.8,107,905
+"2",47,"SEA","Bobby Wagner","LB","22","Utah St.",2012,"Utah State","Utah State",6.7,731,5486
+"2",48,"NWE","Tavon Wilson","DB","22","Illinois",2012,"Illinois","Illinois",6.7,301,827
+"2",49,"SDG","Kendall Reyes","DT","23","Connecticut",2012,"Connecticut","Connecticut",6.6,164,823
+"2",50,"STL","Isaiah Pead","RB","22","Cincinnati",2012,"Cincinnati","Cincinnati",6.5,140,823
+"2",51,"GNB","Jerel Worthy","DT","22","Michigan St.",2012,"Michigan State","Michigan State",6.4,416,827
+"2",52,"TEN","Zach Brown","LB","22","North Carolina",2012,"North Carolina","North Carolina",6.3,457,821
+"2",53,"CIN","Devon Still","DT","23","Penn St.",2012,"Penn State","Penn State",6.2,539,827
+"2",54,"DET","Ryan Broyles","WR","24","Oklahoma",2012,"Oklahoma","Oklahoma",6.2,522,25354
+"2",55,"ATL","Peter Konz","C","23","Wisconsin",2012,"Wisconsin","Wisconsin",6.1,796,827
+"2",56,"PIT","Mike Adams","T","22","Ohio St.",2012,"Ohio State","Ohio State",6,518,827
+"2",57,"DEN","Brock Osweiler","QB","21","Arizona St.",2012,"Arizona State","Arizona State",5.9,28,905
+"2",58,"TAM","Lavonte David","LB","22","Nebraska",2012,"Nebraska","Nebraska",5.9,463,827
+"2",59,"PHI","Vinny Curry","DE","24","Marshall",2012,"Marshall","Marshall",5.8,388,24312
+"2",60,"BAL","Kelechi Osemele","T","23","Iowa St.",2012,"Iowa State","Iowa State",5.7,311,25354
+"2",61,"SFO","LaMichael James","RB","22","Oregon",2012,"Oregon","Oregon",5.6,529,905
+"2",62,"GNB","Casey Hayward","DB","23","Vanderbilt",2012,"Vanderbilt","Vanderbilt",5.6,736,911
+"2",63,"NYG","Rueben Randle","WR","21","LSU",2012,"LSU","LSU",5.5,365,911
+"3",64,"IND","Dwayne Allen","TE","22","Clemson",2012,"Clemson","Clemson",5.4,147,821
+"3",65,"STL","Trumaine Johnson","DB","22","Montana",2012,"Montana","Montana",5.4,441,825
+"3",66,"MIN","Josh Robinson","DB","21","Central Florida",2012,"Central Florida","UCF",5.3,128,823
+"3",67,"DEN","Ronnie Hillman","RB","21","San Diego St.",2012,"San Diego State","San Diego State",5.3,626,5486
+"3",68,"HOU","DeVier Posey","WR","23","Ohio St.",2012,"Ohio State","Ohio State",5.2,518,827
+"3",69,"BUF","T.J. Graham","WR","23","North Carolina St.",2012,"North Carolina State","North Carolina State",5.1,490,821
+"3",70,"JAX","Bryan Anger","P","23","California",2012,"California","California",5.1,107,905
+"3",71,"WAS","Josh LeRibeus","G","23","SMU",2012,"SMU","SMU",5,663,823
+"3",72,"MIA","Olivier Vernon","LB","21","Miami (FL)",2012,"Miami (FL)","Miami (Florida)",4.9,415,821
+"3",73,"SDG","Brandon Taylor","DB","22","LSU",2012,"LSU","LSU",4.9,365,911
+"3",74,"KAN","Donald Stephenson","T","24","Oklahoma",2012,"Oklahoma","Oklahoma",4.8,522,25354
+"3",75,"SEA","Russell Wilson","QB","23","Wisconsin",2012,"Wisconsin","Wisconsin",4.8,796,827
+"3",76,"HOU","Brandon Brooks","G","23","Miami (OH)",2012,"Miami (OH)","Miami (Ohio)",4.7,414,875
+"3",77,"NYJ","Demario Davis","LB","23","Arkansas St.",2012,"Arkansas State","Arkansas State",4.7,30,818
+"3",78,"MIA","Michael Egnew","TE","22","Missouri",2012,"Missouri","Missouri",4.6,434,911
+"3",79,"CHI","Brandon Hardin","DB","22","Oregon St.",2012,"Oregon State","Oregon State",4.6,528,905
+"3",80,"ARI","Jamell Fleming","DB","23","Oklahoma",2012,"Oklahoma","Oklahoma",4.5,522,25354
+"3",81,"DAL","Tyrone Crawford","DE","22","Boise St.",2012,"Boise State","Boise State",4.5,66,5486
+"3",82,"TEN","Mike Martin","DT","22","Michigan",2012,"Michigan","Michigan",4.4,418,827
+"3",83,"CIN","Mohamed Sanu","WR","23","Rutgers",2012,"Rutgers","Rutgers",4.3,587,827
+"3",84,"BAL","Bernard Pierce","RB","22","Temple",2012,"Temple","Temple",4.3,690,823
+"3",85,"DET","Bill Bentley","DB","23","",2012,"","",4.2,NA,NA
+"3",86,"PIT","Sean Spence","LB","23","Miami (FL)",2012,"Miami (FL)","Miami (Florida)",4.2,415,821
+"3",87,"CLE","John Hughes","DT","24","Cincinnati",2012,"Cincinnati","Cincinnati",4.1,140,823
+"3",88,"PHI","Nick Foles","QB","23","Arizona",2012,"Arizona","Arizona",4.1,29,905
+"3",89,"NOR","Akiem Hicks","DE","22","",2012,"","",4.1,NA,NA
+"3",90,"NWE","Jake Bequette","DE","23","Arkansas",2012,"Arkansas","Arkansas",4,31,911
+"3",91,"ATL","Lamar Holmes","T","23","Southern Miss",2012,"Southern Miss","Southern Mississippi",4,664,24312
+"3",92,"IND","T.Y. Hilton","WR","22","Florida International",2012,"Florida International","Florida International",3.9,231,24312
+"3",93,"CIN","Brandon Thompson","DT","22","Clemson",2012,"Clemson","Clemson",3.9,147,821
+"3",94,"NYG","Jayron Hosley","DB","22","Virginia Tech",2012,"Virginia Tech","Virginia Tech",3.8,742,821
+"3",95,"OAK","Tony Bergstrom","T","26","Utah",2012,"Utah","Utah",3.8,732,905
+"4",96,"STL","Chris Givens","WR","22","Wake Forest",2012,"Wake Forest","Wake Forest",3.7,749,821
+"4",97,"MIA","Lamar Miller","RB","21","Miami (FL)",2012,"Miami (FL)","Miami (Florida)",3.7,415,821
+"4",98,"BAL","Gino Gradkowski","G","23","Delaware",2012,"Delaware","Delaware",3.6,180,837
+"4",99,"HOU","Ben Jones","C","23","Georgia",2012,"Georgia","Georgia",3.6,257,911
+"4",100,"CLE","Travis Benjamin","WR","22","Miami (FL)",2012,"Miami (FL)","Miami (Florida)",3.6,415,821
+"4",101,"DEN","Omar Bolden","DB","23","Arizona St.",2012,"Arizona State","Arizona State",3.5,28,905
+"4",102,"WAS","Kirk Cousins","QB","24","Michigan St.",2012,"Michigan State","Michigan State",3.5,416,827
+"4",103,"CAR","Frank Alexander","DE","22","Oklahoma",2012,"Oklahoma","Oklahoma",3.4,522,25354
+"4",104,"CAR","Joe Adams","WR","22","Arkansas",2012,"Arkansas","Arkansas",3.4,31,911
+"4",105,"BUF","Nigel Bradham","LB","23","Florida St.",2012,"Florida State","Florida State",3.4,234,821
+"4",106,"SEA","Robert Turbin","RB","22","Utah St.",2012,"Utah State","Utah State",3.3,731,5486
+"4",107,"KAN","Devon Wylie","WR","24","Fresno St.",2012,"Fresno State","Fresno State",3.3,96,5486
+"4",108,"DEN","Philip Blake","OL","26","Baylor",2012,"Baylor","Baylor",3.2,51,25354
+"4",109,"PIT","Alameda Ta'amu","DT","22","Washington",2012,"Washington","Washington",3.2,756,905
+"4",110,"SDG","Ladarius Green","TE","22","",2012,"","",3.2,NA,NA
+"4",111,"CHI","Evan Rodriguez","TE","24","Temple",2012,"Temple","Temple",3.1,690,823
+"4",112,"ARI","Bobby Massie","T","23","Mississippi",2012,"Mississippi","Mississippi",3.1,433,911
+"4",113,"DAL","Kyle Wilber","LB","23","Wake Forest",2012,"Wake Forest","Wake Forest",3,749,821
+"4",114,"SEA","Jaye Howard","DT","23","Florida",2012,"Florida","Florida",3,235,911
+"4",115,"TEN","Coty Sensabaugh","DB","23","Clemson",2012,"Clemson","Clemson",3,147,821
+"4",116,"CIN","Orson Charles","TE","21","Georgia",2012,"Georgia","Georgia",2.9,257,911
+"4",117,"SFO","Joe Looney","G","22","Wake Forest",2012,"Wake Forest","Wake Forest",2.9,749,821
+"4",118,"MIN","Jarius Wright","WR","22","Arkansas",2012,"Arkansas","Arkansas",2.9,31,911
+"4",119,"WAS","Keenan Robinson","LB","23","Texas",2012,"Texas","Texas",2.8,703,25354
+"4",120,"CLE","James-Michael Johnson","LB","23","Nevada",2012,"Nevada","Nevada",2.8,466,5486
+"4",121,"HOU","Keshawn Martin","WR","22","Michigan St.",2012,"Michigan State","Michigan State",2.8,416,827
+"4",122,"NOR","Nick Toon","WR","23","Wisconsin",2012,"Wisconsin","Wisconsin",2.7,796,827
+"4",123,"PHI","Brandon Boykin","DB","22","Georgia",2012,"Georgia","Georgia",2.7,257,911
+"4",124,"BUF","Ron Brooks","DB","23","LSU",2012,"LSU","LSU",2.7,365,911
+"4",125,"DET","Ronnell Lewis","LB","22","Oklahoma",2012,"Oklahoma","Oklahoma",2.6,522,25354
+"4",126,"HOU","Jared Crick","DE","23","Nebraska",2012,"Nebraska","Nebraska",2.6,463,827
+"4",127,"NYG","Adrien Robinson","LB","22","Cincinnati",2012,"Cincinnati","Cincinnati",2.6,140,823
+"4",128,"MIN","Rhett Ellison","RB","23","USC",2012,"USC","USC",2.5,657,905
+"4",129,"OAK","Miles Burris","LB","24","San Diego St.",2012,"San Diego State","San Diego State",2.5,626,5486
+"4",130,"BAL","Christian Thompson","DB","22","South Carolina St.",2012,"South Carolina State","South Carolina State",2.5,647,876
+"4",131,"NYG","Brandon Mosley","T","23","Auburn",2012,"Auburn","Auburn",2.4,37,911
+"4",132,"GNB","Mike Daniels","DT","23","Iowa",2012,"Iowa","Iowa",2.4,312,827
+"4",133,"GNB","Jerron McMillian","DB","23","Maine",2012,"Maine","Maine",2.4,380,837
+"4",134,"MIN","Greg Childs","WR","22","Arkansas",2012,"Arkansas","Arkansas",2.3,31,911
+"4",135,"DAL","Matt Johnson","DB","23","East. Washington",2012,"East. Washington","Eastern Washington",2.3,207,825
+"5",136,"IND","Josh Chapman","NT","23","Alabama",2012,"Alabama","Alabama",2.3,8,911
+"5",137,"DEN","Malik Jackson","DT","22","Tennessee",2012,"Tennessee","Tennessee",2.2,694,911
+"5",138,"DET","Tahir Whitehead","LB","22","Temple",2012,"Temple","Temple",2.2,690,823
+"5",139,"MIN","Robert Blanton","DB","23","Notre Dame",2012,"Notre Dame","Notre Dame",2.2,513,99001
+"5",140,"TAM","Najee Goode","LB","22","West Virginia",2012,"West Virginia","West Virginia",2.1,768,25354
+"5",141,"WAS","Adam Gettis","G","23","Iowa",2012,"Iowa","Iowa",2.1,312,827
+"5",142,"JAX","Brandon Marshall","LB","23","Nevada",2012,"Nevada","Nevada",2.1,466,5486
+"5",143,"CAR","Josh Norman","DB","24","Coastal Carolina",2012,"Coastal Carolina","Coastal Carolina",2.1,149,826
+"5",144,"BUF","Zebrie Sanders","OL","22","Florida St.",2012,"Florida State","Florida State",2,234,821
+"5",145,"TEN","Taylor Thompson","TE","22","SMU",2012,"SMU","SMU",2,663,823
+"5",146,"KAN","DeQuan Menzie","DB","22","Alabama",2012,"Alabama","Alabama",2,8,911
+"5",147,"BUF","Tank Carder","LB","23","TCU",2012,"TCU","TCU",1.9,698,25354
+"5",148,"DET","Chris Greenwood","DB","23","Albion",2012,"Albion","",1.9,NA,NA
+"5",149,"SDG","Johnnie Troutman","G","24","Penn St.",2012,"Penn State","Penn State",1.9,539,827
+"5",150,"STL","Rokevious Watkins","G","23","South Carolina",2012,"South Carolina","South Carolina",1.9,648,911
+"5",151,"ARI","Senio Kelemete","G","22","Washington",2012,"Washington","Washington",1.8,756,905
+"5",152,"DAL","Danny Coale","WR","24","Virginia Tech",2012,"Virginia Tech","Virginia Tech",1.8,742,821
+"5",153,"PHI","Dennis Kelly","T","22","Purdue",2012,"Purdue","Purdue",1.8,559,827
+"5",154,"SEA","Korey Toomer","LB","23","Idaho",2012,"Idaho","Idaho",1.7,295,818
+"5",155,"MIA","Josh Kaddu","LB","22","Oregon",2012,"Oregon","Oregon",1.7,529,905
+"5",156,"CIN","Shaun Prater","DB","22","Iowa",2012,"Iowa","Iowa",1.7,312,827
+"5",157,"ATL","Bradie Ewing","RB","22","Wisconsin",2012,"Wisconsin","Wisconsin",1.7,796,827
+"5",158,"OAK","Jack Crawford","DE","24","Penn St.",2012,"Penn State","Penn State",1.6,539,827
+"5",159,"PIT","Chris Rainey","RB","24","Florida",2012,"Florida","Florida",1.6,235,911
+"5",160,"CLE","Ryan Miller","G","23","Colorado",2012,"Colorado","Colorado",1.6,157,905
+"5",161,"HOU","Randy Bullock","K","22","Texas A&amp;M",2012,"Texas A&amp;M","Texas A&M",1.6,697,911
+"5",162,"NOR","Corey White","DB","22","Samford",2012,"Samford","Samford",1.5,625,912
+"5",163,"GNB","Terrell Manning","LB","22","North Carolina St.",2012,"North Carolina State","North Carolina State",1.5,490,821
+"5",164,"ATL","Jonathan Massaquoi","DE","24","Troy",2012,"Troy","Troy",1.5,716,818
+"5",165,"SFO","Darius Fleming","LB","23","Notre Dame",2012,"Notre Dame","Notre Dame",1.4,513,99001
+"5",166,"CIN","Marvin Jones","WR","22","California",2012,"California","California",1.4,107,905
+"5",167,"CIN","George Iloka","DB","22","Boise St.",2012,"Boise State","Boise State",1.4,66,5486
+"5",168,"OAK","Juron Criner","WR","22","Arizona",2012,"Arizona","Arizona",1.4,29,905
+"5",169,"BAL","Asa Jackson","DB","22","",2012,"","",1.3,NA,NA
+"5",170,"IND","Vick Ballard","RB","22","Mississippi St.",2012,"Mississippi State","Mississippi State",1.3,430,911
+"6",171,"STL","Greg Zuerlein","K","24","",2012,"","",1.3,NA,NA
+"6",172,"SEA","Jeremy Lane","DB","22","NW State (LA)",2012,"NW State (LA)","",1.3,NA,NA
+"6",173,"WAS","Alfred Morris","RB","23","Florida Atlantic",2012,"Florida Atlantic","Florida Atlantic",1.2,229,24312
+"6",174,"TAM","Keith Tandy","DB","23","West Virginia",2012,"West Virginia","West Virginia",1.2,768,25354
+"6",175,"MIN","Blair Walsh","K","22","Georgia",2012,"Georgia","Georgia",1.2,257,911
+"6",176,"JAX","Mike Harris","DB","23","Florida St.",2012,"Florida State","Florida State",1.2,234,821
+"6",177,"ARI","Justin Bethel","DB","22","Presbyterian",2012,"Presbyterian","Presbyterian",1.2,1320,826
+"6",178,"BUF","Mark Asper","G","26","Oregon",2012,"Oregon","Oregon",1.1,529,905
+"6",179,"NOR","Andrew Tiller","G","23","Syracuse",2012,"Syracuse","Syracuse",1.1,688,821
+"6",180,"SFO","Trent Robinson","DB","22","Michigan St.",2012,"Michigan State","Michigan State",1.1,416,827
+"6",181,"SEA","Winston Guy","DB","22","Kentucky",2012,"Kentucky","Kentucky",1.1,334,911
+"6",182,"KAN","Cyrus Gray","RB","22","Texas A&amp;M",2012,"Texas A&amp;M","Texas A&M",1,697,911
+"6",183,"MIA","B.J. Cunningham","WR","23","Michigan St.",2012,"Michigan State","Michigan State",1,416,827
+"6",184,"CHI","Isaiah Frey","DB","22","Nevada",2012,"Nevada","Nevada",1,466,5486
+"6",185,"ARI","Ryan Lindley","QB","23","San Diego St.",2012,"San Diego State","San Diego State",1,626,5486
+"6",186,"DAL","James Hanna","TE","23","Oklahoma",2012,"Oklahoma","Oklahoma",0.9,522,25354
+"6",187,"NYJ","Josh Bush","DB","23","Wake Forest",2012,"Wake Forest","Wake Forest",0.9,749,821
+"6",188,"DEN","Danny Trevathan","LB","22","Kentucky",2012,"Kentucky","Kentucky",0.9,334,911
+"6",189,"OAK","Christo Bilukidi","DE","22","",2012,"","",0.9,NA,NA
+"6",190,"TEN","Markelle Martin","DB","22","Oklahoma St.",2012,"Oklahoma State","Oklahoma State",0.9,521,25354
+"6",191,"CIN","Dan Herron","RB","23","Ohio St.",2012,"Ohio State","Ohio State",0.8,518,827
+"6",192,"ATL","Charles Mitchell","DB","23","Mississippi St.",2012,"Mississippi State","Mississippi State",0.8,430,911
+"6",193,"WAS","Tom Compton","T","23","South Dakota",2012,"South Dakota","South Dakota",0.8,650,853
+"6",194,"PHI","Marvin McNutt","WR","23","Iowa",2012,"Iowa","Iowa",0.8,312,827
+"6",195,"HOU","Nick Mondek","OL","23","Purdue",2012,"Purdue","Purdue",0.7,559,827
+"6",196,"DET","Jonte Green","DB","23","New Mexico St.",2012,"New Mexico State","New Mexico State",0.7,472,818
+"6",197,"NWE","Nate Ebner","DB","23","Ohio St.",2012,"Ohio State","Ohio State",0.7,518,827
+"6",198,"BAL","Tommy Streeter","WR","22","Miami (FL)",2012,"Miami (FL)","Miami (Florida)",0.7,415,821
+"6",199,"SFO","Jason Slowey","OL","23","Western Oregon",2012,"Western Oregon","",0.7,NA,NA
+"6",200,"PHI","Brandon Washington","G","24","Miami (FL)",2012,"Miami (FL)","Miami (Florida)",0.6,415,821
+"6",201,"NYG","Matt McCants","T","23","",2012,"","",0.6,NA,NA
+"6",202,"NYJ","Terrance Ganaway","RB","23","Baylor",2012,"Baylor","Baylor",0.6,51,25354
+"6",203,"NYJ","Robert Griffin","OL","22","Baylor",2012,"Baylor","Baylor",0.6,51,25354
+"6",204,"CLE","Emmanuel Acho","LB","21","Texas",2012,"Texas","Texas",0.6,703,25354
+"6",205,"CLE","Billy Winn","DT","23","Boise St.",2012,"Boise State","Boise State",0.5,66,5486
+"6",206,"IND","LaVon Brazill","WR","23","Ohio",2012,"Ohio","Ohio",0.5,519,875
+"6",207,"CAR","Brad Nortman","P","23","Wisconsin",2012,"Wisconsin","Wisconsin",0.5,796,827
+"7",208,"IND","Justin Anderson","OL","24","Georgia",2012,"Georgia","Georgia",0.5,257,911
+"7",209,"STL","Aaron Brown","LB","","Hawaii",2012,"Hawaii","Hawai'i",0.5,277,5486
+"7",210,"MIN","Audie Cole","LB","23","North Carolina St.",2012,"North Carolina State","North Carolina State",0.4,490,821
+"7",211,"TEN","Scott Solomon","DE","23","Rice",2012,"Rice","Rice",0.4,574,24312
+"7",212,"TAM","Michael Smith","RB","24","Utah St.",2012,"Utah State","Utah State",0.4,731,5486
+"7",213,"WAS","Richard Crawford","DB","22","SMU",2012,"SMU","SMU",0.4,663,823
+"7",214,"IND","Tim Fugger","DE","23","Vanderbilt",2012,"Vanderbilt","Vanderbilt",0.4,736,911
+"7",215,"MIA","Kheeston Randall","DT","23","Texas",2012,"Texas","Texas",0.3,703,25354
+"7",216,"CAR","D.J. Campbell","DB","23","California",2012,"California","California",0.3,107,905
+"7",217,"WAS","Jordan Bernstine","DB","23","Iowa",2012,"Iowa","Iowa",0.3,312,827
+"7",218,"KAN","Jerome Long","DT","22","San Diego St.",2012,"San Diego State","San Diego State",0.3,626,5486
+"7",219,"MIN","Trevor Guyton","DE","","California",2012,"California","California",0.3,107,905
+"7",220,"CHI","Greg McCoy","DB","24","TCU",2012,"TCU","TCU",0.2,698,25354
+"7",221,"ARI","Nate Potter","T","24","Boise St.",2012,"Boise State","Boise State",0.2,66,5486
+"7",222,"DAL","Caleb McSurdy","LB","22","Montana",2012,"Montana","Montana",0.2,441,825
+"7",223,"DET","Travis Lewis","LB","24","Oklahoma",2012,"Oklahoma","Oklahoma",0.2,522,25354
+"7",224,"NWE","Alfonzo Dennard","DB","23","Nebraska",2012,"Nebraska","Nebraska",0.2,463,827
+"7",225,"SEA","J.R. Sweezy","DT","23","North Carolina St.",2012,"North Carolina State","North Carolina State",0.2,490,821
+"7",226,"SDG","David Molk","C","23","Michigan",2012,"Michigan","Michigan",0.2,418,827
+"7",227,"MIA","Rishard Matthews","WR","22","Nevada",2012,"Nevada","Nevada",0.2,466,5486
+"7",228,"JAX","Jeris Pendleton","DT","28","Ashland",2012,"Ashland","",0.2,NA,NA
+"7",229,"PHI","Bryce Brown","RB","21","Kansas St.",2012,"Kansas State","Kansas State",0.2,327,25354
+"7",230,"OAK","Nathan Stupar","LB","24","Penn St.",2012,"Penn State","Penn State",0.2,539,827
+"7",231,"PIT","Toney Clemons","WR","23","Colorado",2012,"Colorado","Colorado",0.2,157,905
+"7",232,"SEA","Greg Scruggs","DE","22","Louisville",2012,"Louisville","Louisville",0.2,367,821
+"7",233,"TAM","Drake Dunsmore","TE","23","Northwestern",2012,"Northwestern","Northwestern",0.2,509,827
+"7",234,"NOR","Marcel Jones","OL","24","Nebraska",2012,"Nebraska","Nebraska",0.2,463,827
+"7",235,"NWE","Jeremy Ebert","WR","23","Northwestern",2012,"Northwestern","Northwestern",0.2,509,827
+"7",236,"BAL","DeAngelo Tyson","DT","23","Georgia",2012,"Georgia","Georgia",0.2,257,911
+"7",237,"SFO","Cam Johnson","DE","22","Virginia",2012,"Virginia","Virginia",0.2,746,821
+"7",238,"KAN","Junior Hemingway","WR","23","Michigan",2012,"Michigan","Michigan",0.2,418,827
+"7",239,"NYG","Markus Kuhn","DT","26","North Carolina St.",2012,"North Carolina State","North Carolina State",0.2,490,821
+"7",240,"PIT","David Paulson","TE","23","Oregon",2012,"Oregon","Oregon",0.2,529,905
+"7",241,"GNB","Andrew Datko","OL","22","Florida St.",2012,"Florida State","Florida State",0.2,234,821
+"7",242,"NYJ","Antonio Allen","DB","24","South Carolina",2012,"South Carolina","South Carolina",0.2,648,911
+"7",243,"GNB","B.J. Coleman","QB","24","Tenn-Chattanooga",2012,"Tenn-Chattanooga","",0.2,NA,NA
+"7",244,"NYJ","Jordan White","WR","24","West. Michigan",2012,"West. Michigan","Western Michigan",0.2,774,875
+"7",245,"CLE","Trevin Wade","DB","23","Arizona",2012,"Arizona","Arizona",0.2,29,905
+"7",246,"PIT","Terrence Frederick","DB","22","Texas A&amp;M",2012,"Texas A&amp;M","Texas A&M",0.2,697,911
+"7",247,"CLE","Brad Smelley","TE","23","Alabama",2012,"Alabama","Alabama",0.2,8,911
+"7",248,"PIT","Kelvin Beachum","T","23","SMU",2012,"SMU","SMU",0.2,663,823
+"7",249,"ATL","Travian Robertson","DT","23","South Carolina",2012,"South Carolina","South Carolina",0.2,648,911
+"7",250,"SDG","Edwin Baker","RB","21","Michigan St.",2012,"Michigan State","Michigan State",0.2,416,827
+"7",251,"BUF","John Potter","K","22","West. Michigan",2012,"West. Michigan","Western Michigan",0.2,774,875
+"7",252,"STL","Daryl Richardson","RB","22","Abilene Christian",2012,"Abilene Christian","Abilene Christian",0.2,2,99005
+"7",253,"IND","Chandler Harnish","QB","24","Northern Illinois",2012,"Northern Illinois","Northern Illinois",0.2,503,875
+"1",1,"KAN","Eric Fisher","T","22","Central Michigan",2013,"Central Michigan","Central Michigan",23,129,875
+"1",2,"JAX","Luke Joeckel","T","21","Texas A&amp;M",2013,"Texas A&amp;M","Texas A&M",20.1,697,911
+"1",3,"MIA","Dion Jordan","DE","23","Oregon",2013,"Oregon","Oregon",18.4,529,905
+"1",4,"PHI","Lane Johnson","T","23","Oklahoma",2013,"Oklahoma","Oklahoma",17.1,522,25354
+"1",5,"DET","Ezekiel Ansah","DE","24","BYU",2013,"BYU","BYU",16.2,77,99001
+"1",6,"CLE","Barkevious Mingo","LB","22","LSU",2013,"LSU","LSU",15.4,365,911
+"1",7,"ARI","Jonathan Cooper","G","23","North Carolina",2013,"North Carolina","North Carolina",14.8,457,821
+"1",8,"STL","Tavon Austin","WR","22","West Virginia",2013,"West Virginia","West Virginia",14.2,768,25354
+"1",9,"NYJ","Dee Milliner","DB","22","Alabama",2013,"Alabama","Alabama",13.7,8,911
+"1",10,"TEN","Chance Warmack","G","22","Alabama",2013,"Alabama","Alabama",13.3,8,911
+"1",11,"SDG","D.J. Fluker","T","22","Alabama",2013,"Alabama","Alabama",12.9,8,911
+"1",12,"OAK","D.J. Hayden","DB","23","Houston",2013,"Houston","Houston",12.5,288,823
+"1",13,"NYJ","Sheldon Richardson","DT","22","Missouri",2013,"Missouri","Missouri",12.2,434,911
+"1",14,"CAR","Star Lotulelei","DT","23","Utah",2013,"Utah","Utah",11.9,732,905
+"1",15,"NOR","Kenny Vaccaro","DB","23","Texas",2013,"Texas","Texas",11.6,703,25354
+"1",16,"BUF","EJ Manuel","QB","23","Florida St.",2013,"Florida State","Florida State",11.3,234,821
+"1",17,"PIT","Jarvis Jones","LB","23","Georgia",2013,"Georgia","Georgia",11,257,911
+"1",18,"SFO","Eric Reid","DB","21","LSU",2013,"LSU","LSU",10.8,365,911
+"1",19,"NYG","Justin Pugh","T","","Syracuse",2013,"Syracuse","Syracuse",10.6,688,821
+"1",20,"CHI","Kyle Long","G","24","Oregon",2013,"Oregon","Oregon",10.4,529,905
+"1",21,"CIN","Tyler Eifert","TE","23","Notre Dame",2013,"Notre Dame","Notre Dame",10.1,513,99001
+"1",22,"ATL","Desmond Trufant","DB","23","Washington",2013,"Washington","Washington",10,756,905
+"1",23,"MIN","Sharrif Floyd","DT","21","Florida",2013,"Florida","Florida",9.8,235,911
+"1",24,"IND","Bjoern Werner","DE","23","Florida St.",2013,"Florida State","Florida State",9.6,234,821
+"1",25,"MIN","Xavier Rhodes","DB","23","Florida St.",2013,"Florida State","Florida State",9.4,234,821
+"1",26,"GNB","Datone Jones","DE","23","UCLA",2013,"UCLA","UCLA",9.2,110,905
+"1",27,"HOU","DeAndre Hopkins","WR","21","Clemson",2013,"Clemson","Clemson",9.1,147,821
+"1",28,"DEN","Sylvester Williams","DT","24","North Carolina",2013,"North Carolina","North Carolina",8.9,457,821
+"1",29,"MIN","Cordarrelle Patterson","WR","22","Tennessee",2013,"Tennessee","Tennessee",8.8,694,911
+"1",30,"STL","Alec Ogletree","LB","22","Georgia",2013,"Georgia","Georgia",8.6,257,911
+"1",31,"DAL","Travis Frederick","C","22","Wisconsin",2013,"Wisconsin","Wisconsin",8.5,796,827
+"1",32,"BAL","Matt Elam","DB","22","Florida",2013,"Florida","Florida",8.4,235,911
+"2",33,"JAX","Jonathan Cyprien","DB","23","Florida International",2013,"Florida International","Florida International",8.2,231,24312
+"2",34,"TEN","Justin Hunter","WR","22","Tennessee",2013,"Tennessee","Tennessee",8.1,694,911
+"2",35,"PHI","Zach Ertz","TE","22","Stanford",2013,"Stanford","Stanford",8,674,905
+"2",36,"DET","Darius Slay","DB","22","Mississippi St.",2013,"Mississippi State","Mississippi State",7.9,430,911
+"2",37,"CIN","Giovani Bernard","RB","21","North Carolina",2013,"North Carolina","North Carolina",7.8,457,821
+"2",38,"SDG","Manti Te'o","LB","22","Notre Dame",2013,"Notre Dame","Notre Dame",7.6,513,99001
+"2",39,"NYJ","Geno Smith","QB","22","West Virginia",2013,"West Virginia","West Virginia",7.5,768,25354
+"2",40,"SFO","Tank Carradine","DE","24","Florida St.",2013,"Florida State","Florida State",7.4,234,821
+"2",41,"BUF","Robert Woods","WR","21","USC",2013,"USC","USC",7.3,657,905
+"2",42,"OAK","Menelik Watson","T","24","Florida St.",2013,"Florida State","Florida State",7.2,234,821
+"2",43,"TAM","Johnthan Banks","DB","23","Mississippi St.",2013,"Mississippi State","Mississippi State",7.1,430,911
+"2",44,"CAR","Kawann Short","DT","24","Purdue",2013,"Purdue","Purdue",7,559,827
+"2",45,"ARI","Kevin Minter","LB","22","LSU",2013,"LSU","LSU",6.9,365,911
+"2",46,"BUF","Kiko Alonso","LB","23","Oregon",2013,"Oregon","Oregon",6.8,529,905
+"2",47,"DAL","Gavin Escobar","TE","22","San Diego St.",2013,"San Diego State","San Diego State",6.7,626,5486
+"2",48,"PIT","Le'Veon Bell","RB","21","Michigan St.",2013,"Michigan State","Michigan State",6.7,416,827
+"2",49,"NYG","Johnathan Hankins","DT","21","Ohio St.",2013,"Ohio State","Ohio State",6.6,518,827
+"2",50,"CHI","Jonathan Bostic","LB","22","Florida",2013,"Florida","Florida",6.5,235,911
+"2",51,"WAS","David Amerson","DB","21","North Carolina St.",2013,"North Carolina State","North Carolina State",6.4,490,821
+"2",52,"NWE","Jamie Collins","LB","23","Southern Miss",2013,"Southern Miss","Southern Mississippi",6.3,664,24312
+"2",53,"CIN","Margus Hunt","DE","26","SMU",2013,"SMU","SMU",6.2,663,823
+"2",54,"MIA","Jamar Taylor","DB","23","Boise St.",2013,"Boise State","Boise State",6.2,66,5486
+"2",55,"SFO","Vance McDonald","TE","23","Rice",2013,"Rice","Rice",6.1,574,24312
+"2",56,"BAL","Arthur Brown","LB","23","Kansas St.",2013,"Kansas State","Kansas State",6,327,25354
+"2",57,"HOU","D.J. Swearinger","DB","22","South Carolina",2013,"South Carolina","South Carolina",5.9,648,911
+"2",58,"DEN","Montee Ball","RB","22","Wisconsin",2013,"Wisconsin","Wisconsin",5.9,796,827
+"2",59,"NWE","Aaron Dobson","WR","22","Marshall",2013,"Marshall","Marshall",5.8,388,24312
+"2",60,"ATL","Robert Alford","DB","24","SE Louisiana",2013,"SE Louisiana","",5.7,NA,NA
+"2",61,"GNB","Eddie Lacy","RB","23","Alabama",2013,"Alabama","Alabama",5.6,8,911
+"2",62,"SEA","Christine Michael","RB","22","Texas A&amp;M",2013,"Texas A&amp;M","Texas A&M",5.6,697,911
+"3",63,"KAN","Travis Kelce","TE","23","Cincinnati",2013,"Cincinnati","Cincinnati",5.5,140,823
+"3",64,"JAX","Dwayne Gratz","DB","23","Connecticut",2013,"Connecticut","Connecticut",5.4,164,823
+"3",65,"DET","Larry Warford","G","22","Kentucky",2013,"Kentucky","Kentucky",5.4,334,911
+"3",66,"OAK","Sio Moore","LB","23","Connecticut",2013,"Connecticut","Connecticut",5.3,164,823
+"3",67,"PHI","Bennie Logan","DT","23","LSU",2013,"LSU","LSU",5.3,365,911
+"3",68,"CLE","Leon McFadden","DB","22","San Diego St.",2013,"San Diego State","San Diego State",5.2,626,5486
+"3",69,"ARI","Tyrann Mathieu","DB","21","LSU",2013,"LSU","LSU",5.1,365,911
+"3",70,"TEN","Blidi Wreh-Wilson","DB","23","Connecticut",2013,"Connecticut","Connecticut",5.1,164,823
+"3",71,"STL","T.J. McDonald","DB","22","USC",2013,"USC","USC",5,657,905
+"3",72,"NYJ","Brian Winters","G","22","Kent St.",2013,"Kent State","Kent State",4.9,331,875
+"3",73,"TAM","Mike Glennon","QB","23","North Carolina St.",2013,"North Carolina State","North Carolina State",4.9,490,821
+"3",74,"DAL","Terrance Williams","WR","24","Baylor",2013,"Baylor","Baylor",4.8,51,25354
+"3",75,"NOR","Terron Armstead","T","23","Ark-Pine Bluff",2013,"Ark-Pine Bluff","",4.8,NA,NA
+"3",76,"SDG","Keenan Allen","WR","21","California",2013,"California","California",4.7,107,905
+"3",77,"MIA","Dallas Thomas","T","23","Tennessee",2013,"Tennessee","Tennessee",4.7,694,911
+"3",78,"BUF","Marquise Goodwin","WR","22","Texas",2013,"Texas","Texas",4.6,703,25354
+"3",79,"PIT","Markus Wheaton","WR","22","Oregon St.",2013,"Oregon State","Oregon State",4.6,528,905
+"3",80,"DAL","J.J. Wilcox","DB","22","Georgia Southern",2013,"Georgia Southern","Georgia Southern",4.5,253,818
+"3",81,"NYG","Damontre Moore","DE","21","Texas A&amp;M",2013,"Texas A&amp;M","Texas A&M",4.5,697,911
+"3",82,"NOR","John Jenkins","DT","24","Georgia",2013,"Georgia","Georgia",4.4,257,911
+"3",83,"NWE","Logan Ryan","DB","22","Rutgers",2013,"Rutgers","Rutgers",4.3,587,827
+"3",84,"CIN","Shawn Williams","DB","22","Georgia",2013,"Georgia","Georgia",4.3,257,911
+"3",85,"WAS","Jordan Reed","TE","23","Florida",2013,"Florida","Florida",4.2,235,911
+"3",86,"IND","Hugh Thornton","G","22","Illinois",2013,"Illinois","Illinois",4.2,301,827
+"3",87,"SEA","Jordan Hill","DT","22","Penn St.",2013,"Penn State","Penn State",4.1,539,827
+"3",88,"SFO","Corey Lemonier","DE","21","Auburn",2013,"Auburn","Auburn",4.1,37,911
+"3",89,"HOU","Brennan Williams","OL","22","North Carolina",2013,"North Carolina","North Carolina",4.1,457,821
+"3",90,"DEN","Kayvon Webster","DB","22","South Florida",2013,"South Florida","South Florida",4,651,823
+"3",91,"NWE","Duron Harmon","DB","22","Rutgers",2013,"Rutgers","Rutgers",4,587,827
+"3",92,"STL","Stedman Bailey","WR","22","West Virginia",2013,"West Virginia","West Virginia",3.9,768,25354
+"3",93,"MIA","Will Davis","DB","23","Utah St.",2013,"Utah State","Utah State",3.9,731,5486
+"3",94,"BAL","Brandon Williams","DT","24","Missouri Southern",2013,"Missouri Southern","",3.8,NA,NA
+"3",95,"HOU","Sam Montgomery","DE","23","LSU",2013,"LSU","LSU",3.8,365,911
+"3",96,"KAN","Knile Davis","RB","21","Arkansas",2013,"Arkansas","Arkansas",3.7,31,911
+"3",97,"TEN","Zaviar Gooden","LB","23","Missouri",2013,"Missouri","Missouri",3.7,434,911
+"4",98,"PHI","Matt Barkley","QB","23","USC",2013,"USC","USC",3.6,657,905
+"4",99,"KAN","Nico Johnson","LB","23","Alabama",2013,"Alabama","Alabama",3.6,8,911
+"4",100,"TAM","Akeem Spence","DT","21","Illinois",2013,"Illinois","Illinois",3.6,301,827
+"4",101,"JAX","Ace Sanders","WR","21","South Carolina",2013,"South Carolina","South Carolina",3.5,648,911
+"4",102,"NWE","Josh Boyce","WR","22","TCU",2013,"TCU","TCU",3.5,698,25354
+"4",103,"ARI","Alex Okafor","DE","22","Texas",2013,"Texas","Texas",3.4,703,25354
+"4",104,"MIA","Jelani Jenkins","LB","21","Florida",2013,"Florida","Florida",3.4,235,911
+"4",105,"BUF","Duke Williams","DB","22","Nevada",2013,"Nevada","Nevada",3.4,466,5486
+"4",106,"MIA","Dion Sims","TE","22","Michigan St.",2013,"Michigan State","Michigan State",3.3,416,827
+"4",107,"TEN","Brian Schwenke","C","22","California",2013,"California","California",3.3,107,905
+"4",108,"CAR","Edmund Kugbila","OL","23","Valdosta St.",2013,"Valdosta State","",3.2,NA,NA
+"4",109,"GNB","David Bakhtiari","T","22","Colorado",2013,"Colorado","Colorado",3.2,157,905
+"4",110,"NYG","Ryan Nassib","QB","23","Syracuse",2013,"Syracuse","Syracuse",3.2,688,821
+"4",111,"PIT","Shamarko Thomas","DB","22","Syracuse",2013,"Syracuse","Syracuse",3.1,688,821
+"4",112,"OAK","Tyler Wilson","QB","24","Arkansas",2013,"Arkansas","Arkansas",3.1,31,911
+"4",113,"STL","Barrett Jones","G","23","Alabama",2013,"Alabama","Alabama",3,8,911
+"4",114,"DAL","B.W. Webb","DB","23","William &amp; Mary",2013,"William &amp; Mary","William & Mary",3,786,837
+"4",115,"PIT","Landry Jones","QB","24","Oklahoma",2013,"Oklahoma","Oklahoma",3,522,25354
+"4",116,"ARI","Earl Watford","G","23","James Madison",2013,"James Madison","James Madison",2.9,317,837
+"4",117,"CHI","Khaseem Greene","LB","24","Rutgers",2013,"Rutgers","Rutgers",2.9,587,827
+"4",118,"CIN","Sean Porter","LB","22","Texas A&amp;M",2013,"Texas A&amp;M","Texas A&M",2.9,697,911
+"4",119,"WAS","Phillip Thomas","DB","24","Fresno St.",2013,"Fresno State","Fresno State",2.8,96,5486
+"4",120,"MIN","Gerald Hodges","LB","22","Penn St.",2013,"Penn State","Penn State",2.8,539,827
+"4",121,"IND","Khaled Holmes","C","23","USC",2013,"USC","USC",2.8,657,905
+"4",122,"GNB","J.C. Tretter","T","22","Cornell",2013,"Cornell","Cornell",2.7,167,865
+"4",123,"SEA","Chris Harper","WR","24","Kansas St.",2013,"Kansas State","Kansas State",2.7,327,25354
+"4",124,"HOU","Trevardo Williams","DE","22","Connecticut",2013,"Connecticut","Connecticut",2.7,164,823
+"4",125,"GNB","Johnathan Franklin","RB","23","UCLA",2013,"UCLA","UCLA",2.6,110,905
+"4",126,"TAM","William Gholston","DE","22","Michigan St.",2013,"Michigan State","Michigan State",2.6,416,827
+"4",127,"ATL","Malliciah Goodman","DE","23","Clemson",2013,"Clemson","Clemson",2.6,147,821
+"4",128,"SFO","Quinton Patton","WR","23","Louisiana Tech",2013,"Louisiana Tech","Louisiana Tech",2.5,366,24312
+"4",129,"BAL","John Simon","DE","22","Ohio St.",2013,"Ohio State","Ohio State",2.5,518,827
+"4",130,"BAL","Kyle Juszczyk","RB","22","Harvard",2013,"Harvard","Harvard",2.5,275,865
+"4",131,"SFO","Marcus Lattimore","RB","21","South Carolina",2013,"South Carolina","South Carolina",2.4,648,911
+"4",132,"DET","Devin Taylor","DE","23","South Carolina",2013,"South Carolina","South Carolina",2.4,648,911
+"4",133,"ATL","Levine Toilolo","TE","22","Stanford",2013,"Stanford","Stanford",2.4,674,905
+"5",134,"KAN","Sanders Commings","DB","23","Georgia",2013,"Georgia","Georgia",2.3,257,911
+"5",135,"JAX","Denard Robinson","WR","23","Michigan",2013,"Michigan","Michigan",2.3,418,827
+"5",136,"PHI","Earl Wolff","DB","23","North Carolina St.",2013,"North Carolina State","North Carolina State",2.3,490,821
+"5",137,"SEA","Jesse Williams","DT","22","Alabama",2013,"Alabama","Alabama",2.2,8,911
+"5",138,"SEA","Tharold Simon","DB","22","LSU",2013,"LSU","LSU",2.2,365,911
+"5",139,"IND","Montori Hughes","DT","23","Tenn-Martin",2013,"Tenn-Martin","",2.2,NA,NA
+"5",140,"ARI","Stepfan Taylor","RB","22","Stanford",2013,"Stanford","Stanford",2.1,674,905
+"5",141,"NYJ","Oday Aboushi","T","22","Virginia",2013,"Virginia","Virginia",2.1,746,821
+"5",142,"TEN","Lavar Edwards","DE","23","LSU",2013,"LSU","LSU",2.1,365,911
+"5",143,"BUF","Jonathan Meeks","DB","23","Clemson",2013,"Clemson","Clemson",2.1,147,821
+"5",144,"NOR","Kenny Stills","WR","21","Oklahoma",2013,"Oklahoma","Oklahoma",2,522,25354
+"5",145,"SDG","Steve Williams","DB","22","California",2013,"California","California",2,107,905
+"5",146,"DEN","Quanterus Smith","DE","23","West. Kentucky",2013,"West. Kentucky","Western Kentucky",2,772,24312
+"5",147,"TAM","Steven Means","DE","23","Buffalo",2013,"Buffalo","Buffalo",1.9,86,875
+"5",148,"CAR","A.J. Klein","LB","22","Iowa St.",2013,"Iowa State","Iowa State",1.9,311,25354
+"5",149,"STL","Brandon McGee","DB","22","Miami (FL)",2013,"Miami (FL)","Miami (Florida)",1.9,415,821
+"5",150,"PIT","Terry Hawthorne","DB","23","Illinois",2013,"Illinois","Illinois",1.9,301,827
+"5",151,"DAL","Joseph Randle","RB","21","Oklahoma St.",2013,"Oklahoma State","Oklahoma State",1.8,521,25354
+"5",152,"NYG","Cooper Taylor","DB","23","Richmond",2013,"Richmond","Richmond",1.8,575,837
+"5",153,"ATL","Stansly Maponga","DE","22","TCU",2013,"TCU","TCU",1.8,698,25354
+"5",154,"WAS","Chris Thompson","RB","22","Florida St.",2013,"Florida State","Florida State",1.7,234,821
+"5",155,"MIN","Jeff Locke","P","24","UCLA",2013,"UCLA","UCLA",1.7,110,905
+"5",156,"CIN","Tanner Hawkinson","T","23","Kansas",2013,"Kansas","Kansas",1.7,328,25354
+"5",157,"SFO","Quinton Dial","DE","23","Alabama",2013,"Alabama","Alabama",1.7,8,911
+"5",158,"SEA","Luke Willson","TE","23","Rice",2013,"Rice","Rice",1.6,574,24312
+"5",159,"GNB","Micah Hyde","DB","22","Iowa",2013,"Iowa","Iowa",1.6,312,827
+"5",160,"STL","Zac Stacy","RB","22","Vanderbilt",2013,"Vanderbilt","Vanderbilt",1.6,736,911
+"5",161,"DEN","Tavarres King","WR","23","Georgia",2013,"Georgia","Georgia",1.6,257,911
+"5",162,"WAS","Brandon Jenkins","DE","23","Florida St.",2013,"Florida State","Florida State",1.5,234,821
+"5",163,"CHI","Jordan Mills","T","22","Louisiana Tech",2013,"Louisiana Tech","Louisiana Tech",1.5,366,24312
+"5",164,"MIA","Mike Gillislee","RB","22","Florida",2013,"Florida","Florida",1.5,235,911
+"5",165,"DET","Sam Martin","P","23","Appalachian St.",2013,"Appalachian State","Appalachian State",1.4,27,818
+"5",166,"MIA","Caleb Sturgis","K","24","Florida",2013,"Florida","Florida",1.4,235,911
+"5",167,"GNB","Josh Boyd","DE","24","Mississippi St.",2013,"Mississippi State","Mississippi State",1.4,430,911
+"5",168,"BAL","Ricky Wagner","T","23","Wisconsin",2013,"Wisconsin","Wisconsin",1.4,796,827
+"6",169,"JAX","Josh Evans","DB","22","Florida",2013,"Florida","Florida",1.3,235,911
+"6",170,"KAN","Eric Kush","C","24","California (PA)",2013,"California (PA)","",1.3,NA,NA
+"6",171,"DET","Corey Fuller","WR","23","Virginia Tech",2013,"Virginia Tech","Virginia Tech",1.3,742,821
+"6",172,"OAK","Nick Kasa","TE","22","Colorado",2013,"Colorado","Colorado",1.3,157,905
+"6",173,"DEN","Vinston Painter","G","23","Virginia Tech",2013,"Virginia Tech","Virginia Tech",1.2,742,821
+"6",174,"ARI","Ryan Swope","WR","23","Texas A&amp;M",2013,"Texas A&amp;M","Texas A&M",1.2,697,911
+"6",175,"CLE","Jamoris Slaughter","DB","23","Notre Dame",2013,"Notre Dame","Notre Dame",1.2,513,99001
+"6",176,"HOU","David Quessenberry","OL","23","San Jose St.",2013,"San Jose State","San Jose State",1.2,630,5486
+"6",177,"BUF","Dustin Hopkins","K","22","Florida St.",2013,"Florida State","Florida State",1.2,234,821
+"6",178,"NYJ","William Campbell","OL","22","Michigan",2013,"Michigan","Michigan",1.1,418,827
+"6",179,"SDG","Tourek Williams","DE","22","Florida International",2013,"Florida International","Florida International",1.1,231,24312
+"6",180,"SFO","Nick Moody","LB","23","Florida St.",2013,"Florida State","Florida State",1.1,234,821
+"6",181,"OAK","Latavius Murray","RB","22","Central Florida",2013,"Central Florida","UCF",1.1,128,823
+"6",182,"CAR","Kenjon Barner","RB","24","Oregon",2013,"Oregon","Oregon",1,529,905
+"6",183,"NOR","Rufus Johnson","DE","23","Tarleton St.",2013,"Tarleton State","",1,NA,NA
+"6",184,"OAK","Mychal Rivera","TE","23","Tennessee",2013,"Tennessee","Tennessee",1,694,911
+"6",185,"DAL","DeVonte Holloman","LB","22","South Carolina",2013,"South Carolina","South Carolina",1,648,911
+"6",186,"PIT","Justin Brown","WR","22","Oklahoma",2013,"Oklahoma","Oklahoma",0.9,522,25354
+"6",187,"ARI","Andre Ellington","RB","24","Clemson",2013,"Clemson","Clemson",0.9,147,821
+"6",188,"CHI","Cornelius Washington","LB","24","Georgia",2013,"Georgia","Georgia",0.9,257,911
+"6",189,"TAM","Mike James","RB","23","Miami (FL)",2013,"Miami (FL)","Miami (Florida)",0.9,415,821
+"6",190,"CIN","Rex Burkhead","RB","23","Nebraska",2013,"Nebraska","Nebraska",0.9,463,827
+"6",191,"WAS","Bacarri Rambo","DB","23","Georgia",2013,"Georgia","Georgia",0.8,257,911
+"6",192,"IND","John Boyett","DB","23","Oregon",2013,"Oregon","Oregon",0.8,529,905
+"6",193,"GNB","Nate Palmer","LB","24","Illinois St.",2013,"Illinois State","Illinois State",0.8,299,853
+"6",194,"SEA","Spencer Ware","RB","21","LSU",2013,"LSU","LSU",0.8,365,911
+"6",195,"HOU","Alan Bonner","WR","22","Jacksonville St.",2013,"Jacksonville State","Jacksonville State",0.7,315,902
+"6",196,"MIN","Jeff Baca","G","23","UCLA",2013,"UCLA","UCLA",0.7,110,905
+"6",197,"CIN","Cobi Hamilton","WR","22","Arkansas",2013,"Arkansas","Arkansas",0.7,31,911
+"6",198,"HOU","Chris Jones","DT","23","Bowling Green",2013,"Bowling Green","Bowling Green",0.7,71,875
+"6",199,"DET","Theo Riddick","RB","22","Notre Dame",2013,"Notre Dame","Notre Dame",0.7,513,99001
+"6",200,"BAL","Kapron Lewis-Moore","DE","23","Notre Dame",2013,"Notre Dame","Notre Dame",0.6,513,99001
+"6",201,"HOU","Ryan Griffin","TE","23","Connecticut",2013,"Connecticut","Connecticut",0.6,164,823
+"6",202,"TEN","Khalid Wooten","DB","23","Nevada",2013,"Nevada","Nevada",0.6,466,5486
+"6",203,"BAL","Ryan Jensen","T","22","",2013,"","",0.6,NA,NA
+"6",204,"KAN","Braden Wilson","FB","23","Kansas St.",2013,"Kansas State","Kansas State",0.6,327,25354
+"6",205,"OAK","Stacy McGee","DT","23","Oklahoma",2013,"Oklahoma","Oklahoma",0.5,522,25354
+"6",206,"PIT","Vince Williams","LB","23","Florida St.",2013,"Florida State","Florida State",0.5,234,821
+"7",207,"KAN","Mike Catapano","DE","23","Princeton",2013,"Princeton","Princeton",0.5,554,865
+"7",208,"JAX","Jeremy Harris","DB","22","New Mexico St.",2013,"New Mexico State","New Mexico State",0.5,472,818
+"7",209,"OAK","Brice Butler","WR","23","San Diego St.",2013,"San Diego State","San Diego State",0.5,626,5486
+"7",210,"JAX","Demetrius McCray","DB","22","Appalachian St.",2013,"Appalachian State","Appalachian State",0.4,27,818
+"7",211,"DET","Michael Williams","TE","23","Alabama",2013,"Alabama","Alabama",0.4,8,911
+"7",212,"PHI","Joe Kruger","DE","21","Utah",2013,"Utah","Utah",0.4,732,905
+"7",213,"MIN","Michael Mauti","LB","23","Penn St.",2013,"Penn State","Penn State",0.4,539,827
+"7",214,"MIN","Travis Bond","G","22","North Carolina",2013,"North Carolina","North Carolina",0.4,457,821
+"7",215,"NYJ","Tommy Bohanon","RB","23","Wake Forest",2013,"Wake Forest","Wake Forest",0.3,749,821
+"7",216,"GNB","Charles Johnson","WR","24","Grand Valley St.",2013,"Grand Valley State","",0.3,NA,NA
+"7",217,"CLE","Armonty Bryant","DE","23","East Central (OK)",2013,"East Central (OK)","",0.3,NA,NA
+"7",218,"PHI","Jordan Poyer","DB","22","Oregon St.",2013,"Oregon State","Oregon State",0.3,528,905
+"7",219,"ARI","D.C. Jefferson","TE","24","Rutgers",2013,"Rutgers","Rutgers",0.3,587,827
+"7",220,"SEA","Ryan Seymour","G","23","Vanderbilt",2013,"Vanderbilt","Vanderbilt",0.2,736,911
+"7",221,"SDG","Brad Sorensen","QB","25","Southern Utah",2013,"Southern Utah","Southern Utah",0.2,667,825
+"7",222,"BUF","Chris Gragg","TE","23","Arkansas",2013,"Arkansas","Arkansas",0.2,31,911
+"7",223,"PIT","Nicholas Williams","DT","","Samford",2013,"Samford","Samford",0.2,625,912
+"7",224,"GNB","Kevin Dorsey","WR","23","Maryland",2013,"Maryland","Maryland",0.2,392,827
+"7",225,"NYG","Eric Herman","OL","23","Ohio",2013,"Ohio","Ohio",0.2,519,875
+"7",226,"NWE","Michael Buchanan","DE","22","Illinois",2013,"Illinois","Illinois",0.2,301,827
+"7",227,"CLE","Garrett Gilkey","T","23","Chadron St.",2013,"Chadron State","",0.2,NA,NA
+"7",228,"WAS","Jawan Jamison","RB","21","Rutgers",2013,"Rutgers","Rutgers",0.2,587,827
+"7",229,"MIN","Everett Dawkins","DT","23","Florida St.",2013,"Florida State","Florida State",0.2,234,821
+"7",230,"IND","Kerwynn Williams","RB","22","Utah St.",2013,"Utah State","Utah State",0.2,731,5486
+"7",231,"SEA","Ty Powell","DE","25","Harding",2013,"Harding","",0.2,NA,NA
+"7",232,"GNB","Sam Barrington","LB","22","South Florida",2013,"South Florida","South Florida",0.2,651,823
+"7",233,"OAK","David Bass","DE","23","Missouri Western St.",2013,"Missouri Western State","",0.2,NA,NA
+"7",234,"DEN","Zac Dysert","QB","23","Miami (OH)",2013,"Miami (OH)","Miami (Ohio)",0.2,414,875
+"7",235,"NWE","Steve Beauharnais","LB","23","Rutgers",2013,"Rutgers","Rutgers",0.2,587,827
+"7",236,"CHI","Marquess Wilson","WR","21","Washington St.",2013,"Washington State","Washington State",0.2,754,905
+"7",237,"SFO","B.J. Daniels","QB","23","South Florida",2013,"South Florida","South Florida",0.2,651,823
+"7",238,"BAL","Aaron Mellette","WR","23","Elon",2013,"Elon","Elon",0.2,1068,912
+"7",239,"PHI","David King","DE","23","Oklahoma",2013,"Oklahoma","Oklahoma",0.2,522,25354
+"7",240,"CIN","Reid Fragel","OL","23","Ohio St.",2013,"Ohio State","Ohio State",0.2,518,827
+"7",241,"SEA","Jared Smith","DT","23","New Hampshire",2013,"New Hampshire","New Hampshire",0.2,469,837
+"7",242,"SEA","Michael Bowie","T","22","",2013,"","",0.2,NA,NA
+"7",243,"ATL","Kemal Ishmael","DB","21","Central Florida",2013,"Central Florida","UCF",0.2,128,823
+"7",244,"ATL","Zeke Motta","DB","23","Notre Dame",2013,"Notre Dame","Notre Dame",0.2,513,99001
+"7",245,"DET","Brandon Hepburn","LB","23","Florida A&amp;M",2013,"Florida A&amp;M","Florida A&M",0.2,228,876
+"7",246,"SFO","Carter Bykowski","OL","23","Iowa St.",2013,"Iowa State","Iowa State",0.2,311,25354
+"7",247,"BAL","Marc Anthony","DB","23","California",2013,"California","California",0.2,107,905
+"7",248,"TEN","Daimion Stafford","DB","22","Nebraska",2013,"Nebraska","Nebraska",0.2,463,827
+"7",249,"ATL","Sean Renfree","QB","23","Duke",2013,"Duke","Duke",0.2,193,821
+"7",250,"MIA","Don Jones","DB","23","Arkansas St.",2013,"Arkansas State","Arkansas State",0.2,30,818
+"7",251,"CIN","T.J. Johnson","C","23","South Carolina",2013,"South Carolina","South Carolina",0.2,648,911
+"7",252,"SFO","Marcus Cooper","DB","23","Rutgers",2013,"Rutgers","Rutgers",0.2,587,827
+"7",253,"NYG","Michael Cox","RB","24","Massachusetts",2013,"Massachusetts","Massachusetts",0.2,400,875
+"7",254,"IND","Justice Cunningham","TE","22","South Carolina",2013,"South Carolina","South Carolina",0.2,648,911
+"1",1,"HOU","Jadeveon Clowney","DE","21","South Carolina",2014,"South Carolina","South Carolina",23,648,911
+"1",2,"STL","Greg Robinson","T","21","Auburn",2014,"Auburn","Auburn",20.1,37,911
+"1",3,"JAX","Blake Bortles","QB","22","Central Florida",2014,"Central Florida","UCF",18.4,128,823
+"1",4,"BUF","Sammy Watkins","WR","21","Clemson",2014,"Clemson","Clemson",17.1,147,821
+"1",5,"OAK","Khalil Mack","LB","23","Buffalo",2014,"Buffalo","Buffalo",16.2,86,875
+"1",6,"ATL","Jake Matthews","T","22","Texas A&amp;M",2014,"Texas A&amp;M","Texas A&M",15.4,697,911
+"1",7,"TAM","Mike Evans","WR","21","Texas A&amp;M",2014,"Texas A&amp;M","Texas A&M",14.8,697,911
+"1",8,"CLE","Justin Gilbert","DB","22","Oklahoma St.",2014,"Oklahoma State","Oklahoma State",14.2,521,25354
+"1",9,"MIN","Anthony Barr","LB","22","UCLA",2014,"UCLA","UCLA",13.7,110,905
+"1",10,"DET","Eric Ebron","TE","21","North Carolina",2014,"North Carolina","North Carolina",13.3,457,821
+"1",11,"TEN","Taylor Lewan","T","23","Michigan",2014,"Michigan","Michigan",12.9,418,827
+"1",12,"NYG","Odell Beckham","WR","21","LSU",2014,"LSU","LSU",12.5,365,911
+"1",13,"STL","Aaron Donald","DT","23","Pittsburgh",2014,"Pittsburgh","Pittsburgh",12.2,545,821
+"1",14,"CHI","Kyle Fuller","DB","22","Virginia Tech",2014,"Virginia Tech","Virginia Tech",11.9,742,821
+"1",15,"PIT","Ryan Shazier","LB","22","Ohio St.",2014,"Ohio State","Ohio State",11.6,518,827
+"1",16,"DAL","Zack Martin","G","23","Notre Dame",2014,"Notre Dame","Notre Dame",11.3,513,99001
+"1",17,"BAL","C.J. Mosley","LB","22","Alabama",2014,"Alabama","Alabama",11,8,911
+"1",18,"NYJ","Calvin Pryor","DB","22","Louisville",2014,"Louisville","Louisville",10.8,367,821
+"1",19,"MIA","Ja'Wuan James","T","22","Tennessee",2014,"Tennessee","Tennessee",10.6,694,911
+"1",20,"NOR","Brandin Cooks","WR","21","Oregon St.",2014,"Oregon State","Oregon State",10.4,528,905
+"1",21,"GNB","Ha Ha Clinton-Dix","DB","21","Alabama",2014,"Alabama","Alabama",10.1,8,911
+"1",22,"CLE","Johnny Manziel","QB","21","Texas A&amp;M",2014,"Texas A&amp;M","Texas A&M",10,697,911
+"1",23,"KAN","Dee Ford","LB","23","Auburn",2014,"Auburn","Auburn",9.8,37,911
+"1",24,"CIN","Darqueze Dennard","DB","22","Michigan St.",2014,"Michigan State","Michigan State",9.6,416,827
+"1",25,"SDG","Jason Verrett","DB","23","TCU",2014,"TCU","TCU",9.4,698,25354
+"1",26,"PHI","Marcus Smith","LB","22","Louisville",2014,"Louisville","Louisville",9.2,367,821
+"1",27,"ARI","Deone Bucannon","DB","22","Washington St.",2014,"Washington State","Washington State",9.1,754,905
+"1",28,"CAR","Kelvin Benjamin","WR","23","Florida St.",2014,"Florida State","Florida State",8.9,234,821
+"1",29,"NWE","Dominique Easley","DT","22","Florida",2014,"Florida","Florida",8.8,235,911
+"1",30,"SFO","Jimmie Ward","DB","23","Northern Illinois",2014,"Northern Illinois","Northern Illinois",8.6,503,875
+"1",31,"DEN","Bradley Roby","DB","22","Ohio St.",2014,"Ohio State","Ohio State",8.5,518,827
+"1",32,"MIN","Teddy Bridgewater","QB","21","Louisville",2014,"Louisville","Louisville",8.4,367,821
+"2",33,"HOU","Xavier Su'a-Filo","G","23","UCLA",2014,"UCLA","UCLA",8.2,110,905
+"2",34,"DAL","Demarcus Lawrence","DE","22","Boise St.",2014,"Boise State","Boise State",8.1,66,5486
+"2",35,"CLE","Joel Bitonio","G","22","Nevada",2014,"Nevada","Nevada",8,466,5486
+"2",36,"OAK","Derek Carr","QB","23","Fresno St.",2014,"Fresno State","Fresno State",7.9,96,5486
+"2",37,"ATL","Ra'Shede Hageman","DT","24","Minnesota",2014,"Minnesota","Minnesota",7.8,428,827
+"2",38,"TAM","Austin Seferian-Jenkins","TE","23","Washington",2014,"Washington","Washington",7.6,756,905
+"2",39,"JAX","Marqise Lee","WR","22","USC",2014,"USC","USC",7.5,657,905
+"2",40,"DET","Kyle Van Noy","LB","23","BYU",2014,"BYU","BYU",7.4,77,99001
+"2",41,"STL","Lamarcus Joyner","DB","23","Florida St.",2014,"Florida State","Florida State",7.3,234,821
+"2",42,"PHI","Jordan Matthews","WR","22","Vanderbilt",2014,"Vanderbilt","Vanderbilt",7.2,736,911
+"2",43,"NYG","Weston Richburg","OL","23","Colorado St.",2014,"Colorado State","Colorado State",7.1,156,5486
+"2",44,"BUF","Cyrus Kouandjio","T","21","Alabama",2014,"Alabama","Alabama",7,8,911
+"2",45,"SEA","Paul Richardson","WR","22","Colorado",2014,"Colorado","Colorado",6.9,157,905
+"2",46,"PIT","Stephon Tuitt","DE","21","Notre Dame",2014,"Notre Dame","Notre Dame",6.8,513,99001
+"2",47,"WAS","Trent Murphy","LB","23","Stanford",2014,"Stanford","Stanford",6.7,674,905
+"2",48,"BAL","Timmy Jernigan","DT","22","Florida St.",2014,"Florida State","Florida State",6.7,234,821
+"2",49,"NYJ","Jace Amaro","TE","22","Texas Tech",2014,"Texas Tech","Texas Tech",6.6,700,25354
+"2",50,"SDG","Jeremiah Attaochu","LB","21","Georgia Tech",2014,"Georgia Tech","Georgia Tech",6.5,255,821
+"2",51,"CHI","Ego Ferguson","DT","23","LSU",2014,"LSU","LSU",6.4,365,911
+"2",52,"ARI","Troy Niklas","TE","22","Notre Dame",2014,"Notre Dame","Notre Dame",6.3,513,99001
+"2",53,"GNB","Davante Adams","WR","21","Fresno St.",2014,"Fresno State","Fresno State",6.2,96,5486
+"2",54,"TEN","Bishop Sankey","RB","22","Washington",2014,"Washington","Washington",6.2,756,905
+"2",55,"CIN","Jeremy Hill","RB","21","LSU",2014,"LSU","LSU",6.1,365,911
+"2",56,"DEN","Cody Latimer","WR","21","Indiana",2014,"Indiana","Indiana",6,306,827
+"2",57,"SFO","Carlos Hyde","RB","24","Ohio St.",2014,"Ohio State","Ohio State",5.9,518,827
+"2",58,"NOR","Stanley Jean-Baptiste","DB","24","Nebraska",2014,"Nebraska","Nebraska",5.9,463,827
+"2",59,"IND","Jack Mewhort","T","23","Ohio St.",2014,"Ohio State","Ohio State",5.8,518,827
+"2",60,"CAR","Kony Ealy","DE","22","Missouri",2014,"Missouri","Missouri",5.7,434,911
+"2",61,"JAX","Allen Robinson","WR","21","Penn St.",2014,"Penn State","Penn State",5.6,539,827
+"2",62,"NWE","Jimmy Garoppolo","QB","22","East. Illinois",2014,"East. Illinois","Eastern Illinois",5.6,201,902
+"2",63,"MIA","Jarvis Landry","WR","21","LSU",2014,"LSU","LSU",5.5,365,911
+"2",64,"SEA","Justin Britt","T","23","Missouri",2014,"Missouri","Missouri",5.4,434,911
+"3",65,"HOU","C.J. Fiedorowicz","TE","22","Iowa",2014,"Iowa","Iowa",5.4,312,827
+"3",66,"WAS","Morgan Moses","OL","23","Virginia",2014,"Virginia","Virginia",5.3,746,821
+"3",67,"MIA","Billy Turner","T","22","North Dakota St.",2014,"North Dakota State","North Dakota State",5.3,493,853
+"3",68,"ATL","Dezmen Southward","DB","23","Wisconsin",2014,"Wisconsin","Wisconsin",5.2,796,827
+"3",69,"TAM","Charles Sims","RB","24","West Virginia",2014,"West Virginia","West Virginia",5.1,768,25354
+"3",70,"SFO","Marcus Martin","C","20","USC",2014,"USC","USC",5.1,657,905
+"3",71,"CLE","Christian Kirksey","LB","22","Iowa",2014,"Iowa","Iowa",5,312,827
+"3",72,"MIN","Scott Crichton","DE","22","Oregon St.",2014,"Oregon State","Oregon State",4.9,528,905
+"3",73,"BUF","Preston Brown","LB","21","Louisville",2014,"Louisville","Louisville",4.9,367,821
+"3",74,"NYG","Jay Bromley","DT","22","Syracuse",2014,"Syracuse","Syracuse",4.8,688,821
+"3",75,"STL","Tre Mason","RB","21","Auburn",2014,"Auburn","Auburn",4.8,37,911
+"3",76,"DET","Travis Swanson","C","23","Arkansas",2014,"Arkansas","Arkansas",4.7,31,911
+"3",77,"SFO","Chris Borland","LB","23","Wisconsin",2014,"Wisconsin","Wisconsin",4.7,796,827
+"3",78,"WAS","Spencer Long","G","23","Nebraska",2014,"Nebraska","Nebraska",4.6,463,827
+"3",79,"BAL","Terrence Brooks","DB","23","Florida St.",2014,"Florida State","Florida State",4.6,234,821
+"3",80,"NYJ","Dexter McDougle","DB","23","Maryland",2014,"Maryland","Maryland",4.5,392,827
+"3",81,"OAK","Gabe Jackson","G","23","Mississippi St.",2014,"Mississippi State","Mississippi State",4.5,430,911
+"3",82,"CHI","Will Sutton","DT","22","Arizona St.",2014,"Arizona State","Arizona State",4.4,28,905
+"3",83,"HOU","Louis Nix","DT","23","Notre Dame",2014,"Notre Dame","Notre Dame",4.3,513,99001
+"3",84,"ARI","Kareem Martin","DE","22","North Carolina",2014,"North Carolina","North Carolina",4.3,457,821
+"3",85,"GNB","Khyri Thornton","DT","24","Southern Miss",2014,"Southern Miss","Southern Mississippi",4.2,664,24312
+"3",86,"PHI","Josh Huff","WR","22","Oregon",2014,"Oregon","Oregon",4.2,529,905
+"3",87,"KAN","Phillip Gaines","DB","23","Rice",2014,"Rice","Rice",4.1,574,24312
+"3",88,"CIN","Will Clarke","DE","23","West Virginia",2014,"West Virginia","West Virginia",4.1,768,25354
+"3",89,"SDG","Chris Watt","G","24","Notre Dame",2014,"Notre Dame","Notre Dame",4.1,513,99001
+"3",90,"IND","Donte Moncrief","WR","21","Mississippi",2014,"Mississippi","Mississippi",4,433,911
+"3",91,"ARI","John Brown","WR","24","Pittsburg St.",2014,"Pittsburg State","",4,NA,NA
+"3",92,"CAR","Trai Turner","OL","21","LSU",2014,"LSU","LSU",3.9,365,911
+"3",93,"JAX","Brandon Linder","OL","","Miami (FL)",2014,"Miami (FL)","Miami (Florida)",3.9,415,821
+"3",94,"CLE","Terrance West","RB","23","Towson St.",2014,"Towson State","",3.8,NA,NA
+"3",95,"DEN","Michael Schofield","OL","23","Michigan",2014,"Michigan","Michigan",3.8,418,827
+"3",96,"MIN","Jerick McKinnon","RB","22","Georgia Southern",2014,"Georgia Southern","Georgia Southern",3.7,253,818
+"3",97,"PIT","Dri Archer","WR","23","Kent St.",2014,"Kent State","Kent State",3.7,331,875
+"3",98,"GNB","Richard Rodgers","TE","22","California",2014,"California","California",3.6,107,905
+"3",99,"BAL","Crockett Gillmore","TE","22","Colorado St.",2014,"Colorado State","Colorado State",3.6,156,5486
+"3",100,"SFO","Brandon Thomas","OL","23","Clemson",2014,"Clemson","Clemson",3.6,147,821
+"4",101,"PHI","Jaylen Watkins","DB","21","Florida",2014,"Florida","Florida",3.5,235,911
+"4",102,"WAS","Bashaud Breeland","DB","22","Clemson",2014,"Clemson","Clemson",3.5,147,821
+"4",103,"ATL","Devonta Freeman","RB","22","Florida St.",2014,"Florida State","Florida State",3.4,234,821
+"4",104,"NYJ","Jalen Saunders","WR","22","Oklahoma",2014,"Oklahoma","Oklahoma",3.4,522,25354
+"4",105,"NWE","Bryan Stork","C","23","Florida St.",2014,"Florida State","Florida State",3.4,234,821
+"4",106,"SFO","Bruce Ellington","WR","23","South Carolina",2014,"South Carolina","South Carolina",3.3,648,911
+"4",107,"OAK","Justin Ellis","DT","23","Louisiana Tech",2014,"Louisiana Tech","Louisiana Tech",3.3,366,24312
+"4",108,"SEA","Cassius Marsh","DE","22","UCLA",2014,"UCLA","UCLA",3.2,110,905
+"4",109,"BUF","Ross Cockrell","DB","23","Duke",2014,"Duke","Duke",3.2,193,821
+"4",110,"STL","Maurice Alexander","DB","23","Utah St.",2014,"Utah State","Utah State",3.2,731,5486
+"4",111,"CIN","Russell Bodine","C","22","North Carolina",2014,"North Carolina","North Carolina",3.1,457,821
+"4",112,"TEN","DaQuan Jones","DT","22","Penn St.",2014,"Penn State","Penn State",3.1,539,827
+"4",113,"NYG","Andre Williams","RB","22","Boston Col.",2014,"Boston Col.","Boston College",3,67,821
+"4",114,"JAX","Aaron Colvin","DB","22","Oklahoma",2014,"Oklahoma","Oklahoma",3,522,25354
+"4",115,"NYJ","Shaquelle Evans","WR","23","UCLA",2014,"UCLA","UCLA",3,110,905
+"4",116,"OAK","Keith McGill","DB","25","Utah",2014,"Utah","Utah",2.9,732,905
+"4",117,"CHI","Ka'Deem Carey","RB","21","Arizona",2014,"Arizona","Arizona",2.9,29,905
+"4",118,"PIT","Martavis Bryant","WR","22","Clemson",2014,"Clemson","Clemson",2.9,147,821
+"4",119,"DAL","Anthony Hitchens","LB","22","Iowa",2014,"Iowa","Iowa",2.8,312,827
+"4",120,"ARI","Logan Thomas","QB","23","Virginia Tech",2014,"Virginia Tech","Virginia Tech",2.8,742,821
+"4",121,"GNB","Carl Bradford","LB","22","Arizona St.",2014,"Arizona State","Arizona State",2.8,28,905
+"4",122,"TEN","Marqueston Huff","DB","22","Wyoming",2014,"Wyoming","Wyoming",2.7,811,5486
+"4",123,"SEA","Kevin Norwood","WR","25","Alabama",2014,"Alabama","Alabama",2.7,8,911
+"4",124,"KAN","De'Anthony Thomas","RB","21","Oregon",2014,"Oregon","Oregon",2.7,529,905
+"4",125,"MIA","Walt Aikens","DB","23","Liberty",2014,"Liberty","Liberty",2.6,355,826
+"4",126,"NOR","Khairi Fortt","LB","22","California",2014,"California","California",2.6,107,905
+"4",127,"CLE","Pierre Desir","DB","24","Lindenwood",2014,"Lindenwood","",2.6,NA,NA
+"4",128,"CAR","Tre Boston","DB","22","North Carolina",2014,"North Carolina","North Carolina",2.5,457,821
+"4",129,"SFO","Dontae Johnson","DB","22","North Carolina St.",2014,"North Carolina State","North Carolina State",2.5,490,821
+"4",130,"NWE","James White","RB","23","Wisconsin",2014,"Wisconsin","Wisconsin",2.5,796,827
+"4",131,"CHI","Brock Vereen","DB","22","Minnesota",2014,"Minnesota","Minnesota",2.4,428,827
+"4",132,"SEA","Kevin Pierre-Louis","LB","22","Boston Col.",2014,"Boston Col.","Boston College",2.4,67,821
+"4",133,"DET","Nevin Lawson","DB","23","Utah St.",2014,"Utah State","Utah State",2.4,731,5486
+"4",134,"BAL","Brent Urban","DT","","Virginia",2014,"Virginia","Virginia",2.3,746,821
+"4",135,"HOU","Tom Savage","QB","24","Pittsburgh",2014,"Pittsburgh","Pittsburgh",2.3,545,821
+"4",136,"DET","Larry Webster","DE","24","Bloomsburg",2014,"Bloomsburg","",2.3,NA,NA
+"4",137,"NYJ","Dakota Dozier","OL","23","Furman",2014,"Furman","Furman",2.2,244,912
+"4",138,"BAL","Lorenzo Taliaferro","RB","22","Coastal Carolina",2014,"Coastal Carolina","Coastal Carolina",2.2,149,826
+"4",139,"ATL","Prince Shembo","LB","22","Notre Dame",2014,"Notre Dame","Notre Dame",2.2,513,99001
+"4",140,"NWE","Cameron Fleming","T","22","Stanford",2014,"Stanford","Stanford",2.1,674,905
+"5",141,"PHI","Taylor Hart","DE","23","Oregon",2014,"Oregon","Oregon",2.1,529,905
+"5",142,"WAS","Ryan Grant","WR","23","Tulane",2014,"Tulane","Tulane",2.1,718,823
+"5",143,"TAM","Kadeem Edwards","OL","23","Tennessee St.",2014,"Tennessee State","Tennessee State",2.1,691,902
+"5",144,"JAX","Telvin Smith","LB","23","Florida St.",2014,"Florida State","Florida State",2,234,821
+"5",145,"MIN","David Yankey","OL","22","Stanford",2014,"Stanford","Stanford",2,674,905
+"5",146,"DAL","Devin Street","WR","23","Pittsburgh",2014,"Pittsburgh","Pittsburgh",2,545,821
+"5",147,"ATL","Ricardo Allen","DB","22","Purdue",2014,"Purdue","Purdue",1.9,559,827
+"5",148,"CAR","Bene Benwikere","DB","23","San Jose St.",2014,"San Jose State","San Jose State",1.9,630,5486
+"5",149,"TAM","Kevin Pamphile","T","23","Purdue",2014,"Purdue","Purdue",1.9,559,827
+"5",150,"SFO","Aaron Lynch","DE","21","South Florida",2014,"South Florida","South Florida",1.9,651,823
+"5",151,"TEN","Avery Williamson","LB","22","Kentucky",2014,"Kentucky","Kentucky",1.8,334,911
+"5",152,"NYG","Nat Berhe","DB","23","San Diego St.",2014,"San Diego State","San Diego State",1.8,626,5486
+"5",153,"BUF","Cyril Richardson","G","23","Baylor",2014,"Baylor","Baylor",1.8,51,25354
+"5",154,"NYJ","Jeremiah George","LB","22","Iowa St.",2014,"Iowa State","Iowa State",1.7,311,25354
+"5",155,"MIA","Arthur Lynch","TE","24","Georgia",2014,"Georgia","Georgia",1.7,257,911
+"5",156,"DEN","Lamin Barrow","LB","23","LSU",2014,"LSU","LSU",1.7,365,911
+"5",157,"PIT","Shaquille Richardson","DB","22","Arizona",2014,"Arizona","Arizona",1.7,29,905
+"5",158,"DET","Caraun Reid","DT","22","Princeton",2014,"Princeton","Princeton",1.6,554,865
+"5",159,"JAX","Chris Smith","DE","22","Arkansas",2014,"Arkansas","Arkansas",1.6,31,911
+"5",160,"ARI","Ed Stinson","DE","23","Alabama",2014,"Alabama","Alabama",1.6,8,911
+"5",161,"GNB","Corey Linsley","C","23","Ohio St.",2014,"Ohio State","Ohio State",1.6,518,827
+"5",162,"PHI","Ed Reynolds","DB","22","Stanford",2014,"Stanford","Stanford",1.5,674,905
+"5",163,"KAN","Aaron Murray","QB","23","Georgia",2014,"Georgia","Georgia",1.5,257,911
+"5",164,"CIN","A.J. McCarron","QB","24","Alabama",2014,"Alabama","Alabama",1.5,8,911
+"5",165,"SDG","Ryan Carrethers","DT","23","Arkansas St.",2014,"Arkansas State","Arkansas State",1.4,30,818
+"5",166,"IND","Jonathan Newsome","LB","23","Ball St.",2014,"Ball State","Ball State",1.4,47,875
+"5",167,"NOR","Vinnie Sunseri","DB","21","Alabama",2014,"Alabama","Alabama",1.4,8,911
+"5",168,"ATL","Marquis Spruill","LB","23","Syracuse",2014,"Syracuse","Syracuse",1.4,688,821
+"5",169,"NOR","Ronald Powell","LB","23","Florida",2014,"Florida","Florida",1.3,235,911
+"5",170,"SFO","Keith Reaser","DB","","Florida Atlantic",2014,"Florida Atlantic","Florida Atlantic",1.3,229,24312
+"5",171,"MIA","Jordan Tripp","LB","23","Montana",2014,"Montana","Montana",1.3,441,825
+"5",172,"SEA","Jimmy Staten","DT","23","Middle Tenn. St.",2014,"Middle Tenn. State","Middle Tennessee",1.3,419,24312
+"5",173,"PIT","Wesley Johnson","OL","23","Vanderbilt",2014,"Vanderbilt","Vanderbilt",1.2,736,911
+"5",174,"NYG","Devon Kennard","DE","23","USC",2014,"USC","USC",1.2,657,905
+"5",175,"BAL","John Urschel","G","23","Penn St.",2014,"Penn State","Penn State",1.2,539,827
+"5",176,"GNB","Jared Abbrederis","WR","23","Wisconsin",2014,"Wisconsin","Wisconsin",1.2,796,827
+"6",177,"HOU","Jeoffrey Pagan","DE","21","Alabama",2014,"Alabama","Alabama",1.2,8,911
+"6",178,"TEN","Zach Mettenberger","QB","23","LSU",2014,"LSU","LSU",1.1,365,911
+"6",179,"NWE","Jon Halapio","OL","23","Florida",2014,"Florida","Florida",1.1,235,911
+"6",180,"SFO","Kenneth Acker","DB","","SMU",2014,"SMU","SMU",1.1,663,823
+"6",181,"HOU","Alfred Blue","RB","23","LSU",2014,"LSU","LSU",1.1,365,911
+"6",182,"MIN","Antone Exum","DB","23","Virginia Tech",2014,"Virginia Tech","Virginia Tech",1,742,821
+"6",183,"CHI","David Fales","QB","23","San Jose St.",2014,"San Jose State","San Jose State",1,630,5486
+"6",184,"MIN","Kendall James","DB","23","Maine",2014,"Maine","Maine",1,380,837
+"6",185,"TAM","Robert Herron","WR","22","Wyoming",2014,"Wyoming","Wyoming",1,811,5486
+"6",186,"WAS","Lache Seastrunk","RB","23","Baylor",2014,"Baylor","Baylor",0.9,51,25354
+"6",187,"NYG","Bennett Jackson","DB","23","Notre Dame",2014,"Notre Dame","Notre Dame",0.9,513,99001
+"6",188,"STL","E.J. Gaines","DB","","Missouri",2014,"Missouri","Missouri",0.9,434,911
+"6",189,"DET","T.J. Jones","WR","22","Notre Dame",2014,"Notre Dame","Notre Dame",0.9,513,99001
+"6",190,"MIA","Matt Hazel","WR","22","Coastal Carolina",2014,"Coastal Carolina","Coastal Carolina",0.9,149,826
+"6",191,"CHI","Pat O'Donnell","P","23","Miami (FL)",2014,"Miami (FL)","Miami (Florida)",0.8,415,821
+"6",192,"PIT","Jordan Zumwalt","LB","22","UCLA",2014,"UCLA","UCLA",0.8,110,905
+"6",193,"KAN","Zach Fulton","G","23","Tennessee",2014,"Tennessee","Tennessee",0.8,694,911
+"6",194,"BAL","Keith Wenning","QB","23","Ball St.",2014,"Ball State","Ball State",0.8,47,875
+"6",195,"NYJ","Brandon Dixon","DB","24","NW Missouri St.",2014,"NW Missouri State","",0.7,NA,NA
+"6",196,"ARI","Walt Powell","WR","22","Murray St.",2014,"Murray State","Murray State",0.7,454,902
+"6",197,"GNB","Demetri Goodson","DB","25","Baylor",2014,"Baylor","Baylor",0.7,51,25354
+"6",198,"NWE","Zach Moore","DE","24","Concordia-St.Paul (MN)",2014,"Concordia-StatePaul (MN)","",0.7,NA,NA
+"6",199,"SEA","Garrett Scott","OL","22","Marshall",2014,"Marshall","Marshall",0.7,388,24312
+"6",200,"KAN","Laurent Duvernay-Tardif","OL","23","McGill",2014,"McGill","",0.6,NA,NA
+"6",201,"SDG","Marion Grice","RB","23","Arizona St.",2014,"Arizona State","Arizona State",0.6,28,905
+"6",202,"NOR","Tavon Rooks","OL","24","Kansas St.",2014,"Kansas State","Kansas State",0.6,327,25354
+"6",203,"IND","Andrew Jackson","LB","22","West. Kentucky",2014,"West. Kentucky","Western Kentucky",0.6,772,24312
+"6",204,"CAR","Tyler Gaffney","RB","23","Stanford",2014,"Stanford","Stanford",0.6,674,905
+"6",205,"JAX","Luke Bowanko","C","23","Virginia",2014,"Virginia","Virginia",0.5,746,821
+"6",206,"NWE","Jemea Thomas","DB","24","Georgia Tech",2014,"Georgia Tech","Georgia Tech",0.5,255,821
+"6",207,"DEN","Matt Paradis","OL","","Boise St.",2014,"Boise State","Boise State",0.5,66,5486
+"6",208,"SEA","Eric Pinkins","DB","23","San Diego St.",2014,"San Diego State","San Diego State",0.5,626,5486
+"6",209,"NYJ","Quincy Enunwa","WR","22","Nebraska",2014,"Nebraska","Nebraska",0.5,463,827
+"6",210,"NYJ","IK Enemkpali","DT","23","Louisiana Tech",2014,"Louisiana Tech","Louisiana Tech",0.4,366,24312
+"6",211,"HOU","Jay Prosch","FB","22","Auburn",2014,"Auburn","Auburn",0.4,37,911
+"6",212,"CIN","Marquis Flowers","LB","22","Arizona",2014,"Arizona","Arizona",0.4,29,905
+"6",213,"NYJ","Tajh Boyd","QB","24","Clemson",2014,"Clemson","Clemson",0.4,147,821
+"6",214,"STL","Garrett Gilbert","QB","23","SMU",2014,"SMU","SMU",0.4,663,823
+"6",215,"PIT","Daniel McCullers","DT","22","Tennessee",2014,"Tennessee","Tennessee",0.3,694,911
+"7",216,"HOU","Andre Hal","DB","22","Vanderbilt",2014,"Vanderbilt","Vanderbilt",0.3,736,911
+"7",217,"WAS","Ted Bolser","TE","23","Indiana",2014,"Indiana","Indiana",0.3,306,827
+"7",218,"BAL","Michael Campanaro","WR","23","Wake Forest",2014,"Wake Forest","Wake Forest",0.3,749,821
+"7",219,"OAK","Travis Carrie","DB","24","Ohio",2014,"Ohio","Ohio",0.3,519,875
+"7",220,"MIN","Shamar Stephen","DT","23","Connecticut",2014,"Connecticut","Connecticut",0.2,164,823
+"7",221,"BUF","Randell Johnson","LB","23","Florida Atlantic",2014,"Florida Atlantic","Florida Atlantic",0.2,229,24312
+"7",222,"JAX","Storm Johnson","RB","22","Central Florida",2014,"Central Florida","UCF",0.2,128,823
+"7",223,"MIN","Brandon Watts","LB","23","Georgia Tech",2014,"Georgia Tech","Georgia Tech",0.2,255,821
+"7",224,"PHI","Beau Allen","DT","22","Wisconsin",2014,"Wisconsin","Wisconsin",0.2,796,827
+"7",225,"MIN","Jabari Price","DB","22","North Carolina",2014,"North Carolina","North Carolina",0.2,457,821
+"7",226,"STL","Mitchell Van Dyk","OL","23","Portland St.",2014,"Portland State","Portland State",0.2,550,825
+"7",227,"SEA","Kiero Small","RB","25","Arkansas",2014,"Arkansas","Arkansas",0.2,31,911
+"7",228,"WAS","Zach Hocker","K","23","Arkansas",2014,"Arkansas","Arkansas",0.2,31,911
+"7",229,"DET","Nate Freese","K","24","Boston Col.",2014,"Boston Col.","Boston College",0.2,67,821
+"7",230,"PIT","Rob Blanchflower","TE","24","Massachusetts",2014,"Massachusetts","Massachusetts",0.2,400,875
+"7",231,"DAL","Ben Gardner","DE","23","Stanford",2014,"Stanford","Stanford",0.2,674,905
+"7",232,"IND","Ulrick John","OL","22","Georgia St.",2014,"Georgia State","Georgia State",0.2,254,818
+"7",233,"NYJ","Trevor Reilly","LB","26","Utah",2014,"Utah","Utah",0.2,732,905
+"7",234,"MIA","Terrence Fede","DE","22","Marist",2014,"Marist","Marist",0.2,386,21451
+"7",235,"OAK","Shelby Harris","DE","23","Illinois St.",2014,"Illinois State","Illinois State",0.2,299,853
+"7",236,"GNB","Jeff Janis","WR","23","Saginaw Valley St.",2014,"Saginaw Valley State","",0.2,NA,NA
+"7",237,"BUF","Seantrel Henderson","OL","22","Miami (FL)",2014,"Miami (FL)","Miami (Florida)",0.2,415,821
+"7",238,"DAL","Will Smith","LB","22","Texas Tech",2014,"Texas Tech","Texas Tech",0.2,700,25354
+"7",239,"CIN","James Wright","WR","22","LSU",2014,"LSU","LSU",0.2,365,911
+"7",240,"SDG","Tevin Reese","WR","23","Baylor",2014,"Baylor","Baylor",0.2,51,25354
+"7",241,"STL","C.B. Bryant","DB","22","Ohio St.",2014,"Ohio State","Ohio State",0.2,518,827
+"7",242,"DEN","Corey Nelson","LB","","Oklahoma",2014,"Oklahoma","Oklahoma",0.2,522,25354
+"7",243,"SFO","Kaleb Ramsey","DE","25","Boston Col.",2014,"Boston Col.","Boston College",0.2,67,821
+"7",244,"NWE","Jeremy Gallon","WR","24","Michigan",2014,"Michigan","Michigan",0.2,418,827
+"7",245,"SFO","Trey Millard","FB","23","Oklahoma",2014,"Oklahoma","Oklahoma",0.2,522,25354
+"7",246,"CHI","Charles Leno","T","22","Boise St.",2014,"Boise State","Boise State",0.2,66,5486
+"7",247,"OAK","Jonathan Dowling","DB","","West. Kentucky",2014,"West. Kentucky","Western Kentucky",0.2,772,24312
+"7",248,"DAL","Ahmad Dixon","DB","23","Baylor",2014,"Baylor","Baylor",0.2,51,25354
+"7",249,"STL","Michael Sam","DE","24","Missouri",2014,"Missouri","Missouri",0.2,434,911
+"7",250,"STL","Demetrius Rhaney","OL","22","Tennessee St.",2014,"Tennessee State","Tennessee State",0.2,691,902
+"7",251,"DAL","Ken Bishop","DT","24","Northern Illinois",2014,"Northern Illinois","Northern Illinois",0.2,503,875
+"7",252,"CIN","Lavelle Westbrooks","DB","22","Georgia Southern",2014,"Georgia Southern","Georgia Southern",0.2,253,818
+"7",253,"ATL","Yawin Smallwood","LB","22","Connecticut",2014,"Connecticut","Connecticut",0.2,164,823
+"7",254,"DAL","Terrance Mitchell","DB","22","Oregon",2014,"Oregon","Oregon",0.2,529,905
+"7",255,"ATL","Tyler Starr","LB","","South Dakota",2014,"South Dakota","South Dakota",0.2,650,853
+"7",256,"HOU","Lonnie Ballentine","DB","21","Memphis",2014,"Memphis","Memphis",0.2,404,823
+"1",1,"TAM","Jameis Winston","QB","21","Florida St.",2015,"Florida State","Florida State",23,234,821
+"1",2,"TEN","Marcus Mariota","QB","21","Oregon",2015,"Oregon","Oregon",20.1,529,905
+"1",3,"JAX","Dante Fowler Jr.","OLB","21","Florida",2015,"Florida","Florida",18.4,235,911
+"1",4,"OAK","Amari Cooper","WR","21","Alabama",2015,"Alabama","Alabama",17.1,8,911
+"1",5,"WAS","Brandon Scherff","OG","23","Iowa",2015,"Iowa","Iowa",16.2,312,827
+"1",6,"NYJ","Leonard Williams","DE","21","USC",2015,"USC","USC",15.4,657,905
+"1",7,"CHI","Kevin White","WR","22","West Virginia",2015,"West Virginia","West Virginia",14.8,768,25354
+"1",8,"ATL","Vic Beasley","OLB","23","Clemson",2015,"Clemson","Clemson",14.2,147,821
+"1",9,"NYG","Ereck Flowers","OG","21","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",13.7,415,821
+"1",10,"STL","Todd Gurley","RB","21","Georgia",2015,"Georgia","Georgia",13.3,257,911
+"1",11,"MIN","Trae Waynes","CB","23","Michigan St.",2015,"Michigan State","Michigan State",12.9,416,827
+"1",12,"CLE","Danny Shelton","NT","22","Washington",2015,"Washington","Washington",12.5,756,905
+"1",13,"NOR","Andrus Peat","OT","21","Stanford",2015,"Stanford","Stanford",12.2,674,905
+"1",14,"MIA","DeVante Parker","WR","22","Louisville",2015,"Louisville","Louisville",11.9,367,821
+"1",15,"SDG","Melvin Gordon","RB","","Wisconsin",2015,"Wisconsin","Wisconsin",11.6,796,827
+"1",16,"HOU","Kevin Johnson","CB","23","Wake Forest",2015,"Wake Forest","Wake Forest",11.3,749,821
+"1",17,"SFO","Arik Armstead","DT","","Oregon",2015,"Oregon","Oregon",11,529,905
+"1",18,"KAN","Marcus Peters","CB","","Washington",2015,"Washington","Washington",10.8,756,905
+"1",19,"CLE","Cameron Erving","C","23","Florida St.",2015,"Florida State","Florida State",10.6,234,821
+"1",20,"PHI","Nelson Agholor","WR","","USC",2015,"USC","USC",10.4,657,905
+"1",21,"CIN","Cedric Ogbuehi","OT","23","Texas A&amp;M",2015,"Texas A&amp;M","Texas A&M",10.1,697,911
+"1",22,"PIT","Alvin Dupree","OLB","","Kentucky",2015,"Kentucky","Kentucky",10,334,911
+"1",23,"DEN","Shane Ray","DE","22","Missouri",2015,"Missouri","Missouri",9.8,434,911
+"1",24,"ARI","D.J. Humphries","OT","","Florida",2015,"Florida","Florida",9.6,235,911
+"1",25,"CAR","Shaq Thompson","OLB","","Washington",2015,"Washington","Washington",9.4,756,905
+"1",26,"BAL","Breshad Perriman","WR","","Central Florida",2015,"Central Florida","UCF",9.2,128,823
+"1",27,"DAL","Byron Jones","CB","23","Connecticut",2015,"Connecticut","Connecticut",9.1,164,823
+"1",28,"DET","Laken Tomlinson","OG","23","Duke",2015,"Duke","Duke",8.9,193,821
+"1",29,"IND","Phillip Dorsett","WR","","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",8.8,415,821
+"1",30,"GNB","Damarious Randall","FS","","Arizona St.",2015,"Arizona State","Arizona State",8.6,28,905
+"1",31,"NOR","Stephone Anthony","ILB","23","Clemson",2015,"Clemson","Clemson",8.5,147,821
+"1",32,"NWE","Malcom Brown","DT","","Texas",2015,"Texas","Texas",8.4,703,25354
+"2",33,"NYG","Landon Collins","SS","21","Alabama",2015,"Alabama","Alabama",8.2,8,911
+"2",34,"TAM","Donovan Smith","OT","22","Penn St.",2015,"Penn State","Penn State",8.1,539,827
+"2",35,"OAK","Mario Edwards Jr.","DT","","Florida St.",2015,"Florida State","Florida State",8,234,821
+"2",36,"JAX","T.J. Yeldon","RB","","Alabama",2015,"Alabama","Alabama",7.9,8,911
+"2",37,"NYJ","Devin Smith","WR","","Ohio St.",2015,"Ohio State","Ohio State",7.8,518,827
+"2",38,"WAS","Preston Smith","DE","22","Mississippi St.",2015,"Mississippi State","Mississippi State",7.6,430,911
+"2",39,"CHI","Eddie Goldman","DT","","Florida St.",2015,"Florida State","Florida State",7.5,234,821
+"2",40,"TEN","Dorial Green-Beckham","WR","","Oklahoma",2015,"Oklahoma","Oklahoma",7.4,522,25354
+"2",41,"CAR","Devin Funchess","TE","21","Michigan",2015,"Michigan","Michigan",7.3,418,827
+"2",42,"ATL","Jalen Collins","CB","22","LSU",2015,"LSU","LSU",7.2,365,911
+"2",43,"HOU","Benardrick McKinney","ILB","","Mississippi St.",2015,"Mississippi State","Mississippi State",7.1,430,911
+"2",44,"NOR","Hau'oli Kikaha","OLB","","Washington",2015,"Washington","Washington",7,756,905
+"2",45,"MIN","Eric Kendricks","ILB","23","UCLA",2015,"UCLA","UCLA",6.9,110,905
+"2",46,"SFO","Jaquiski Tartt","SS","23","Samford",2015,"Samford","Samford",6.8,625,912
+"2",47,"PHI","Eric Rowe","CB","22","Utah",2015,"Utah","Utah",6.7,732,905
+"2",48,"SDG","Denzel Perryman","ILB","","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",6.7,415,821
+"2",49,"KAN","Mitch Morse","OG","","Missouri",2015,"Missouri","Missouri",6.6,434,911
+"2",50,"BUF","Ronald Darby","CB","21","Florida St.",2015,"Florida State","Florida State",6.5,234,821
+"2",51,"CLE","Nate Orchard","DE","22","Utah",2015,"Utah","Utah",6.4,732,905
+"2",52,"MIA","Jordan Phillips","NT","","Oklahoma",2015,"Oklahoma","Oklahoma",6.3,522,25354
+"2",53,"CIN","Jake Fisher","OT","","Oregon",2015,"Oregon","Oregon",6.2,529,905
+"2",54,"DET","Ameer Abdullah","RB","22","Nebraska",2015,"Nebraska","Nebraska",6.2,463,827
+"2",55,"BAL","Maxx Williams","TE","21","Minnesota",2015,"Minnesota","Minnesota",6.1,428,827
+"2",56,"PIT","Senquez Golson","CB","22","Mississippi",2015,"Mississippi","Mississippi",6,433,911
+"2",57,"STL","Rob Havenstein","OT","","Wisconsin",2015,"Wisconsin","Wisconsin",5.9,796,827
+"2",58,"ARI","Markus Golden","DE","","Missouri",2015,"Missouri","Missouri",5.9,434,911
+"2",59,"DEN","Ty Sambrailo","OT","23","Colorado St.",2015,"Colorado State","Colorado State",5.8,156,5486
+"2",60,"DAL","Randy Gregory","OLB","22","Nebraska",2015,"Nebraska","Nebraska",5.7,463,827
+"2",61,"TAM","Ali Marpet","C","","Florida St.",2015,"Florida State","Florida State",5.6,234,821
+"2",62,"GNB","Quinten Rollins","CB","","Miami (OH)",2015,"Miami (OH)","Miami (Ohio)",5.6,414,875
+"2",63,"SEA","Frank Clark","DE","22","Michigan",2015,"Michigan","Michigan",5.5,418,827
+"2",64,"NWE","Jordan Richards","SS","","Stanford",2015,"Stanford","Stanford",5.4,674,905
+"3",65,"IND","D'Joun Smith","CB","23","Florida Atlantic",2015,"Florida Atlantic","Florida Atlantic",5.4,229,24312
+"3",66,"TEN","Jeremiah Poutasi","OG","21","Utah",2015,"Utah","Utah",5.3,732,905
+"3",67,"JAX","A.J. Cann","OG","23","South Carolina",2015,"South Carolina","South Carolina",5.3,648,911
+"3",68,"OAK","Clive Walford","TE","","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",5.2,415,821
+"3",69,"SEA","Tyler Lockett","WR","","Kansas St.",2015,"Kansas State","Kansas State",5.1,327,25354
+"3",70,"HOU","Jaelen Strong","WR","","Arizona St.",2015,"Arizona State","Arizona State",5.1,28,905
+"3",71,"CHI","Hroniss Grasu","C","","Oregon",2015,"Oregon","Oregon",5,529,905
+"3",72,"STL","Jamon Brown","OT","22","Louisville",2015,"Louisville","Louisville",4.9,367,821
+"3",73,"ATL","Tevin Coleman","RB","22","Indiana",2015,"Indiana","Indiana",4.9,306,827
+"3",74,"NYG","Owamagbe Odighizuwa","DE","","UCLA",2015,"UCLA","UCLA",4.8,110,905
+"3",75,"NOR","Garrett Grayson","QB","24","Colorado St.",2015,"Colorado State","Colorado State",4.8,156,5486
+"3",76,"KAN","Chris Conley","WR","22","Georgia",2015,"Georgia","Georgia",4.7,257,911
+"3",77,"CLE","Duke Johnson","RB","","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",4.7,415,821
+"3",78,"NOR","P.J. Williams","CB","","Florida St.",2015,"Florida State","Florida State",4.6,234,821
+"3",79,"SFO","Eli Harold","OLB","","Virginia",2015,"Virginia","Virginia",4.6,746,821
+"3",80,"DET","Alex Carter","CB","","Stanford",2015,"Stanford","Stanford",4.5,674,905
+"3",81,"BUF","John Miller","OG","22","Louisville",2015,"Louisville","Louisville",4.5,367,821
+"3",82,"NYJ","Lorenzo Mauldin","OLB","","Louisville",2015,"Louisville","Louisville",4.4,367,821
+"3",83,"SDG","Craig Mager","CB","23","Texas State",2015,"Texas State","Texas State",4.3,670,818
+"3",84,"PHI","Jordan Hicks","OLB","","Texas",2015,"Texas","Texas",4.3,703,25354
+"3",85,"CIN","Tyler Kroft","TE","22","Rutgers",2015,"Rutgers","Rutgers",4.2,587,827
+"3",86,"ARI","David Johnson","RB","","Northern Iowa",2015,"Northern Iowa","Northern Iowa",4.2,504,853
+"3",87,"PIT","Sammie Coates","WR","22","Auburn",2015,"Auburn","Auburn",4.1,37,911
+"3",88,"MIN","Danielle Hunter","DE","20","LSU",2015,"LSU","LSU",4.1,365,911
+"3",89,"STL","Sean Mannion","QB","23","Oregon St.",2015,"Oregon State","Oregon State",4.1,528,905
+"3",90,"BAL","Carl Davis","DT","23","Iowa",2015,"Iowa","Iowa",4,312,827
+"3",91,"DAL","Chaz Green","OT","","Florida",2015,"Florida","Florida",4,235,911
+"3",92,"DEN","Jeff Heuerman","TE","","Ohio St.",2015,"Ohio State","Ohio State",3.9,518,827
+"3",93,"IND","Henry Anderson","DE","","Stanford",2015,"Stanford","Stanford",3.9,674,905
+"3",94,"GNB","Ty Montgomery","WR","","Stanford",2015,"Stanford","Stanford",3.8,674,905
+"3",95,"WAS","Matt Jones","RB","","Florida",2015,"Florida","Florida",3.8,235,911
+"3",96,"CLE","Xavier Cooper","DT","","Washington St.",2015,"Washington State","Washington State",3.7,754,905
+"3",97,"NWE","Geneo Grissom","DE","","Oklahoma",2015,"Oklahoma","Oklahoma",3.7,522,25354
+"3",98,"KAN","Steven Nelson","CB","22","Oregon St.",2015,"Oregon State","Oregon State",3.6,528,905
+"3",99,"CIN","Paul Dawson","ILB","","TCU",2015,"TCU","TCU",3.6,698,25354
+"4",100,"TEN","Angelo Blackson","DT","22","Auburn",2015,"Auburn","Auburn",3.6,37,911
+"4",101,"NWE","Trey Flowers","DE","","Arkansas",2015,"Arkansas","Arkansas",3.5,31,911
+"4",102,"CAR","Daryl Williams","OG","","Oklahoma",2015,"Oklahoma","Oklahoma",3.5,522,25354
+"4",103,"NYJ","Bryce Petty","QB","24","Baylor",2015,"Baylor","Baylor",3.4,51,25354
+"4",104,"JAX","James Sample","SS","","Louisville",2015,"Louisville","Louisville",3.4,367,821
+"4",105,"WAS","Jamison Crowder","WR","22","Duke",2015,"Duke","Duke",3.4,193,821
+"4",106,"CHI","Jeremy Langford","RB","23","Michigan St.",2015,"Michigan State","Michigan State",3.3,416,827
+"4",107,"ATL","Justin Hardy","WR","23","East Carolina",2015,"East Carolina","East Carolina",3.3,196,823
+"4",108,"TEN","Jalston Fowler Jr.","FB","","Alabama",2015,"Alabama","Alabama",3.2,8,911
+"4",109,"IND","Clayton Geathers","SS","","Central Florida",2015,"Central Florida","UCF",3.2,128,823
+"4",110,"MIN","T.J. Clemmings","OT","23","Pittsburgh",2015,"Pittsburgh","Pittsburgh",3.2,545,821
+"4",111,"NWE","Tre' Jackson","OG","","Florida St.",2015,"Florida State","Florida State",3.1,234,821
+"4",112,"WAS","Arie Kouandjio","OG","","Alabama",2015,"Alabama","Alabama",3.1,8,911
+"4",113,"DET","Gabe Wright","DT","","Auburn",2015,"Auburn","Auburn",3,37,911
+"4",114,"MIA","Jamil Douglas","OG","","Arizona St.",2015,"Arizona State","Arizona State",3,28,905
+"4",115,"CLE","Ibraheim Campbell","SS","","Northwestern",2015,"Northwestern","Northwestern",3,509,827
+"4",116,"ARI","Rodney Gunter","DT","","Delaware St.",2015,"Delaware State","Delaware State",2.9,178,876
+"4",117,"SFO","Blake Bell","TE","","Oklahoma",2015,"Oklahoma","Oklahoma",2.9,522,25354
+"4",118,"KAN","Ramik Wilson","ILB","23","Georgia",2015,"Georgia","Georgia",2.9,257,911
+"4",119,"STL","Andrew Donnal","OT","23","Iowa",2015,"Iowa","Iowa",2.8,312,827
+"4",120,"CIN","Josh Shaw","CB","23","USC",2015,"USC","USC",2.8,657,905
+"4",121,"PIT","Doran Grant","CB","","Ohio St.",2015,"Ohio State","Ohio State",2.8,518,827
+"4",122,"BAL","Za'Darius Smith","DE","","Kentucky",2015,"Kentucky","Kentucky",2.7,334,911
+"4",123,"CLE","Vince Mayle","WR","","Washington St.",2015,"Washington State","Washington State",2.7,754,905
+"4",124,"TAM","Kwon Alexander","OLB","21","LSU",2015,"LSU","LSU",2.7,365,911
+"4",125,"BAL","Javorius Allen","RB","24","USC",2015,"USC","USC",2.6,657,905
+"4",126,"SFO","Mike Davis","RB","22","South Carolina",2015,"South Carolina","South Carolina",2.6,648,911
+"4",127,"DAL","Damien Wilson","ILB","22","Minnesota",2015,"Minnesota","Minnesota",2.6,428,827
+"4",128,"OAK","Jon Feliciano","OG","","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",2.5,415,821
+"4",129,"GNB","Jake Ryan","OLB","23","Michigan",2015,"Michigan","Michigan",2.5,418,827
+"4",130,"SEA","Terry Poole","OG","23","San Diego St.",2015,"San Diego State","San Diego State",2.5,626,5486
+"4",131,"NWE","Shaq Mason","C","22","Georgia Tech",2015,"Georgia Tech","Georgia Tech",2.4,255,821
+"4",132,"SFO","DeAndre Smelter","WR","23","Georgia Tech",2015,"Georgia Tech","Georgia Tech",2.4,255,821
+"4",133,"DEN","Max Garcia","C","","Florida",2015,"Florida","Florida",2.4,235,911
+"4",134,"SEA","Mark Glowinski","OG","","West Virginia",2015,"West Virginia","West Virginia",2.3,768,25354
+"4",135,"CIN","Marcus Hardison","DE","","Arizona St.",2015,"Arizona State","Arizona State",2.3,28,905
+"4",136,"BAL","Tray Walker","CB","","Texas Southern",2015,"Texas Southern","Texas Southern",2.3,699,916
+"5",137,"ATL","Grady Jarrett","NT","22","Clemson",2015,"Clemson","Clemson",2.2,147,821
+"5",138,"TEN","David Cobb","RB","22","Minnesota",2015,"Minnesota","Minnesota",2.2,428,827
+"5",139,"JAX","Rashad Greene","WR","","Florida St.",2015,"Florida State","Florida State",2.2,234,821
+"5",140,"OAK","Ben Heeney","ILB","","Kansas",2015,"Kansas","Kansas",2.1,328,25354
+"5",141,"WAS","Martrell Spaight","OLB","22","Arkansas",2015,"Arkansas","Arkansas",2.1,31,911
+"5",142,"CHI","Adrian Amos","FS","22","Penn St.",2015,"Penn State","Penn State",2.1,539,827
+"5",143,"MIN","MyCole Pruitt","TE","23","Southern Illinois",2015,"Southern Illinois","Southern Illinois",2.1,659,853
+"5",144,"NYG","Mykkele Thompson","S","","Texas",2015,"Texas","Texas",2,703,25354
+"5",145,"MIA","Bobby McCain","CB","22","Memphis",2015,"Memphis","Memphis",2,404,823
+"5",146,"MIN","Stefon Diggs","WR","21","Maryland",2015,"Maryland","Maryland",2,392,827
+"5",147,"GNB","Brett Hundley","QB","22","UCLA",2015,"UCLA","UCLA",1.9,110,905
+"5",148,"NOR","Davis Tull","OLB","23","Tenn-Chattanooga",2015,"Tenn-Chattanooga","",1.9,NA,NA
+"5",149,"MIA","Jay Ajayi","RB","","Boise St.",2015,"Boise State","Boise State",1.9,66,5486
+"5",150,"MIA","Cedric Thompson","FS","22","Minnesota",2015,"Minnesota","Minnesota",1.9,428,827
+"5",151,"IND","David Parry","NT","","Stanford",2015,"Stanford","Stanford",1.8,674,905
+"5",152,"NYJ","Jarvis Harrison","OG","23","Texas A&amp;M",2015,"Texas A&amp;M","Texas A&M",1.8,697,911
+"5",153,"SDG","Kyle Emanuel","OLB","24","North Dakota St.",2015,"North Dakota State","North Dakota State",1.8,493,853
+"5",154,"NOR","Tyeler Davison","DT","23","Fresno St.",2015,"Fresno State","Fresno State",1.7,96,5486
+"5",155,"BUF","Karlos Williams","RB","22","Florida St.",2015,"Florida State","Florida State",1.7,234,821
+"5",156,"MIA","Tony Lippett","WR","23","Michigan St.",2015,"Michigan State","Michigan State",1.7,416,827
+"5",157,"CIN","C.J. Uzomah","TE","","Auburn",2015,"Auburn","Auburn",1.7,37,911
+"5",158,"ARI","Shaquille Riddick","DE","","West Virginia",2015,"West Virginia","West Virginia",1.6,768,25354
+"5",159,"ARI","JJ Nelson","WR","23","",2015,"","",1.6,NA,NA
+"5",160,"PIT","Jesse James","TE","21","Penn St.",2015,"Penn State","Penn State",1.6,539,827
+"5",161,"OAK","Neiron Ball","OLB","","Florida",2015,"Florida","Florida",1.6,235,911
+"5",162,"TAM","Kenny Bell","WR","","Nebraska",2015,"Nebraska","Nebraska",1.5,463,827
+"5",163,"DAL","Ryan Russell","DE","23","Purdue",2015,"Purdue","Purdue",1.5,559,827
+"5",164,"DEN","Lorenzo Doss","CB","21","Tulane",2015,"Tulane","Tulane",1.5,718,823
+"5",165,"SFO","Bradley Pinion","P","21","Clemson",2015,"Clemson","Clemson",1.4,147,821
+"5",166,"NWE","Joe Cardona","LS","","Navy",2015,"Navy","Navy",1.4,726,99001
+"5",167,"NOR","Damian Swann","CB","22","Georgia",2015,"Georgia","Georgia",1.4,257,911
+"5",168,"DET","Michael Burton","FB","","Rutgers",2015,"Rutgers","Rutgers",1.4,587,827
+"5",169,"CAR","David Mayo","LB","","Texas State",2015,"Texas State","Texas State",1.3,670,818
+"5",170,"SEA","Tye Smith","CB","22","",2015,"","",1.3,NA,NA
+"5",171,"BAL","Nick Boyle","TE","22","Delaware",2015,"Delaware","Delaware",1.3,180,837
+"5",172,"KAN","D.J. Alexander","OLB","24","Oregon St.",2015,"Oregon State","Oregon State",1.3,528,905
+"5",173,"KAN","James O'Shaughnessy","TE","23","Illinois St.",2015,"Illinois State","Illinois State",1.2,299,853
+"5",174,"CAR","Cameron Artis-Payne","RB","","Auburn",2015,"Auburn","Auburn",1.2,37,911
+"5",175,"HOU","Keith Mumphery","WR","23","Michigan St.",2015,"Michigan State","Michigan State",1.2,416,827
+"5",176,"BAL","Robert Myers","OG","23","Tennessee St.",2015,"Tennessee State","Tennessee State",1.2,691,902
+"6",177,"TEN","Deiontrez Mount","OLB","","Louisville",2015,"Louisville","Louisville",1.2,367,821
+"6",178,"NWE","Matthew Wells","LB","","Mississippi St.",2015,"Mississippi State","Mississippi State",1.1,430,911
+"6",179,"OAK","Max Valles","OLB","","Virginia",2015,"Virginia","Virginia",1.1,746,821
+"6",180,"JAX","Michael Bennett","DT","","Ohio St.",2015,"Ohio State","Ohio State",1.1,518,827
+"6",181,"WAS","Kyshoen Jarrett","SS","22","Virginia Tech",2015,"Virginia Tech","Virginia Tech",1.1,742,821
+"6",182,"WAS","Tevin Mitchel","CB","23","Arkansas",2015,"Arkansas","Arkansas",1,31,911
+"6",183,"CHI","Tayo Fabuluje","OT","","TCU",2015,"TCU","TCU",1,698,25354
+"6",184,"TAM","Kaelin Clay","WR","23","Utah",2015,"Utah","Utah",1,732,905
+"6",185,"MIN","Tyrus Thompson","OT","","Oklahoma",2015,"Oklahoma","Oklahoma",1,522,25354
+"6",186,"NYG","Geremy Davis","WR","23","Connecticut",2015,"Connecticut","Connecticut",0.9,164,823
+"6",187,"WAS","Evan Spencer","WR","","Ohio St.",2015,"Ohio State","Ohio State",0.9,518,827
+"6",188,"BUF","Tony Steward","OLB","23","Clemson",2015,"Clemson","Clemson",0.9,147,821
+"6",189,"CLE","Charles Gaines","CB","","Louisville",2015,"Louisville","Louisville",0.9,367,821
+"6",190,"SFO","Ian Silberman","OG","","Boston Col.",2015,"Boston Col.","Boston College",0.9,67,821
+"6",191,"PHI","JaCorey Shepherd","CB","","Kansas",2015,"Kansas","Kansas",0.8,328,25354
+"6",192,"SDG","Darius Philon","DT","21","Arkansas",2015,"Arkansas","Arkansas",0.8,31,911
+"6",193,"MIN","B.J. Dubose","DE","23","Louisville",2015,"Louisville","Louisville",0.8,367,821
+"6",194,"BUF","Nick O'Leary","TE","23","Florida St.",2015,"Florida State","Florida State",0.8,234,821
+"6",195,"CLE","Malcolm Johnson","TE","23","Mississippi St.",2015,"Mississippi State","Mississippi State",0.7,430,911
+"6",196,"PHI","Randall Evans","CB","","Kansas St.",2015,"Kansas State","Kansas State",0.7,327,25354
+"6",197,"CIN","Derron Smith","FS","23","Fresno St.",2015,"Fresno State","Fresno State",0.7,96,5486
+"6",198,"CLE","Randall Telfer","TE","23","USC",2015,"USC","USC",0.7,657,905
+"6",199,"PIT","Leterrius Walton","DT","","Central Michigan",2015,"Central Michigan","Central Michigan",0.7,129,875
+"6",200,"DET","Quandre Diggs","CB","","Texas",2015,"Texas","Texas",0.6,703,25354
+"6",201,"STL","Bud Sasser","WR","","Missouri",2015,"Missouri","Missouri",0.6,434,911
+"6",202,"NWE","A.J. Derby","TE","24","Arkansas",2015,"Arkansas","Arkansas",0.6,31,911
+"6",203,"DEN","Darius Kilgo","NT","","Maryland",2015,"Maryland","Maryland",0.6,392,827
+"6",204,"BAL","Darren Waller","WR","23","Georgia Tech",2015,"Georgia Tech","Georgia Tech",0.6,255,821
+"6",205,"IND","Josh Robinson","RB","23","Mississippi St.",2015,"Mississippi State","Mississippi State",0.5,430,911
+"6",206,"GNB","Aaron Ripkowski","FB","","Oklahoma",2015,"Oklahoma","Oklahoma",0.5,522,25354
+"6",207,"IND","Amarlo Herrera","ILB","24","Georgia",2015,"Georgia","Georgia",0.5,257,911
+"6",208,"TEN","Andy Gallik","C","","Boston Col.",2015,"Boston Col.","Boston College",0.5,67,821
+"6",209,"SEA","Obum Gwacham","DE","24","Oregon St.",2015,"Oregon State","Oregon State",0.5,528,905
+"6",210,"GNB","Christian Ringo","DE","","",2015,"","",0.4,NA,NA
+"6",211,"HOU","Reshard Cliett","OLB","","South Florida",2015,"South Florida","South Florida",0.4,651,823
+"6",212,"PIT","Anthony Chickillo","DE","","Miami (FL)",2015,"Miami (FL)","Miami (Florida)",0.4,415,821
+"6",213,"GNB","Kennard Backman","TE","","",2015,"","",0.4,NA,NA
+"6",214,"SEA","Kristjan Sokoli","DT","","Buffalo",2015,"Buffalo","Buffalo",0.4,86,875
+"6",215,"STL","Cody Wichmann","OG","","Fresno St.",2015,"Fresno State","Fresno State",0.3,96,5486
+"6",216,"HOU","Christian Covington","DT","","Rice",2015,"Rice","Rice",0.3,574,24312
+"6",217,"KAN","Rakeem Nunez-Roches","DT","","Southern Miss",2015,"Southern Miss","Southern Mississippi",0.3,664,24312
+"7",218,"OAK","Anthony Morris","OL","23","Tennessee St.",2015,"Tennessee State","Tennessee State",0.3,691,902
+"7",219,"CLE","Hayes Pullard","ILB","","USC",2015,"USC","USC",0.3,657,905
+"7",220,"JAX","Neal Sterling","WR","","",2015,"","",0.2,NA,NA
+"7",221,"OAK","Andre Debose","WR","","Florida",2015,"Florida","Florida",0.2,235,911
+"7",222,"WAS","Austin Reiter","C","","South Florida",2015,"South Florida","South Florida",0.2,651,823
+"7",223,"NYJ","Deon Simon","NT","25","",2015,"","",0.2,NA,NA
+"7",224,"STL","Bryce Hager","ILB","23","Baylor",2015,"Baylor","Baylor",0.2,51,25354
+"7",225,"ATL","Jake Rodgers","OT","","East. Washington",2015,"East. Washington","Eastern Washington",0.2,207,825
+"7",226,"NYG","Bobby Hart","OG","21","Florida St.",2015,"Florida State","Florida State",0.2,234,821
+"7",227,"STL","Martin Ifedi","DE","24","Memphis",2015,"Memphis","Memphis",0.2,404,823
+"7",228,"MIN","Austin Shepherd","OT","","Alabama",2015,"Alabama","Alabama",0.2,8,911
+"7",229,"JAX","Ben Koyack","TE","","Notre Dame",2015,"Notre Dame","Notre Dame",0.2,513,99001
+"7",230,"NOR","Marcus Murphy","RB","","Missouri",2015,"Missouri","Missouri",0.2,434,911
+"7",231,"TAM","Joey Iosefa","FB","","Hawaii",2015,"Hawaii","Hawai'i",0.2,277,5486
+"7",232,"MIN","Edmond Robinson","OLB","","Newberry",2015,"Newberry","",0.2,NA,NA
+"7",233,"KAN","Da'Ron Brown","WR","","Northern Illinois",2015,"Northern Illinois","Northern Illinois",0.2,503,875
+"7",234,"BUF","Dezmin Lewis","WR","","Central Arkansas",2015,"Central Arkansas","Central Arkansas",0.2,1004,914
+"7",235,"HOU","Kenny Hilliard","RB","23","LSU",2015,"LSU","LSU",0.2,365,911
+"7",236,"DAL","Mark Nzeocha","OLB","25","Wyoming",2015,"Wyoming","Wyoming",0.2,811,5486
+"7",237,"PHI","Brian Mihalik","DE","","Boston Col.",2015,"Boston Col.","Boston College",0.2,67,821
+"7",238,"CIN","Mario Alford","WR","","West Virginia",2015,"West Virginia","West Virginia",0.2,768,25354
+"7",239,"PIT","Gerod Holliman","FS","","Louisville",2015,"Louisville","Louisville",0.2,367,821
+"7",240,"DET","Corey Robinson","OT","","South Carolina",2015,"South Carolina","South Carolina",0.2,648,911
+"7",241,"CLE","Ifo Ekpre-Olomu","CB","","Oregon",2015,"Oregon","Oregon",0.2,529,905
+"7",242,"OAK","Dexter McDonald","CB","","Kansas",2015,"Kansas","Kansas",0.2,328,25354
+"7",243,"DAL","Laurence Gibson","OT","24","Virginia Tech",2015,"Virginia Tech","Virginia Tech",0.2,742,821
+"7",244,"SFO","Trenton Brown","OG","","Florida",2015,"Florida","Florida",0.2,235,911
+"7",245,"TEN","Tre McBride","WR","","William &amp; Mary",2015,"William &amp; Mary","William & Mary",0.2,786,837
+"7",246,"DAL","Geoff Swaim","TE","","Texas",2015,"Texas","Texas",0.2,703,25354
+"7",247,"NWE","Darryl Roberts","CB","","Marshall",2015,"Marshall","Marshall",0.2,388,24312
+"7",248,"SEA","Ryan Murphy","DB","22","Oregon St.",2015,"Oregon State","Oregon State",0.2,528,905
+"7",249,"ATL","Akeem King","DB","","San Jose St.",2015,"San Jose State","San Jose State",0.2,630,5486
+"7",250,"DEN","Trevor Siemian","QB","","Northwestern",2015,"Northwestern","Northwestern",0.2,509,827
+"7",251,"DEN","Taurean Nixon","DB","","Tulane",2015,"Tulane","Tulane",0.2,718,823
+"7",252,"DEN","Josh Furman","DB","","Oklahoma St.",2015,"Oklahoma State","Oklahoma State",0.2,521,25354
+"7",253,"NWE","Xzavier Dickson","OLB","","Alabama",2015,"Alabama","Alabama",0.2,8,911
+"7",254,"SFO","Rory 'Busta' Anderson","TE","","South Carolina",2015,"South Carolina","South Carolina",0.2,648,911
+"7",255,"IND","Denzell Goode","OT","","Mars Hill",2015,"Mars Hill","",0.2,NA,NA
+"7",256,"ARI","Gerald Christian","TE","","Louisville",2015,"Louisville","Louisville",0.2,367,821
