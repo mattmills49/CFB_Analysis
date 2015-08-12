@@ -26,7 +26,9 @@ teams <- readin("team", years)
 
 runs <- left_join(runs, select(plays, Game.Code, Play.Number, Offense.Team.Code, Defense.Team.Code, Down, Distance, Spot), by = c("Game.Code", "Play.Number"))
 
-runner_info <- runs %>% group_by(Player.Code) %>% summarize(YPA = mean(Yards), Runs = n(), TDs = sum(Touchdown))
+runner_info <- runs %>% 
+  group_by(Player.Code) %>% 
+  summarize(YPA = mean(Yards), Runs = n(), TDs = sum(Touchdown))
 
 ### Fit Mixed Effects Model for Yards ###
 
@@ -41,7 +43,9 @@ lme_se <- se.ranef(base_lme_model)
 runners <- lme_values$Player.Code
 runners$Player.Code <- as.numeric(row.names(runners))
 names(runners)[1] <- "LME_Value"
-runners <- left_join(runners, select(players, Player.Code, Team.Code, Last.Name, First.Name), by = c("Player.Code")) %>% left_join(teams, by = c("Team.Code")) %>% left_join(runner_info, by = c("Player.Code"))
+runners <- left_join(runners, select(players, Player.Code, Team.Code, Last.Name, First.Name), by = c("Player.Code")) %>% 
+  left_join(teams, by = c("Team.Code")) %>% 
+  left_join(runner_info, by = c("Player.Code"))
 
 ### Get estimates of Offense and Defense ###
 
@@ -81,21 +85,51 @@ runner_data <- left_join(runners, select(ridge_runners, -Runners), by = c("Playe
 
 ### Build Plots ###
 
-select(runner_data, Player.Code, LME_Value, YPA) %>% gather(Measure, Value, -Player.Code) %>% ggplot(aes(x = Measure, y = Value)) + geom_violin(fill = "black") + theme_538
-select(runner_data, Player.Code, LME_Value, YPA) %>% gather(Measure, Value, -Player.Code) %>% mutate(Measure = factor(Measure, labels = c("Mixed Effects Model Estimate", "Yards per Attempt"))) %>% ggplot(aes(x = Value)) + geom_histogram(binwidth = 2) + facet_wrap(~Measure, ncol = 1) + theme_538 + theme(strip.text = element_text(size = 16)) + ggtitle("Distribution of Runner Estimates") + xlim(-25,25)
-select(runner_data, Player.Code, LME_Value, YPA) %>% gather(Measure, Value, -Player.Code) %>% mutate(Measure = factor(Measure, labels = c("Mixed Effects Model Estimate", "Yards per Attempt"))) %>% ggplot(aes(x = Value)) + geom_density(aes(fill = Measure)) + theme_538 + theme(legend.position = "top")
+value_distributions <- select(runner_data, Player.Code, LME_Value, YPA) %>% 
+  gather(Measure, Value, -Player.Code) %>% 
+  mutate(Measure = factor(Measure, labels = c("Mixed Effects Model Estimate", "Yards per Attempt"))) %>% 
+  ggplot(aes(x = Value)) + 
+  geom_histogram(binwidth = 2) + 
+  facet_wrap(~Measure, ncol = 1) + 
+  theme_538 + 
+  theme(strip.text = element_text(size = 16)) + 
+  ggtitle("Distribution of Runner Estimates") + 
+  xlim(-25,25)
 
-num_ypa <- ggplot(runner_data, aes(x = Runs, y = YPA)) + geom_point(alpha = .6) + xlab("Number of Rushes") + ylab("Yards per Attempt") + ggtitle("Effect of number of runs on YPA") + theme_538
-r_ypa <- ggplot(runner_data, aes(Ridge_Value, YPA)) + geom_point(aes(size = Runs), alpha = .6) + xlab("Ridge Regression\nCoefficient Estimates") + ylab("Yards per Attempt") + ggtitle("Ridge Regression Estimates vs Yards per Attmept") + theme_538 + theme(legend.position = c(.75,.25))
-num_r <- ggplot(runner_data, aes(Runs, Ridge_Value)) + geom_point(alpha = .6) + xlab("Number of Rushes") + ylab("Coefficient Estimate") + ggtitle("Ridge Regression Coefficient Estimates vs Number of Rushes") + theme_538
-num_lme <- ggplot(runner_data, aes(Runs, LME_Value)) + geom_point(alpha = .6) + xlab("Number of Rushes") + ylab("Coefficient Estimate") + ggtitle("Mixed Model Coefficient Estimates vs Number of Rushes") + theme_538
-lmm_ypa <- ggplot(runner_data, aes(LME_Value, YPA)) + geom_point(aes(size = Runs), alpha = .6) + xlab("Mixed Effects Model Coefficient Estimates") + ylab("Yards per Attempt") + ggtitle("Mixed Effects Model Estimates vs Yards per Attmept") + theme_538 + theme(legend.position = c(.75, .25))
-ggplot(head(arrange(runner_data, desc(LME_Value - 1.96*LME_SE)), 20)) + geom_errorbarh(aes(x = LME_Value, xmin = LME_Value - 1.96*LME_SE, xmax = LME_Value + 1.96*LME_SE, y = reorder(paste0(First.Name, " ", Last.Name), LME_Value - 1.96*LME_SE))) 
+num_ypa <- ggplot(runner_data, aes(x = Runs, y = YPA)) + 
+  geom_point(alpha = .6) + 
+  xlab("Number of Rushes") + 
+  ylab("Yards per Attempt") + 
+  ggtitle("Effect of number of runs on YPA") + 
+  theme_538
 
-top_10_runners <- runners %>% arrange(desc(LME_Value - 2*LME_SE)) %>% head(10) %>% ggplot(aes(x = LME_Value - LME_SE, y = 10:1)) + geom_text(aes(label = paste(First.Name, Last.Name))) + theme_538 + scale_x_continuous(limits = c(7.24, 8.4)) + ylab("") + ggtitle("Top 10 Runners in 2014") + xlab("Multilevel Model Coefficient Estimate") + scale_y_continuous(breaks = 10:1)
+lmm_ypa <- ggplot(runner_data, aes(LME_Value, YPA)) + 
+  geom_point(aes(size = Runs), alpha = .6) + 
+  xlab("Mixed Effects Model Coefficient Estimates") + 
+  ylab("Yards per Attempt") + 
+  ggtitle("Mixed Effects Model Estimates vs Yards per Attmept") + 
+  theme_538 + 
+  theme(legend.position = c(.75, .25))
 
-top_10_off <- teams %>% arrange(desc(LME_O_Value)) %>% head(10) %>% ggplot(aes(x = LME_O_Value, y = 10:1)) + geom_text()
+off_ypa <- runs %>% 
+  group_by(Offense.Team.Code) %>% 
+  summarize(YPA = mean(Yards)) %>% 
+  left_join(teams, by = c("Offense.Team.Code" = "Team.Code")) %>% 
+  ggplot(aes(x = LME_O_Value, y = YPA)) + 
+  geom_point() + 
+  xlab("Multilevel Model Coefficient Estimate") + 
+  ylab("Yards per Carry") + 
+  ggtitle("Multilevel Model Estimate vs YPC\n   For Offenses") + 
+  theme_538
 
-off_ypa <- runs %>% group_by(Offense.Team.Code) %>% summarize(YPA = mean(Yards)) %>% left_join(teams, by = c("Offense.Team.Code" = "Team.Code")) %>% ggplot(aes(x = LME_O_Value, y = YPA)) + geom_point() + xlab("Multilevel Model Coefficient Estimate") + ylab("Yards per Carry") + ggtitle("Multilevel Model Estimate vs YPC\n   For Offenses") + theme_538
-def_ypa <- runs %>% group_by(Defense.Team.Code) %>% summarize(YPA = mean(Yards)) %>% left_join(teams, by = c("Defense.Team.Code" = "Team.Code")) %>% ggplot(aes(x = LME_D_Value, y = YPA)) + geom_point() + xlab("Multilevel Model Coefficient Estimate") + ylab("Yards per Carry") + ggtitle("Multilevel Model Estimate vs YPC\n   For Defenses") + theme_538
+def_ypa <- runs %>% 
+  group_by(Defense.Team.Code) %>% 
+  summarize(YPA = mean(Yards)) %>% 
+  left_join(teams, by = c("Defense.Team.Code" = "Team.Code")) %>% 
+  ggplot(aes(x = LME_D_Value, y = YPA)) + 
+  geom_point() + 
+  xlab("Multilevel Model Coefficient Estimate") + 
+  ylab("Yards per Carry") + 
+  ggtitle("Multilevel Model Estimate vs YPC\n   For Defenses") + 
+  theme_538
 
