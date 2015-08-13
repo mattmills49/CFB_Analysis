@@ -75,3 +75,60 @@ model_test <- function(preds, Y){
   print(scores)
   return(list(auc_plot, cal_plot, gain_plot, dist_plot))
 }
+
+
+WOE_ <- function(x, y, bins = 10, adj = .5, incl_NA = F){
+  na_log <- is.na(x)
+  if(class(x) == "numeric" | class(x) == "integer"){
+    if(!incl_NA){
+      x_bins <- cut(x[!na_log], breaks = unique(quantile(x, probs = seq(0, 1, length.out = bins), na.rm = T)), include.lowest = T)
+      y <- y[!na_log]
+    }
+    else {
+      x_bins <- rep("NA", length(x))
+      x_bins[!na_log] <- cut(x[!na_log], breaks = unique(quantile(x, probs = seq(0, 1, length.out = bins), na.rm = T)), include.lowest = T)
+    }
+  }
+  if(class(x) == "character" | class(x) == "factor"){
+    if(!incl_NA){
+      x_bins <- as.character(x[!na_log])
+      y <- y[!na_log]
+    }
+    else {
+      x_bins <- as.character(x)
+      x_bins[na_log] <- "NA"
+    }
+  }
+  bins <- length(unique(x_bins))
+  x_tab <- prop.table(table(x_bins, y == 1) + adj, 2)
+  x_woe <- log(x_tab[, 2] / x_tab[, 1])
+  iv <- sum((x_tab[, 2] - x_tab[, 1]) * x_woe)
+  return(iv)
+}
+
+EDA <- function(df, yvar, print_plots = T){
+  if(any(is.na(df))) stop("No Missing Values Allowed")
+  num_vars <- names(df)[lapply(df, class) %>% unlist %in% c("numeric", "integer") & names(df) != yvar]
+  yvar_log <- names(df) == yvar
+  if(n_distinct(df[[yvar]]) == 2){
+    cont_vars <- gather(df[, yvar_log | names(df) %in% num_vars], Variables, Value, -eval(parse(text = yvar)))
+    hist_list <- list()
+    smooth_list <- list()
+    multi <- list()
+    for(i in seq_along(num_vars)){
+      plot_df <- data_frame(Y = df[[yvar]], X = df[[num_vars[i]]])
+      r <- max(plot_df$X) - min(plot_df$X)
+      hist_list[[i]] <- ggplot(plot_df, aes(x = X)) + geom_histogram(aes(y = ..density..), binwidth = r/20) + xlab(num_vars[i])
+      smooth_list[[i]] <- ggplot(plot_df, aes(x = X, y = Y)) + geom_point(alpha = .6) + geom_smooth(method = "gam", formula = y ~ s(x), family = "binomial") + xlab(num_vars[i]) + ylab(yvar)
+      multi[[i]] <- plot_grid(hist_list[[i]], smooth_list[[i]], labels = c("Histogram", "Variable Exploration"))
+    }
+  }
+  pdf(paste0("eda_", yvar, ".pdf"))
+  for(i in seq(1, 13, 3)){
+    arrangeGrob()
+  }
+  bquiet = lapply(multi, print)
+  dev.off()
+  ggsave("arrange2x2.pdf", do.call(marrangeGrob, c(smooth_list, list(nrow=2, ncol=2))))
+}
+
