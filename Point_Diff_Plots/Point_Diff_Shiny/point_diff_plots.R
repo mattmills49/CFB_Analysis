@@ -1,0 +1,84 @@
+#' # CFB Point Differential Charts
+#'
+#' I Have seen some great visualizations lately that show the play-by-play point differential for [the NBA](http://roadtolarissa.com/nba-minutes/) and [the NFL](https://public.tableau.com/s/gallery/nfl-2015-regular-season) and I wanted to re-create that for College Football. You can view all the source code at my github repo and a huge thanks to reddit user FuckingLoveArborDay for handling the scraping to pull the college football play by play. It's all open source and you can find the data for the 2015 season here:
+#' 
+#' I'm going to show you all the R code and will explain things as I see necessary but if you would like some further clarification please just reach out to me on twitter or email. 
+#+
+# Read in packages
+library(readr) 
+library(stringr)
+library(ggplot2) 
+library(dplyr)
+library(shiny) # only needed for the shiny app
+library(ggiraph) # only needed for interactive graphs
+options(dplyr.width = Inf)
+source("data/helper_functions.r")
+
+#' The `helper_functions.r` code contains a function called `AddTime` that estimates the time of each play in the play by play data, which only include times at the start and end of each drive. It also includes the 538 style ggplot2 theme than Austin Clemens provided [here](http://austinclemens.com/blog/2014/07/03/fivethirtyeight-com-style-graphs-in-ggplot2/). 
+#' 
+#' ### Read in the Data
+#' 
+#' For this project I only need the play by play data (`play.csv`) and the team and conference names. Also for some reason the column names have spaces in them, so I replace all of the spaces with underscores. 
+
+play_df <- read_csv(file = "data/play.csv")
+conf_df <- read_csv(file = "data/conference.csv")
+team_df <- read_csv(file = "data/team.csv")
+
+names(play_df) <- str_replace_all(names(play_df), " ", "_")
+names(conf_df) <- str_replace_all(names(conf_df), " ", "_")
+names(team_df) <- str_replace_all(names(team_df), " ", "_")
+names(team_df)[2] <- "Team_Name"
+names(conf_df)[2] <- "Conf_Name"
+
+play_df <- AddTime(play_df)
+play_df <- select(play_df, -scoreTextVector, -driveTextVector)
+
+#' Here is a sample of the play by play data
+#+ echo = F
+knitr::kable(head(select(play_df, 2:7), 4))
+
+#' In order to visualize the whole game for a team, not just when they are on offense, I need to "duplicate" each game so there are records for both teams no matter who is on offense and defense. I also want to get the actual team names instead of the codes and I want some info on the opponent to use for our interactive graphs later. 
+#+
+team_conf_df <- left_join(team_df, conf_df, by = c("Conference_Code"))
+
+games <- select(play_df, Game_Code, Offense_Team_Code, Defense_Team_Code) %>%
+  distinct %>%
+  rename(Team = Offense_Team_Code, Opponent = Defense_Team_Code) %>%
+  left_join(team_conf_df, by = c("Team" = "Team_Code")) %>%
+  left_join(select(team_conf_df, Team_Code, Team_Name, Subdivision) %>% rename(Opponent_Name = Team_Name, Opp_Sub = Subdivision), by = c("Opponent" = "Team_Code"))
+
+knitr::kable(head(select(games,1:6), 4))
+
+#' Now I can merge the game info with the play by play to have a record for each and every team. I also want to remove Kickoffs since the data records it as the team that is kicking is on offense and it make the charts look funky to switch possessions so quickly. I also want to remove overtime games and any games against FCS teams. 
+
+plot_df <- left_join(games, play_df, by = c("Game_Code")) %>%
+  filter(Play_Type != "KICKOFF", Period_Number <= 4, Subdivision != "FCS", Opp_Sub != "FCS") %>%
+  mutate(Point_Diff = ifelse(Team == Offense_Team_Code, Offense_Points - Defense_Points, Defense_Points - Offense_Points),
+         Time_Remaining = New.Clock + (4 - Period_Number) * 900,
+         Min_Elapsed = 60 - Time_Remaining / 60)
+
+# These are just for the shiny app
+conferences <- sort(unique(plot_df$Conf_Name))
+teams <- sort(unique(plot_df$Team_Name))
+
+filter(plot_df, Team_Name == "Florida State") %>%
+  ggplot(aes(x = Min_Elapsed, y = Point_Diff, group = Opponent, color = Point_Diff)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed") + theme(legend.position = "none") +
+  theme_538 +
+  scale_color_gradient2(low = "darkorange", high = "blue", mid = "grey85", midpoint = 0) +
+  ggtitle("FSU Point Differential by Minute") +
+  ylab("Point Differential") +
+  scale_x_continuous(name = "Game Time", breaks = seq(0, 60, by = 15))
+
+filter(plot_df, Conf_Name == "Atlantic Coast Conference") %>%
+  ggplot(aes(x = Min_Elapsed, y = Point_Diff, group = Opponent, color = Point_Diff)) +
+  geom_line() +
+  facet_wrap(~Team_Name, nrow = 3) +
+  geom_hline(yintercept = 0, linetype = "dashed") + theme(legend.position = "none") +
+  theme_538 +
+  scale_color_gradient2(low = "darkorange", high = "blue", mid = "grey85", midpoint = 0) +
+  ggtitle("ACC Point Differential by Minute") +
+  ylab("Point Differential") +
+  theme(strip.text = element_text(face = "bold", size = 12)) + 
+  scale_x_continuous(name = "Game Time", breaks = seq(0, 60, by = 15))
