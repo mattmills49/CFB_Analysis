@@ -7,6 +7,9 @@ library_s <- function(...){
 library_s(pROC)
 library_s(ggplot2)
 library_s(scales)
+library_s(tidyr)
+library_s(grid)
+#library_s(cowplot)
 source("~/Documents/multiplot.R")
 
 jitter_binary <- function(x, amount = .1) {
@@ -16,11 +19,11 @@ jitter_binary <- function(x, amount = .1) {
 }
 
 view <- function(x, n = 6) {
-  if(n > nrow(x)){return("WARNING: n must be larger than object")}
-  nums <- sample(nrow(x), n)
-  v <- x[nums, ]
-  row.names(v) <- as.character(nums)
-  print.data.frame(v)
+  if("data.frame" %in% class(x)){
+    if(n > nrow(x)){return("WARNING: n must be larger than object")}
+    x %>% sample_n(n) %>% tbl_df %>% print
+  }
+  else sample(x, size = n)
 }
 
 in_ <- function(x, table){
@@ -43,92 +46,61 @@ deciles <- function(x, na_log = F){
   return(v)
 }
 
-model_test <- function(preds, Y){
-  vals <- data_frame(Predictions = preds, Actual = Y)
-  
-  vals$Groups <- cut(x = vals$Predictions, breaks = seq(0, 1, .05))
-  cal_data <- vals %>% group_by(Groups) %>% summarize(Mean_Prediction = mean(Predictions), Mean_Actual = mean(Actual))
-  cal_plot <- ggplot(aes(x = Mean_Prediction, y = Mean_Actual), data = cal_data) + geom_line(size = 2, color = "blue") + geom_abline(a = 1, b = 0, linetype = "dashed", color = "grey") + ggtitle("Calibration Plot") + xlab("Predicted Probability") + ylab("Actual Probability") + scale_y_continuous(labels = percent) + scale_x_continuous(labels = percent)
-  
-  roc_info <- roc(response = Y, predictor = preds)
-  roc_data <- data_frame(Sensitivity = roc_info$sensitivities, Specificity = roc_info$specificities)
-  auc_plot <- ggplot(aes(x = 1 - Sensitivity, y = Specificity), data = roc_data) + geom_line(size = 2, color = "blue") + geom_abline(a = 1, b = 0, linetype = "dashed", color = "grey") + annotate("text", x = .75, y = .25, label = paste0("AUC = ", round(roc_info$auc[1], 2))) + ggtitle("AUC Plot")
-  
-  values <- preds %>% round(3) %>% table %>% rev %>% names %>% as.numeric
-  pct_pos <- sapply(values,function(x) sum(Y[preds >= x] == 1)/(sum(Y == 1)))
-  pct_neg <- sapply(values,function(x) sum(Y[preds >= x] == 0)/(sum(Y == 0)))
-  nums <- preds %>% round(3) %>% table %>% rev %>% cumsum
-  info <- data.frame(Values = values,
-                     Number_of_Values = nums/max(nums),
-                     Pct_of_Yes = pct_pos,
-                     Pct_of_No = pct_neg)
-  k_s <- max(info$Pct_of_Yes - info$Pct_of_No)*100
-  where <- which.max(info$Pct_of_Yes - info$Pct_of_No)
-  locsdata <- with(info, data_frame(a = Number_of_Values[where], b = Pct_of_Yes[where], c = Pct_of_No[where]))
-  
-  gain_plot <- ggplot() + geom_line(aes(x = Number_of_Values, y = Pct_of_Yes), data = info, color = "blue", size = 2) + geom_line(aes(x = Number_of_Values, y = Pct_of_No), data = info, color = "red", size = 2) + geom_segment(aes(x = a, xend = a, y = b, yend = c), linetype = "dashed", data = locsdata) + xlab("Percentage of Population") + ylab("Percentage of Yes") + ggtitle("Gain Plot") + scale_x_continuous(labels = percent, breaks = seq(0, 1, .1)) + scale_y_continuous(labels = percent) + geom_text(aes(x = a, y = b/2 + c/2), data = locsdata, label = paste0("K-S = ", round(k_s,2)))
-  
-  dist_plot <- ggplot(aes(x = Predictions), data = vals) + geom_density(aes(fill = as.factor(Actual)), alpha = .8) + xlab("Predictied No Show Probability") + ggtitle("Distribution of Scores") + theme(legend.position = "top") + scale_fill_discrete(name = "No Show")
-  
-  scores <- round(c(roc_info$auc, sqrt(mean((vals$Predictions - vals$Actual)^2)), k_s),3)
-  names(scores) <- c("AUC", "RMSE", "K-S")
-  print(scores)
-  return(list(auc_plot, cal_plot, gain_plot, dist_plot))
+how_many_nas <- function(x){
+  if("data.frame" %in% class(x)){
+    lapply(x, function(y) sum(is.na(y))) %>% unlist
+  } else if(is.vector(x)){
+    sum(is.na(x))
+  } else stop("x is not a data.frame or vector")
 }
 
-
-WOE_ <- function(x, y, bins = 10, adj = .5, incl_NA = F){
-  na_log <- is.na(x)
-  if(class(x) == "numeric" | class(x) == "integer"){
-    if(!incl_NA){
-      x_bins <- cut(x[!na_log], breaks = unique(quantile(x, probs = seq(0, 1, length.out = bins), na.rm = T)), include.lowest = T)
-      y <- y[!na_log]
-    }
-    else {
-      x_bins <- rep("NA", length(x))
-      x_bins[!na_log] <- cut(x[!na_log], breaks = unique(quantile(x, probs = seq(0, 1, length.out = bins), na.rm = T)), include.lowest = T)
-    }
-  }
-  if(class(x) == "character" | class(x) == "factor"){
-    if(!incl_NA){
-      x_bins <- as.character(x[!na_log])
-      y <- y[!na_log]
-    }
-    else {
-      x_bins <- as.character(x)
-      x_bins[na_log] <- "NA"
-    }
-  }
-  bins <- length(unique(x_bins))
-  x_tab <- prop.table(table(x_bins, y == 1) + adj, 2)
-  x_woe <- log(x_tab[, 2] / x_tab[, 1])
-  iv <- sum((x_tab[, 2] - x_tab[, 1]) * x_woe)
-  return(iv)
+col_classes <- function(df){
+  stopifnot("data.frame" %in% class(df))
+  unlist(lapply(df, class))
 }
 
-EDA <- function(df, yvar, print_plots = T){
-  if(any(is.na(df))) stop("No Missing Values Allowed")
-  num_vars <- names(df)[lapply(df, class) %>% unlist %in% c("numeric", "integer") & names(df) != yvar]
-  yvar_log <- names(df) == yvar
-  if(n_distinct(df[[yvar]]) == 2){
-    cont_vars <- gather(df[, yvar_log | names(df) %in% num_vars], Variables, Value, -eval(parse(text = yvar)))
-    hist_list <- list()
-    smooth_list <- list()
-    multi <- list()
-    for(i in seq_along(num_vars)){
-      plot_df <- data_frame(Y = df[[yvar]], X = df[[num_vars[i]]])
-      r <- max(plot_df$X) - min(plot_df$X)
-      hist_list[[i]] <- ggplot(plot_df, aes(x = X)) + geom_histogram(aes(y = ..density..), binwidth = r/20) + xlab(num_vars[i])
-      smooth_list[[i]] <- ggplot(plot_df, aes(x = X, y = Y)) + geom_point(alpha = .6) + geom_smooth(method = "gam", formula = y ~ s(x), family = "binomial") + xlab(num_vars[i]) + ylab(yvar)
-      multi[[i]] <- plot_grid(hist_list[[i]], smooth_list[[i]], labels = c("Histogram", "Variable Exploration"))
-    }
-  }
-  pdf(paste0("eda_", yvar, ".pdf"))
-  for(i in seq(1, 13, 3)){
-    arrangeGrob()
-  }
-  bquiet = lapply(multi, print)
-  dev.off()
-  ggsave("arrange2x2.pdf", do.call(marrangeGrob, c(smooth_list, list(nrow=2, ncol=2))))
+safe.ifelse <- function(cond, yes, no) structure(ifelse(cond, yes, no), class = class(yes))
+
+phist <- function(yval, binwidth = NULL,...){
+  df <- data_frame(yval)
+  ggplot(df, aes(x = yval)) + geom_bar(aes(y = (..count..) / sum(..count..)), binwidth = binwidth,...) + ylab("Percent of Observations") + scale_y_continuous(labels = function(x) paste0(x*100, "%"))
+}
+  
+venn <- function(vec1, vec2){
+  both <- intersect(vec1, vec2)
+  not_in_2 <- vec1[!(vec1 %in% vec2)]
+  not_in_1 <- vec2[!(vec2 %in% vec1)]
+  return(list("Not in 2" = not_in_2, 
+              "Not in 1" = not_in_1, 
+              "In Both" = both, 
+              "Num_Summary" = c("Num Items 1" = length(vec1), 
+                                "Num Items 2" = length(vec2),
+                                "Num Only in 1" = length(not_in_2), 
+                                "Num Only in 2" = length(not_in_1),
+                                "Num in Both" = length(both))))
 }
 
+theme_538 <- theme_bw() +
+  # Set the entire chart region to a light gray color
+  theme(panel.background=element_rect(fill="#F0F0F0")) +
+  theme(plot.background=element_rect(fill="#F0F0F0")) +
+  theme(panel.border=element_rect(colour="#F0F0F0")) +
+  # Format the grid
+  theme(panel.grid.major=element_line(colour="#D0D0D0",size=.75)) +
+  theme(axis.ticks=element_blank()) +
+  # Set title and axis labels, and format these and tick marks
+  theme(plot.title=element_text(face="bold",hjust=-.08,vjust=2,colour="#3C3C3C",size=18)) +
+  theme(axis.text.x=element_text(size=10,colour="#535353",face="bold")) +
+  theme(axis.text.y=element_text(size=10,colour="#535353",face="bold")) +
+  theme(axis.title.y=element_text(size=14,colour="#535353",face="bold",vjust=1.5)) +
+  theme(axis.title.x=element_text(size=14,colour="#535353",face="bold",vjust=-.5)) +
+  # Big bold line at y=0
+  # Plot margins and finally line annotations
+  theme(plot.margin = unit(c(1, 1, .5, .7), "cm"))
+
+rand.int <- function(n, min = 1, max = 10) sample(seq(min, max, by = 1), size = n, replace = T)
+
+ypec <- scale_y_continuous(labels = function(x) paste0(x * 100, "%"))
+xpec <- scale_x_continuous(labels = function(x) paste0(x * 100, "%"))
+yperc <- ypec
+xperc <- xpec
