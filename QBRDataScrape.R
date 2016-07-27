@@ -6,6 +6,7 @@ library(ggplot2)
 library(stringr)
 library(magrittr)
 library(purrr)
+library(tidyr)
 library(dplyr)
 options(dplyr.width = Inf)
 
@@ -62,26 +63,49 @@ losing_points <- str_extract_all(qbr_data$RESULT, "[0-9]+") %>% map_chr(~ .x[2])
 qbr_data$Points_For <- ifelse(qbr_data$Win == "W", winning_points, losing_points) # There is probably a better way to do this but I couldn't think of one immediately
 
 # save(qbr_data, file = "~/Documents/qbr_data.rdata")
-plot_qbr <- function(qbname = "Deshaun Watson", qbr_data, color1 = "darkorange", color2 = "purple4"){
+# load("~/Documents/qbr_data.rdata")
+
+plot_qbr <- function(qbname, qbr_data, color1 = "darkorange", color2 = "purple4", yval = "PASS_EPA"){
+  stopifnot(yval %in% names(qbr_data))
   qb_perf <- qbr_data %>% 
     filter(QB == qbname) %>%
     mutate(Opponent = factor(Opponent, levels = unique(Opponent[order(Week)])))
+  qb_perf$Yval <- qb_perf[[yval]]
   
   qb_def <- qbr_data %>% 
     group_by(Opponent) %>%
     filter(any(QB == qbname)) %>%
     ungroup %>%
     mutate(Opponent = factor(Opponent, levels = qb_perf$Opponent))
+  qb_def$Yval <- qb_def[[yval]]
+  
+  avg_def <- select(qb_def, Opponent, ACT_PLAYS, QB) %>% filter(QB != qbname) 
+  avg_def$avg_val <- qb_def$Yval
+  avg_def <- group_by(avg_def, Opponent) %>% summarize(avg_val = weighted.mean(x = avg_val, w = ACT_PLAYS))
   
   qb_plot <- ggplot() +
-    geom_point(aes(x = Opponent, y = RAW_QBR, size = ACT_PLAYS, alpha = ACT_PLAYS), data = qb_def) + 
-    geom_point(aes(x = Opponent, y = RAW_QBR), size = 6, color = color1, data = qb_perf) +
-    geom_point(aes(x = Opponent, y = RAW_QBR), size = 4, color = color2, data = qb_perf) +
+    geom_point(aes(x = Opponent, y = Yval, size = ACT_PLAYS, alpha = ACT_PLAYS), data = qb_def) + 
+    geom_point(aes(x = Opponent, y = Yval), size = 6, color = color1, data = qb_perf) +
+    geom_point(aes(x = Opponent, y = Yval), size = 4, color = color2, data = qb_perf) +
+    geom_segment(aes(x = Opponent - .25, xend = Opponent + .25, y = avg_val, yend = avg_val), color = "red", data = avg_def) +
     xlab("") +
-    ylab("Raw QBR") +
-    ggtitle(str_c(qbname, "'s QBR Performance by Week")) +
+    ylab(yval) +
+    ggtitle(str_c(qbname, "'s ", yval, " Performance by Week")) +
     coord_flip() +
     theme(axis.text.y = element_text(face = "bold", size = 16), legend.position = "none")
     
   return(qb_plot)
 }
+
+DW_Opponent <- qbr_data %>%
+  group_by(Opponent) %>%
+  filter(any(QB == "Deshaun Watson")) %>%
+  ungroup %>%
+  mutate(QB_color = ifelse(QB == "Deshaun Watson", "Deshaun Watson", "Other"))
+
+opp_order <- with(DW_Opponent, Opponent[QB == "Deshaun Watson"][order(Week[QB == "Deshaun Watson"])])
+
+library(rbokeh)
+qbr_plot <- figure(legend_location = "bottom_left", title = "Deshuan Watson's Raw QBR by Game", xlab = "Opponent", ylab = "Raw QBR") %>% ly_points(x = Opponent, y = RAW_QBR, data = DW_Opponent, color = QB_color, size = ACT_PLAYS / 3, hover = '<br>@QB, @Team</br><br>RAW_QBR: @RAW_QBR</br>') %>% x_range(dat = opp_order)
+qbr_plot <- figure(legend_location = "bottom_left", title = "Deshuan Watson's Raw QBR by Game", xlab = "Opponent", ylab = "Raw QBR") %>% ly_points(x = Opponent, y = RAW_QBR, data = DW_Opponent, color = QB_color, size = ACT_PLAYS / 3)
+rbokeh2html(qbr_plot, file = "~/Documents/deshaun_plot.html")
