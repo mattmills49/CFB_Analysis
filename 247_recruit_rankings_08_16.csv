@@ -1,1145 +1,1145 @@
-"Team","Recruits","Total_Points","Conference","Year"
-"Miami",32,291.27,"ACC","2008"
-"Clemson",23,261.1,"ACC","2008"
-"Florida State",29,254.37,"ACC","2008"
-"Pittsburgh",22,221.09,"ACC","2008"
-"Virginia Tech",31,213.6,"ACC","2008"
-"N.C. State",26,211.96,"ACC","2008"
-"North Carolina",20,200.76,"ACC","2008"
-"Boston College",32,181.2,"ACC","2008"
-"Louisville",25,165.71,"ACC","2008"
-"Georgia Tech",21,162,"ACC","2008"
-"Syracuse",23,155.4,"ACC","2008"
-"Virginia",36,143.74,"ACC","2008"
-"Wake Forest",18,141.14,"ACC","2008"
-"Duke",16,133.91,"ACC","2008"
-"Oklahoma",23,285.17,"Big-12","2008"
-"Texas",21,266.14,"Big-12","2008"
-"Texas A&M",20,222.56,"Big-12","2008"
-"Missouri",25,197.85,"Big-12","2008"
-"Oklahoma State",28,196.5,"Big-12","2008"
-"Kansas State",33,193.72,"Big-12","2008"
-"Kansas",18,174.67,"Big-12","2008"
-"West Virginia",30,164.99,"Big-12","2008"
-"Baylor",21,150.37,"Big-12","2008"
-"Iowa State",24,147.72,"Big-12","2008"
-"TCU",18,122.35,"Big-12","2008"
-"Texas Tech",11,120.6,"Big-12","2008"
-"Memphis",21,143.07,"AAC","2008"
-"UCF",21,142.99,"AAC","2008"
-"USF",27,135.49,"AAC","2008"
-"Tulsa",26,125.49,"AAC","2008"
-"SMU",30,123.76,"AAC","2008"
-"Temple",26,121.69,"AAC","2008"
-"Houston",20,120.47,"AAC","2008"
-"Connecticut",21,118.35,"AAC","2008"
-"East Carolina",20,108.73,"AAC","2008"
-"Tulane",19,95.09,"AAC","2008"
-"Cincinnati",21,92.13,"AAC","2008"
-"Ohio State",21,269.61,"Big-Ten","2008"
-"Michigan",24,256.91,"Big-Ten","2008"
-"Illinois",27,211.64,"Big-Ten","2008"
-"Nebraska",47,205.91,"Big-Ten","2008"
-"Minnesota",29,203.93,"Big-Ten","2008"
-"Penn State",17,188.51,"Big-Ten","2008"
-"Wisconsin",26,184.77,"Big-Ten","2008"
-"Rutgers",21,172.92,"Big-Ten","2008"
-"Michigan State",37,171.28,"Big-Ten","2008"
-"Maryland",15,168.8,"Big-Ten","2008"
-"Iowa",33,160.55,"Big-Ten","2008"
-"Purdue",27,156.89,"Big-Ten","2008"
-"Northwestern",20,135.68,"Big-Ten","2008"
-"Indiana",20,134.98,"Big-Ten","2008"
-"Southern Miss",27,183.03,"C-USA","2008"
-"North Texas",26,148.47,"C-USA","2008"
-"Middle Tennessee State",26,142.87,"C-USA","2008"
-"Marshall",21,137.56,"C-USA","2008"
-"Louisiana Tech",21,113.68,"C-USA","2008"
-"FIU",24,112.65,"C-USA","2008"
-"Rice",19,104.04,"C-USA","2008"
-"UAB",26,103.96,"C-USA","2008"
-"Western Kentucky",1,0,"C-USA","2008"
-"UTEP",1,0,"C-USA","2008"
-"Notre Dame",34,294.67,"IND","2008"
-"Brigham Young",23,172.24,"IND","2008"
-"Navy",18,73.09,"IND","2008"
-"Army",25,66.25,"IND","2008"
-"Toledo",23,119.27,"MAC","2008"
-"Ohio",20,109.93,"MAC","2008"
-"Kent State",24,105.4,"MAC","2008"
-"Western Michigan",24,103.75,"MAC","2008"
-"Akron",21,103.68,"MAC","2008"
-"Miami (OH)",18,101.49,"MAC","2008"
-"Central Michigan",23,94.17,"MAC","2008"
-"Ball State",21,84.93,"MAC","2008"
-"Eastern Michigan",23,79.64,"MAC","2008"
-"Bowling Green",17,74.91,"MAC","2008"
-"Buffalo",19,72.01,"MAC","2008"
-"Northern Illinois",14,65.4,"MAC","2008"
-"Massachusetts",1,0,"MAC","2008"
-"Fresno State",24,140.29,"M-West","2008"
-"Hawaii",23,121.43,"M-West","2008"
-"Boise State",18,119.06,"M-West","2008"
-"San Diego State",20,110.98,"M-West","2008"
-"Colorado State",24,109.46,"M-West","2008"
-"Nevada",25,107.14,"M-West","2008"
-"New Mexico",23,106.1,"M-West","2008"
-"Wyoming",22,103.13,"M-West","2008"
-"UNLV",22,101.14,"M-West","2008"
-"San Jose State",16,80.98,"M-West","2008"
-"Utah State",20,78.64,"M-West","2008"
-"Air Force",4,23.97,"M-West","2008"
-"USC",20,285.58,"Pac-12","2008"
-"UCLA",23,248.32,"Pac-12","2008"
-"Colorado",22,225.54,"Pac-12","2008"
-"Washington",26,219.25,"Pac-12","2008"
-"Arizona State",28,218.44,"Pac-12","2008"
-"Oregon",24,208.93,"Pac-12","2008"
-"Arizona",22,198.32,"Pac-12","2008"
-"California",22,197.94,"Pac-12","2008"
-"Stanford",17,171.07,"Pac-12","2008"
-"Oregon State",19,160.03,"Pac-12","2008"
-"Utah",15,147.72,"Pac-12","2008"
-"Washington State",27,137.8,"Pac-12","2008"
-"Alabama",32,289.05,"SEC","2008"
-"Florida",22,280.69,"SEC","2008"
-"Georgia",25,279.12,"SEC","2008"
-"LSU",25,255.34,"SEC","2008"
-"Auburn",35,207.35,"SEC","2008"
-"Arkansas",29,201.01,"SEC","2008"
-"Ole Miss",31,198.37,"SEC","2008"
-"Tennessee",18,196.12,"SEC","2008"
-"South Carolina",29,191.52,"SEC","2008"
-"Mississippi State",24,161.26,"SEC","2008"
-"Kentucky",19,148.93,"SEC","2008"
-"Vanderbilt",21,116.91,"SEC","2008"
-"Troy",28,141.37,"SBC","2008"
-"Louisiana-Monroe",21,113.43,"SBC","2008"
-"New Mexico State",19,93.71,"SBC","2008"
-"Idaho",22,84.6,"SBC","2008"
-"Arkansas State",24,82.13,"SBC","2008"
-"Louisiana-Lafayette",23,81.53,"SBC","2008"
-"Appalachian State",1,0,"SBC","2008"
-"North Carolina",28,254.96,"ACC","2009"
-"Florida State",25,251.48,"ACC","2009"
-"Miami",18,236.28,"ACC","2009"
-"Virginia Tech",24,217.55,"ACC","2009"
-"Clemson",15,202.9,"ACC","2009"
-"Virginia",34,195.7,"ACC","2009"
-"Pittsburgh",20,191.37,"ACC","2009"
-"Georgia Tech",27,190.16,"ACC","2009"
-"N.C. State",27,176.3,"ACC","2009"
-"Duke",28,169.28,"ACC","2009"
-"Louisville",29,161.45,"ACC","2009"
-"Wake Forest",23,155.33,"ACC","2009"
-"Boston College",22,146.56,"ACC","2009"
-"Syracuse",16,115.21,"ACC","2009"
-"Texas",20,269.94,"Big-12","2009"
-"Oklahoma",22,258.53,"Big-12","2009"
-"West Virginia",29,220.6,"Big-12","2009"
-"Texas A&M",30,215.79,"Big-12","2009"
-"Missouri",26,197.24,"Big-12","2009"
-"Oklahoma State",26,196.88,"Big-12","2009"
-"Texas Tech",24,195.65,"Big-12","2009"
-"Kansas",26,181.34,"Big-12","2009"
-"TCU",21,178.83,"Big-12","2009"
-"Baylor",30,173.24,"Big-12","2009"
-"Iowa State",23,144.6,"Big-12","2009"
-"Kansas State",24,134.98,"Big-12","2009"
-"USF",29,211.06,"AAC","2009"
-"Cincinnati",26,167.1,"AAC","2009"
-"SMU",27,159.36,"AAC","2009"
-"Tulsa",26,153.91,"AAC","2009"
-"UCF",21,152.97,"AAC","2009"
-"Houston",25,151.26,"AAC","2009"
-"Connecticut",21,138.56,"AAC","2009"
-"Tulane",27,136.2,"AAC","2009"
-"Memphis",24,128.94,"AAC","2009"
-"East Carolina",19,118.94,"AAC","2009"
-"Temple",29,82.92,"AAC","2009"
-"Ohio State",36,280.19,"Big-Ten","2009"
-"Michigan",22,255.78,"Big-Ten","2009"
-"Penn State",25,228.51,"Big-Ten","2009"
-"Michigan State",41,211.36,"Big-Ten","2009"
-"Maryland",30,205.49,"Big-Ten","2009"
-"Illinois",24,203.37,"Big-Ten","2009"
-"Rutgers",23,195.55,"Big-Ten","2009"
-"Minnesota",23,194.32,"Big-Ten","2009"
-"Nebraska",34,189.97,"Big-Ten","2009"
-"Wisconsin",25,186.31,"Big-Ten","2009"
-"Northwestern",19,157.34,"Big-Ten","2009"
-"Indiana",20,151.49,"Big-Ten","2009"
-"Iowa",22,151.17,"Big-Ten","2009"
-"Purdue",21,146.62,"Big-Ten","2009"
-"Southern Miss",26,172.99,"C-USA","2009"
-"UAB",29,138.66,"C-USA","2009"
-"FIU",28,134.35,"C-USA","2009"
-"Louisiana Tech",26,133.35,"C-USA","2009"
-"Rice",24,122.23,"C-USA","2009"
-"Marshall",24,120.98,"C-USA","2009"
-"Middle Tennessee State",26,119.58,"C-USA","2009"
-"North Texas",20,110.08,"C-USA","2009"
-"Florida Atlantic",2,0,"C-USA","2009"
-"Western Kentucky",1,0,"C-USA","2009"
-"Notre Dame",21,240.45,"IND","2009"
-"Brigham Young",21,174.45,"IND","2009"
-"Army",49,79.82,"IND","2009"
-"Navy",6,33.97,"IND","2009"
-"Central Michigan",30,134.79,"MAC","2009"
-"Toledo",23,121.42,"MAC","2009"
-"Kent State",23,120.63,"MAC","2009"
-"Miami (OH)",24,117.77,"MAC","2009"
-"Western Michigan",26,114.02,"MAC","2009"
-"Akron",24,113.13,"MAC","2009"
-"Bowling Green",23,112.02,"MAC","2009"
-"Northern Illinois",25,104.08,"MAC","2009"
-"Eastern Michigan",21,102.88,"MAC","2009"
-"Ohio",21,97.25,"MAC","2009"
-"Buffalo",24,84.89,"MAC","2009"
-"Massachusetts",2,0,"MAC","2009"
-"Boise State",22,150.36,"M-West","2009"
-"Hawaii",29,143.61,"M-West","2009"
-"UNLV",21,124.66,"M-West","2009"
-"Fresno State",17,123.08,"M-West","2009"
-"Colorado State",21,114.19,"M-West","2009"
-"Nevada",19,113.49,"M-West","2009"
-"San Diego State",20,113.34,"M-West","2009"
-"Wyoming",24,110.89,"M-West","2009"
-"New Mexico",18,94.38,"M-West","2009"
-"Air Force",22,91.94,"M-West","2009"
-"Utah State",20,87.65,"M-West","2009"
-"San Jose State",2,3.33,"M-West","2009"
-"USC",18,285.69,"Pac-12","2009"
-"UCLA",31,255.36,"Pac-12","2009"
-"Stanford",23,229.23,"Pac-12","2009"
-"Oregon",37,207.52,"Pac-12","2009"
-"California",21,199.41,"Pac-12","2009"
-"Arizona State",22,199.28,"Pac-12","2009"
-"Utah",24,181.72,"Pac-12","2009"
-"Colorado",21,176.52,"Pac-12","2009"
-"Oregon State",25,174.97,"Pac-12","2009"
-"Arizona",20,171.06,"Pac-12","2009"
-"Washington State",21,157.94,"Pac-12","2009"
-"Washington",20,145.38,"Pac-12","2009"
-"LSU",25,291.33,"SEC","2009"
-"Alabama",28,285.91,"SEC","2009"
-"Georgia",21,279.41,"SEC","2009"
-"Florida",18,264.61,"SEC","2009"
-"Tennessee",21,261.61,"SEC","2009"
-"South Carolina",36,250.02,"SEC","2009"
-"Ole Miss",37,227.81,"SEC","2009"
-"Mississippi State",32,226.44,"SEC","2009"
-"Arkansas",42,224.58,"SEC","2009"
-"Auburn",28,218.28,"SEC","2009"
-"Kentucky",28,188.55,"SEC","2009"
-"Vanderbilt",18,147.2,"SEC","2009"
-"Troy",41,158.31,"SBC","2009"
-"Louisiana-Monroe",28,109.38,"SBC","2009"
-"New Mexico State",18,84.96,"SBC","2009"
-"Arkansas State",20,83.81,"SBC","2009"
-"Louisiana-Lafayette",17,82.82,"SBC","2009"
-"Idaho",20,77.63,"SBC","2009"
-"Georgia Southern",1,0,"SBC","2009"
-"Texas State",2,0,"SBC","2009"
-"Georgia State",15,0,"SBC","2009"
-"Appalachian State",3,0,"SBC","2009"
-"South Alabama",10,0,"SBC","2009"
-"Florida State",29,265.39,"ACC","2010"
-"Miami",30,242,"ACC","2010"
-"North Carolina",22,215.81,"ACC","2010"
-"Clemson",24,209.53,"ACC","2010"
-"Pittsburgh",24,205.26,"ACC","2010"
-"Virginia Tech",21,203.77,"ACC","2010"
-"N.C. State",24,197.88,"ACC","2010"
-"Georgia Tech",28,191.03,"ACC","2010"
-"Louisville",28,184.8,"ACC","2010"
-"Boston College",26,181.41,"ACC","2010"
-"Virginia",37,163.05,"ACC","2010"
-"Wake Forest",23,160.75,"ACC","2010"
-"Syracuse",34,160.09,"ACC","2010"
-"Duke",24,155.98,"ACC","2010"
-"Texas",24,311.49,"Big-12","2010"
-"Oklahoma",31,281.85,"Big-12","2010"
-"Texas A&M",26,227.22,"Big-12","2010"
-"Missouri",25,218.93,"Big-12","2010"
-"West Virginia",21,206.79,"Big-12","2010"
-"Oklahoma State",28,204.94,"Big-12","2010"
-"Texas Tech",31,197.13,"Big-12","2010"
-"Baylor",30,193.35,"Big-12","2010"
-"TCU",18,170.47,"Big-12","2010"
-"Kansas",25,167.21,"Big-12","2010"
-"Iowa State",31,161.08,"Big-12","2010"
-"Kansas State",24,149.68,"Big-12","2010"
-"UCF",26,173.47,"AAC","2010"
-"Cincinnati",25,170.83,"AAC","2010"
-"USF",20,170.82,"AAC","2010"
-"Houston",28,165.99,"AAC","2010"
-"Memphis",40,161.97,"AAC","2010"
-"SMU",27,151.48,"AAC","2010"
-"Tulsa",26,147.92,"AAC","2010"
-"Connecticut",21,139.41,"AAC","2010"
-"East Carolina",22,134.55,"AAC","2010"
-"Temple",27,129.54,"AAC","2010"
-"Tulane",26,123.29,"AAC","2010"
-"Penn State",18,249.19,"Big-Ten","2010"
-"Ohio State",20,233.61,"Big-Ten","2010"
-"Michigan",28,232.13,"Big-Ten","2010"
-"Michigan State",35,220.4,"Big-Ten","2010"
-"Nebraska",41,211.15,"Big-Ten","2010"
-"Maryland",25,195.39,"Big-Ten","2010"
-"Iowa",31,193.59,"Big-Ten","2010"
-"Wisconsin",36,184.46,"Big-Ten","2010"
-"Rutgers",25,174.25,"Big-Ten","2010"
-"Purdue",27,173.57,"Big-Ten","2010"
-"Minnesota",27,167.16,"Big-Ten","2010"
-"Illinois",33,166.62,"Big-Ten","2010"
-"Northwestern",17,161.49,"Big-Ten","2010"
-"Indiana",26,152.24,"Big-Ten","2010"
-"Southern Miss",27,169.74,"C-USA","2010"
-"Marshall",28,147.09,"C-USA","2010"
-"Louisiana Tech",23,133.05,"C-USA","2010"
-"FIU",19,131.82,"C-USA","2010"
-"UAB",28,130.93,"C-USA","2010"
-"UTEP",24,129.16,"C-USA","2010"
-"Rice",17,123.36,"C-USA","2010"
-"Western Kentucky",16,107.11,"C-USA","2010"
-"Middle Tennessee State",22,89.91,"C-USA","2010"
-"North Texas",20,82.95,"C-USA","2010"
-"Florida Atlantic",10,61.25,"C-USA","2010"
-"Old Dominion",4,0,"C-USA","2010"
-"Notre Dame",25,232.42,"IND","2010"
-"Brigham Young",26,205.87,"IND","2010"
-"Army",47,94.48,"IND","2010"
-"Navy",7,36.32,"IND","2010"
-"Kent State",23,131.18,"MAC","2010"
-"Bowling Green",27,130.29,"MAC","2010"
-"Toledo",24,126.68,"MAC","2010"
-"Western Michigan",25,124.47,"MAC","2010"
-"Ball State",24,122.55,"MAC","2010"
-"Akron",24,121.35,"MAC","2010"
-"Miami (OH)",23,121.03,"MAC","2010"
-"Northern Illinois",26,116.43,"MAC","2010"
-"Central Michigan",21,113.29,"MAC","2010"
-"Buffalo",22,112.35,"MAC","2010"
-"Eastern Michigan",22,101.95,"MAC","2010"
-"Ohio",17,93.38,"MAC","2010"
-"Fresno State",20,153.44,"M-West","2010"
-"San Diego State",27,150.56,"M-West","2010"
-"New Mexico",19,144.25,"M-West","2010"
-"Colorado State",32,143.93,"M-West","2010"
-"Hawaii",32,132.38,"M-West","2010"
-"Nevada",29,128.93,"M-West","2010"
-"San Jose State",25,128.29,"M-West","2010"
-"UNLV",20,124.77,"M-West","2010"
-"Wyoming",25,123.36,"M-West","2010"
-"Utah State",30,109.53,"M-West","2010"
-"Boise State",13,104.16,"M-West","2010"
-"Air Force",2,24.1,"M-West","2010"
-"USC",21,293.22,"Pac-12","2010"
-"UCLA",28,262.1,"Pac-12","2010"
-"Oregon",26,243.37,"Pac-12","2010"
-"Washington",33,230.56,"Pac-12","2010"
-"California",18,223.44,"Pac-12","2010"
-"Stanford",24,214.19,"Pac-12","2010"
-"Arizona State",26,196.93,"Pac-12","2010"
-"Utah",22,186.17,"Pac-12","2010"
-"Arizona",27,178.73,"Pac-12","2010"
-"Washington State",25,169.34,"Pac-12","2010"
-"Oregon State",19,167.99,"Pac-12","2010"
-"Colorado",23,166.98,"Pac-12","2010"
-"Florida",30,323.66,"SEC","2010"
-"Alabama",26,281.31,"SEC","2010"
-"Auburn",43,274.03,"SEC","2010"
-"LSU",27,263.7,"SEC","2010"
-"Tennessee",28,262.7,"SEC","2010"
-"Georgia",28,251.11,"SEC","2010"
-"Ole Miss",27,218.17,"SEC","2010"
-"South Carolina",29,213.28,"SEC","2010"
-"Mississippi State",29,203.86,"SEC","2010"
-"Arkansas",37,192.11,"SEC","2010"
-"Kentucky",28,178.93,"SEC","2010"
-"Vanderbilt",25,171.87,"SEC","2010"
-"Idaho",26,137.29,"SBC","2010"
-"Arkansas State",26,128.72,"SBC","2010"
-"New Mexico State",21,120.9,"SBC","2010"
-"Troy",29,114.01,"SBC","2010"
-"Louisiana-Lafayette",23,84.21,"SBC","2010"
-"Louisiana-Monroe",20,83.34,"SBC","2010"
-"Georgia Southern",2,13.33,"SBC","2010"
-"Georgia State",14,0,"SBC","2010"
-"South Alabama",12,0,"SBC","2010"
-"Appalachian State",2,0,"SBC","2010"
-"Texas State",1,0,"SBC","2010"
-"Florida State",29,296.41,"ACC","2011"
-"Clemson",31,269.16,"ACC","2011"
-"North Carolina",26,230.93,"ACC","2011"
-"Virginia",27,221,"ACC","2011"
-"Louisville",22,208.34,"ACC","2011"
-"Miami",21,198.68,"ACC","2011"
-"Virginia Tech",22,190.68,"ACC","2011"
-"Boston College",26,180.05,"ACC","2011"
-"Georgia Tech",22,174.84,"ACC","2011"
-"Syracuse",29,157.74,"ACC","2011"
-"Duke",20,149.33,"ACC","2011"
-"Pittsburgh",21,148.73,"ACC","2011"
-"Wake Forest",16,141.84,"ACC","2011"
-"N.C. State",20,136.6,"ACC","2011"
-"Texas",22,283.61,"Big-12","2011"
-"Oklahoma",18,256.21,"Big-12","2011"
-"Texas Tech",36,231.9,"Big-12","2011"
-"Oklahoma State",27,213.53,"Big-12","2011"
-"TCU",26,207.48,"Big-12","2011"
-"Texas A&M",22,195.86,"Big-12","2011"
-"Kansas",32,178.77,"Big-12","2011"
-"Baylor",25,170.16,"Big-12","2011"
-"West Virginia",24,164.85,"Big-12","2011"
-"Kansas State",27,163.66,"Big-12","2011"
-"Missouri",14,158.06,"Big-12","2011"
-"Iowa State",23,154.28,"Big-12","2011"
-"Cincinnati",24,167.47,"AAC","2011"
-"UCF",26,159.43,"AAC","2011"
-"SMU",27,144.35,"AAC","2011"
-"USF",21,141.95,"AAC","2011"
-"East Carolina",26,139,"AAC","2011"
-"Houston",22,134.24,"AAC","2011"
-"Memphis",40,122.3,"AAC","2011"
-"Tulsa",21,113.11,"AAC","2011"
-"Connecticut",17,112.7,"AAC","2011"
-"Tulane",22,110.8,"AAC","2011"
-"Temple",20,93.23,"AAC","2011"
-"Ohio State",26,278.08,"Big-Ten","2011"
-"Nebraska",21,245.6,"Big-Ten","2011"
-"Michigan",20,210.78,"Big-Ten","2011"
-"Iowa",27,208.64,"Big-Ten","2011"
-"Rutgers",23,206.28,"Big-Ten","2011"
-"Penn State",21,201.4,"Big-Ten","2011"
-"Michigan State",21,198.91,"Big-Ten","2011"
-"Wisconsin",21,184.53,"Big-Ten","2011"
-"Illinois",29,183.66,"Big-Ten","2011"
-"Maryland",21,162.43,"Big-Ten","2011"
-"Minnesota",25,158.2,"Big-Ten","2011"
-"Indiana",24,157.88,"Big-Ten","2011"
-"Northwestern",16,149.67,"Big-Ten","2011"
-"Purdue",15,129.39,"Big-Ten","2011"
-"Marshall",24,152.84,"C-USA","2011"
-"Western Kentucky",29,64.38,"C-USA","2011"
-"Southern Miss",26,60.37,"C-USA","2011"
-"FIU",25,59.68,"C-USA","2011"
-"Florida Atlantic",24,46.77,"C-USA","2011"
-"Middle Tennessee State",17,45.96,"C-USA","2011"
-"UAB",26,31.22,"C-USA","2011"
-"North Texas",25,23.4,"C-USA","2011"
-"Rice",19,17.94,"C-USA","2011"
-"Louisiana Tech",24,17.58,"C-USA","2011"
-"Old Dominion",10,9.99,"C-USA","2011"
-"UTEP",21,0,"C-USA","2011"
-"Texas-San Antonio",3,0,"C-USA","2011"
-"Notre Dame",28,269.31,"IND","2011"
-"Brigham Young",18,143.97,"IND","2011"
-"Navy",22,24.64,"IND","2011"
-"Army",27,4.96,"IND","2011"
-"Toledo",22,130.09,"MAC","2011"
-"Western Michigan",19,93.69,"MAC","2011"
-"Bowling Green",22,43.71,"MAC","2011"
-"Central Michigan",25,43.51,"MAC","2011"
-"Ball State",19,41.78,"MAC","2011"
-"Northern Illinois",22,37.01,"MAC","2011"
-"Eastern Michigan",19,36.78,"MAC","2011"
-"Buffalo",22,34.96,"MAC","2011"
-"Miami (OH)",19,20.81,"MAC","2011"
-"Ohio",23,17.86,"MAC","2011"
-"Kent State",18,13.99,"MAC","2011"
-"Akron",22,13.72,"MAC","2011"
-"Massachusetts",1,0,"MAC","2011"
-"Boise State",22,159.9,"M-West","2011"
-"Colorado State",26,122.79,"M-West","2011"
-"San Diego State",23,118.05,"M-West","2011"
-"Hawaii",26,42.06,"M-West","2011"
-"New Mexico",21,39.33,"M-West","2011"
-"Fresno State",17,32.9,"M-West","2011"
-"Wyoming",22,29.8,"M-West","2011"
-"UNLV",22,27.69,"M-West","2011"
-"Utah State",25,20.37,"M-West","2011"
-"Nevada",23,8.99,"M-West","2011"
-"San Jose State",22,8.84,"M-West","2011"
-"Air Force",36,0,"M-West","2011"
-"USC",29,286.99,"Pac-12","2011"
-"Oregon",26,257.09,"Pac-12","2011"
-"California",23,248.9,"Pac-12","2011"
-"Stanford",19,221.85,"Pac-12","2011"
-"Washington",23,219.9,"Pac-12","2011"
-"Utah",18,182.11,"Pac-12","2011"
-"Oregon State",25,175.75,"Pac-12","2011"
-"UCLA",17,170.82,"Pac-12","2011"
-"Arizona",27,166.94,"Pac-12","2011"
-"Colorado",19,147.7,"Pac-12","2011"
-"Arizona State",16,144.33,"Pac-12","2011"
-"Washington State",25,144.21,"Pac-12","2011"
-"Alabama",26,298.5,"SEC","2011"
-"Auburn",33,280.98,"SEC","2011"
-"Georgia",26,279.82,"SEC","2011"
-"LSU",23,274.04,"SEC","2011"
-"Florida",19,259.45,"SEC","2011"
-"Tennessee",27,253.78,"SEC","2011"
-"South Carolina",33,244.12,"SEC","2011"
-"Ole Miss",26,226.45,"SEC","2011"
-"Arkansas",34,225.88,"SEC","2011"
-"Mississippi State",24,192.65,"SEC","2011"
-"Kentucky",26,183.89,"SEC","2011"
-"Vanderbilt",23,163.64,"SEC","2011"
-"Louisiana-Lafayette",29,91.52,"SBC","2011"
-"Troy",19,27.16,"SBC","2011"
-"South Alabama",20,24.8,"SBC","2011"
-"Louisiana-Monroe",21,22.7,"SBC","2011"
-"Arkansas State",22,22.37,"SBC","2011"
-"Idaho",23,19.29,"SBC","2011"
-"Texas State",1,12.55,"SBC","2011"
-"New Mexico State",21,3.33,"SBC","2011"
-"Appalachian State",1,1.99,"SBC","2011"
-"Georgia State",5,0,"SBC","2011"
-"Georgia Southern",1,0,"SBC","2011"
-"Florida State",19,287.73,"ACC","2012"
-"Miami",33,264.52,"ACC","2012"
-"Clemson",22,245.9,"ACC","2012"
-"Virginia Tech",31,226.62,"ACC","2012"
-"Virginia",31,219,"ACC","2012"
-"Pittsburgh",17,196.01,"ACC","2012"
-"North Carolina",24,195.17,"ACC","2012"
-"Louisville",22,191.68,"ACC","2012"
-"Georgia Tech",17,180.57,"ACC","2012"
-"N.C. State",22,179.32,"ACC","2012"
-"Syracuse",24,165.66,"ACC","2012"
-"Duke",21,163.5,"ACC","2012"
-"Wake Forest",20,153.48,"ACC","2012"
-"Boston College",26,142.89,"ACC","2012"
-"Texas",28,295.82,"Big-12","2012"
-"Oklahoma",24,251.2,"Big-12","2012"
-"Baylor",26,218.36,"Big-12","2012"
-"Texas Tech",25,217.78,"Big-12","2012"
-"TCU",24,214.72,"Big-12","2012"
-"Oklahoma State",23,209.48,"Big-12","2012"
-"West Virginia",32,202.66,"Big-12","2012"
-"Iowa State",21,152.85,"Big-12","2012"
-"Kansas State",19,137.35,"Big-12","2012"
-"Kansas",25,125.94,"Big-12","2012"
-"Cincinnati",28,183.19,"AAC","2012"
-"USF",18,179.41,"AAC","2012"
-"Houston",25,172.27,"AAC","2012"
-"SMU",22,148.28,"AAC","2012"
-"Connecticut",22,143.05,"AAC","2012"
-"Temple",31,137.72,"AAC","2012"
-"East Carolina",20,130.88,"AAC","2012"
-"Tulane",16,123.24,"AAC","2012"
-"Tulsa",20,117.25,"AAC","2012"
-"Memphis",41,114.76,"AAC","2012"
-"UCF",15,110.95,"AAC","2012"
-"Ohio State",26,281.68,"Big-Ten","2012"
-"Michigan",34,275.89,"Big-Ten","2012"
-"Rutgers",22,219.65,"Big-Ten","2012"
-"Nebraska",17,210.46,"Big-Ten","2012"
-"Michigan State",24,206.97,"Big-Ten","2012"
-"Maryland",26,201.19,"Big-Ten","2012"
-"Iowa",26,197.75,"Big-Ten","2012"
-"Penn State",23,189.29,"Big-Ten","2012"
-"Purdue",29,184.57,"Big-Ten","2012"
-"Northwestern",22,177.2,"Big-Ten","2012"
-"Indiana",30,171.55,"Big-Ten","2012"
-"Minnesota",26,167.47,"Big-Ten","2012"
-"Illinois",21,159.74,"Big-Ten","2012"
-"Wisconsin",14,157.55,"Big-Ten","2012"
-"Southern Miss",23,146.72,"C-USA","2012"
-"FIU",29,134.23,"C-USA","2012"
-"Marshall",22,133.94,"C-USA","2012"
-"Florida Atlantic",28,123.46,"C-USA","2012"
-"Rice",24,119.15,"C-USA","2012"
-"North Texas",23,109.58,"C-USA","2012"
-"Louisiana Tech",15,108.99,"C-USA","2012"
-"Western Kentucky",13,104.96,"C-USA","2012"
-"UAB",25,93.04,"C-USA","2012"
-"UTEP",22,83.29,"C-USA","2012"
-"Middle Tennessee State",21,80.89,"C-USA","2012"
-"Texas-San Antonio",6,61.78,"C-USA","2012"
-"Old Dominion",18,40.57,"C-USA","2012"
-"Charlotte",5,19.34,"C-USA","2012"
-"Notre Dame",18,244.29,"IND","2012"
-"Brigham Young",15,142.87,"IND","2012"
-"Navy",16,77.25,"IND","2012"
-"Army",15,34.14,"IND","2012"
-"Toledo",27,133.84,"MAC","2012"
-"Miami (OH)",24,119.05,"MAC","2012"
-"Central Michigan",24,118.95,"MAC","2012"
-"Bowling Green",20,113.01,"MAC","2012"
-"Western Michigan",28,112.79,"MAC","2012"
-"Ohio",21,112.25,"MAC","2012"
-"Ball State",24,108.02,"MAC","2012"
-"Kent State",24,102.12,"MAC","2012"
-"Northern Illinois",30,100.92,"MAC","2012"
-"Eastern Michigan",24,92.83,"MAC","2012"
-"Buffalo",19,77.86,"MAC","2012"
-"Akron",22,59.6,"MAC","2012"
-"Massachusetts",5,19.91,"MAC","2012"
-"Boise State",25,167.2,"M-West","2012"
-"San Diego State",21,137.73,"M-West","2012"
-"Nevada",21,130.84,"M-West","2012"
-"Hawaii",20,121.83,"M-West","2012"
-"Air Force",39,121.46,"M-West","2012"
-"New Mexico",26,116.03,"M-West","2012"
-"San Jose State",21,102.84,"M-West","2012"
-"UNLV",19,102.45,"M-West","2012"
-"Utah State",15,95.68,"M-West","2012"
-"Wyoming",23,88.81,"M-West","2012"
-"Fresno State",14,81.28,"M-West","2012"
-"Colorado State",23,60.76,"M-West","2012"
-"Stanford",22,272.45,"Pac-12","2012"
-"USC",17,270.22,"Pac-12","2012"
-"Oregon",21,247.3,"Pac-12","2012"
-"UCLA",26,243.5,"Pac-12","2012"
-"Washington",25,220.93,"Pac-12","2012"
-"California",16,206.59,"Pac-12","2012"
-"Arizona State",28,203.11,"Pac-12","2012"
-"Utah",27,202.19,"Pac-12","2012"
-"Colorado",28,199.39,"Pac-12","2012"
-"Arizona",27,196.15,"Pac-12","2012"
-"Oregon State",23,192.35,"Pac-12","2012"
-"Washington State",24,169.03,"Pac-12","2012"
-"Alabama",26,310.09,"SEC","2012"
-"Florida",23,287,"SEC","2012"
-"Georgia",19,270.38,"SEC","2012"
-"Auburn",21,257.6,"SEC","2012"
-"LSU",25,247.12,"SEC","2012"
-"Texas A&M",19,245.27,"SEC","2012"
-"South Carolina",30,244.95,"SEC","2012"
-"Tennessee",23,239.1,"SEC","2012"
-"Mississippi State",28,223.68,"SEC","2012"
-"Arkansas",26,217.57,"SEC","2012"
-"Missouri",19,209.77,"SEC","2012"
-"Ole Miss",18,188.84,"SEC","2012"
-"Vanderbilt",22,188.56,"SEC","2012"
-"Kentucky",29,184.47,"SEC","2012"
-"Arkansas State",29,162.05,"SBC","2012"
-"New Mexico State",20,119.49,"SBC","2012"
-"Troy",32,113.37,"SBC","2012"
-"Louisiana-Lafayette",22,96.09,"SBC","2012"
-"Texas State",13,95.41,"SBC","2012"
-"Idaho",22,90.15,"SBC","2012"
-"Louisiana-Monroe",21,88.4,"SBC","2012"
-"South Alabama",26,60.47,"SBC","2012"
-"Appalachian State",8,38.74,"SBC","2012"
-"Georgia Southern",5,24.75,"SBC","2012"
-"Georgia State",13,21.87,"SBC","2012"
-"Florida State",22,262.44,"ACC","2013"
-"Miami",21,250.42,"ACC","2013"
-"Clemson",23,249.51,"ACC","2013"
-"Virginia Tech",25,223.02,"ACC","2013"
-"North Carolina",18,206.44,"ACC","2013"
-"Virginia",23,203.2,"ACC","2013"
-"Pittsburgh",27,195.37,"ACC","2013"
-"Louisville",18,193.72,"ACC","2013"
-"N.C. State",23,161.86,"ACC","2013"
-"Wake Forest",27,148.32,"ACC","2013"
-"Duke",20,147.18,"ACC","2013"
-"Syracuse",22,144.45,"ACC","2013"
-"Georgia Tech",15,143.14,"ACC","2013"
-"Boston College",17,126.12,"ACC","2013"
-"Oklahoma",24,241.41,"Big-12","2013"
-"Texas",15,234.51,"Big-12","2013"
-"Baylor",26,206.9,"Big-12","2013"
-"Oklahoma State",25,200.8,"Big-12","2013"
-"West Virginia",40,200.75,"Big-12","2013"
-"TCU",23,194.38,"Big-12","2013"
-"Texas Tech",30,182.63,"Big-12","2013"
-"Kansas",37,178.85,"Big-12","2013"
-"Iowa State",25,161.61,"Big-12","2013"
-"Kansas State",19,160.68,"Big-12","2013"
-"USF",24,173.78,"AAC","2013"
-"Houston",27,170.53,"AAC","2013"
-"Cincinnati",20,159.05,"AAC","2013"
-"Connecticut",26,157.16,"AAC","2013"
-"East Carolina",29,147.91,"AAC","2013"
-"SMU",26,146.79,"AAC","2013"
-"Temple",23,137.71,"AAC","2013"
-"Tulsa",22,137.51,"AAC","2013"
-"UCF",19,136.69,"AAC","2013"
-"Tulane",23,133.49,"AAC","2013"
-"Memphis",44,125.88,"AAC","2013"
-"Ohio State",29,303.27,"Big-Ten","2013"
-"Michigan",35,289.15,"Big-Ten","2013"
-"Nebraska",24,220.22,"Big-Ten","2013"
-"Penn State",16,195.03,"Big-Ten","2013"
-"Michigan State",19,194.39,"Big-Ten","2013"
-"Wisconsin",23,191.24,"Big-Ten","2013"
-"Maryland",23,190.61,"Big-Ten","2013"
-"Indiana",26,188.56,"Big-Ten","2013"
-"Illinois",26,177.6,"Big-Ten","2013"
-"Rutgers",29,176.18,"Big-Ten","2013"
-"Northwestern",19,173.91,"Big-Ten","2013"
-"Iowa",25,169.95,"Big-Ten","2013"
-"Purdue",24,159.12,"Big-Ten","2013"
-"Minnesota",19,151.4,"Big-Ten","2013"
-"Marshall",22,170.31,"C-USA","2013"
-"Southern Miss",26,132.31,"C-USA","2013"
-"Florida Atlantic",26,128.15,"C-USA","2013"
-"Middle Tennessee State",25,125.9,"C-USA","2013"
-"UAB",29,125.45,"C-USA","2013"
-"Louisiana Tech",20,123.39,"C-USA","2013"
-"Rice",19,122.51,"C-USA","2013"
-"Western Kentucky",35,121.26,"C-USA","2013"
-"Texas-San Antonio",22,106.81,"C-USA","2013"
-"Charlotte",23,102,"C-USA","2013"
-"FIU",19,101.26,"C-USA","2013"
-"North Texas",19,94.5,"C-USA","2013"
-"UTEP",18,84.91,"C-USA","2013"
-"Old Dominion",37,75.52,"C-USA","2013"
-"Notre Dame",24,284.76,"IND","2013"
-"Brigham Young",31,153.42,"IND","2013"
-"Navy",23,95.49,"IND","2013"
-"Army",13,70.68,"IND","2013"
-"Toledo",22,144,"MAC","2013"
-"Bowling Green",23,137.62,"MAC","2013"
-"Massachusetts",25,118.77,"MAC","2013"
-"Northern Illinois",26,108.66,"MAC","2013"
-"Miami (OH)",22,106.88,"MAC","2013"
-"Central Michigan",20,106.44,"MAC","2013"
-"Ball State",21,102.32,"MAC","2013"
-"Western Michigan",18,100.8,"MAC","2013"
-"Akron",17,98.15,"MAC","2013"
-"Eastern Michigan",21,94.97,"MAC","2013"
-"Kent State",21,94.14,"MAC","2013"
-"Ohio",21,91.72,"MAC","2013"
-"Buffalo",18,66.73,"MAC","2013"
-"Boise State",27,172.95,"M-West","2013"
-"San Diego State",24,145.85,"M-West","2013"
-"Fresno State",29,144.25,"M-West","2013"
-"Hawaii",28,138.94,"M-West","2013"
-"Colorado State",23,132.55,"M-West","2013"
-"Nevada",20,124.4,"M-West","2013"
-"New Mexico",26,123.3,"M-West","2013"
-"UNLV",22,120.23,"M-West","2013"
-"Air Force",43,112.68,"M-West","2013"
-"Utah State",24,105.32,"M-West","2013"
-"Wyoming",20,102.68,"M-West","2013"
-"San Jose State",18,82.32,"M-West","2013"
-"UCLA",28,276.26,"Pac-12","2013"
-"USC",12,256.42,"Pac-12","2013"
-"Washington",22,234.44,"Pac-12","2013"
-"Oregon",20,227.7,"Pac-12","2013"
-"Arizona State",28,191.15,"Pac-12","2013"
-"California",25,190.82,"Pac-12","2013"
-"Arizona",35,186.75,"Pac-12","2013"
-"Oregon State",25,186.45,"Pac-12","2013"
-"Utah",28,180.94,"Pac-12","2013"
-"Stanford",13,174.43,"Pac-12","2013"
-"Washington State",30,173.67,"Pac-12","2013"
-"Colorado",20,148.16,"Pac-12","2013"
-"Alabama",26,319.48,"SEC","2013"
-"Florida",28,291.48,"SEC","2013"
-"LSU",28,281.03,"SEC","2013"
-"Ole Miss",30,275.5,"SEC","2013"
-"Texas A&M",33,267.79,"SEC","2013"
-"Auburn",26,267.37,"SEC","2013"
-"Georgia",34,260.38,"SEC","2013"
-"South Carolina",24,223.67,"SEC","2013"
-"Arkansas",36,215.94,"SEC","2013"
-"Tennessee",25,213.57,"SEC","2013"
-"Mississippi State",23,212.84,"SEC","2013"
-"Vanderbilt",27,210.75,"SEC","2013"
-"Kentucky",24,194.59,"SEC","2013"
-"Missouri",21,188.16,"SEC","2013"
-"Louisiana-Lafayette",21,140.25,"SBC","2013"
-"South Alabama",28,122.04,"SBC","2013"
-"Texas State",22,121.25,"SBC","2013"
-"Troy",24,115.84,"SBC","2013"
-"Arkansas State",21,113.66,"SBC","2013"
-"New Mexico State",17,87.63,"SBC","2013"
-"Idaho",21,79.99,"SBC","2013"
-"Appalachian State",16,75.26,"SBC","2013"
-"Louisiana-Monroe",16,72.64,"SBC","2013"
-"Georgia State",27,65.9,"SBC","2013"
-"Georgia Southern",9,29.36,"SBC","2013"
-"Florida State",29,286.77,"ACC","2014"
-"Miami",27,255.8,"ACC","2014"
-"Clemson",20,240.66,"ACC","2014"
-"Virginia Tech",30,216.97,"ACC","2014"
-"North Carolina",21,211.63,"ACC","2014"
-"Virginia",17,204.94,"ACC","2014"
-"N.C. State",31,200.91,"ACC","2014"
-"Pittsburgh",23,184.56,"ACC","2014"
-"Louisville",26,183.93,"ACC","2014"
-"Syracuse",25,176.8,"ACC","2014"
-"Boston College",30,175.46,"ACC","2014"
-"Georgia Tech",21,172.2,"ACC","2014"
-"Duke",19,166.42,"ACC","2014"
-"Wake Forest",25,160.87,"ACC","2014"
-"Oklahoma",28,248.55,"Big-12","2014"
-"Texas",23,240.71,"Big-12","2014"
-"Baylor",28,217,"Big-12","2014"
-"Oklahoma State",27,216.48,"Big-12","2014"
-"West Virginia",32,196.51,"Big-12","2014"
-"Texas Tech",37,190.12,"Big-12","2014"
-"TCU",27,188.06,"Big-12","2014"
-"Kansas State",26,177.47,"Big-12","2014"
-"Kansas",30,176.39,"Big-12","2014"
-"Iowa State",25,169.6,"Big-12","2014"
-"USF",28,190.54,"AAC","2014"
-"UCF",17,165.79,"AAC","2014"
-"Cincinnati",27,161.11,"AAC","2014"
-"Temple",31,155.7,"AAC","2014"
-"Houston",26,143.91,"AAC","2014"
-"East Carolina",29,142.56,"AAC","2014"
-"Memphis",25,130.4,"AAC","2014"
-"Tulsa",24,128.58,"AAC","2014"
-"SMU",24,128.3,"AAC","2014"
-"Tulane",20,120.75,"AAC","2014"
-"Connecticut",16,97.85,"AAC","2014"
-"Ohio State",31,296.06,"Big-Ten","2014"
-"Michigan",26,233.57,"Big-Ten","2014"
-"Penn State",26,222.38,"Big-Ten","2014"
-"Michigan State",22,217.41,"Big-Ten","2014"
-"Wisconsin",27,204.85,"Big-Ten","2014"
-"Nebraska",25,197.83,"Big-Ten","2014"
-"Maryland",18,191.72,"Big-Ten","2014"
-"Northwestern",15,182.1,"Big-Ten","2014"
-"Indiana",31,180.15,"Big-Ten","2014"
-"Rutgers",32,173.71,"Big-Ten","2014"
-"Minnesota",22,169.94,"Big-Ten","2014"
-"Iowa",22,168.33,"Big-Ten","2014"
-"Purdue",19,157.42,"Big-Ten","2014"
-"Illinois",19,152.35,"Big-Ten","2014"
-"Marshall",28,165.7,"C-USA","2014"
-"Old Dominion",37,144.24,"C-USA","2014"
-"Southern Miss",25,130.09,"C-USA","2014"
-"Louisiana Tech",20,124.81,"C-USA","2014"
-"Middle Tennessee State",23,122.13,"C-USA","2014"
-"Western Kentucky",26,120.8,"C-USA","2014"
-"Rice",19,116.38,"C-USA","2014"
-"Florida Atlantic",23,114.9,"C-USA","2014"
-"North Texas",22,105.66,"C-USA","2014"
-"FIU",26,102.91,"C-USA","2014"
-"UAB",37,97.63,"C-USA","2014"
-"Charlotte",22,92.58,"C-USA","2014"
-"UTEP",23,85.83,"C-USA","2014"
-"Texas-San Antonio",16,81.76,"C-USA","2014"
-"Notre Dame",24,260.44,"IND","2014"
-"Brigham Young",20,160.55,"IND","2014"
-"Navy",22,94.58,"IND","2014"
-"Army",24,80.46,"IND","2014"
-"Western Michigan",28,153.7,"MAC","2014"
-"Toledo",23,117.53,"MAC","2014"
-"Buffalo",22,110.69,"MAC","2014"
-"Northern Illinois",31,109.96,"MAC","2014"
-"Ball State",18,104.9,"MAC","2014"
-"Ohio",24,102.45,"MAC","2014"
-"Akron",19,101.86,"MAC","2014"
-"Bowling Green",19,101.48,"MAC","2014"
-"Massachusetts",17,90.2,"MAC","2014"
-"Central Michigan",19,87.62,"MAC","2014"
-"Eastern Michigan",22,84.86,"MAC","2014"
-"Miami (OH)",25,81.99,"MAC","2014"
-"Kent State",21,81.79,"MAC","2014"
-"Boise State",22,159.21,"M-West","2014"
-"San Diego State",27,148.06,"M-West","2014"
-"Fresno State",24,126.85,"M-West","2014"
-"Nevada",29,126.7,"M-West","2014"
-"San Jose State",20,124.04,"M-West","2014"
-"Colorado State",26,123.25,"M-West","2014"
-"New Mexico",26,111.82,"M-West","2014"
-"Hawaii",25,108.61,"M-West","2014"
-"Air Force",24,97.93,"M-West","2014"
-"Utah State",28,97.71,"M-West","2014"
-"UNLV",19,89.8,"M-West","2014"
-"Wyoming",22,82.31,"M-West","2014"
-"USC",26,264.21,"Pac-12","2014"
-"Stanford",20,250.06,"Pac-12","2014"
-"UCLA",20,239.47,"Pac-12","2014"
-"Oregon",22,232.45,"Pac-12","2014"
-"Arizona State",28,222.47,"Pac-12","2014"
-"Arizona",32,211.66,"Pac-12","2014"
-"Washington",25,197.58,"Pac-12","2014"
-"California",20,173.56,"Pac-12","2014"
-"Washington State",22,172.66,"Pac-12","2014"
-"Oregon State",30,164.97,"Pac-12","2014"
-"Utah",18,160.27,"Pac-12","2014"
-"Colorado",24,144.97,"Pac-12","2014"
-"Alabama",29,319.58,"SEC","2014"
-"LSU",27,299.3,"SEC","2014"
-"Texas A&M",22,278.25,"SEC","2014"
-"Auburn",27,277.02,"SEC","2014"
-"Tennessee",32,274.76,"SEC","2014"
-"Georgia",21,273.38,"SEC","2014"
-"Florida",24,267.75,"SEC","2014"
-"Ole Miss",27,241.12,"SEC","2014"
-"South Carolina",21,239.46,"SEC","2014"
-"Kentucky",32,225.45,"SEC","2014"
-"Arkansas",27,215.62,"SEC","2014"
-"Mississippi State",24,200.03,"SEC","2014"
-"Missouri",29,195.14,"SEC","2014"
-"Vanderbilt",23,183.62,"SEC","2014"
-"Appalachian State",28,123.34,"SBC","2014"
-"Georgia Southern",22,120.95,"SBC","2014"
-"Arkansas State",24,114.25,"SBC","2014"
-"Texas State",25,109.6,"SBC","2014"
-"Georgia State",29,106.78,"SBC","2014"
-"Louisiana-Lafayette",21,102.11,"SBC","2014"
-"South Alabama",24,97.84,"SBC","2014"
-"New Mexico State",27,87.81,"SBC","2014"
-"Louisiana-Monroe",23,84.11,"SBC","2014"
-"Idaho",23,79,"SBC","2014"
-"Troy",17,64.29,"SBC","2014"
-"Florida State",20,285.69,"ACC","2015"
-"Clemson",26,277.24,"ACC","2015"
-"Miami",22,216.19,"ACC","2015"
-"North Carolina",19,213.7,"ACC","2015"
-"Virginia Tech",24,212.5,"ACC","2015"
-"N.C. State",23,207.36,"ACC","2015"
-"Louisville",26,201.19,"ACC","2015"
-"Georgia Tech",27,185.72,"ACC","2015"
-"Pittsburgh",15,182.8,"ACC","2015"
-"Virginia",23,179.54,"ACC","2015"
-"Duke",18,175.85,"ACC","2015"
-"Wake Forest",25,174.82,"ACC","2015"
-"Syracuse",29,169.14,"ACC","2015"
-"Boston College",25,166.13,"ACC","2015"
-"Texas",30,271.84,"Big-12","2015"
-"Oklahoma",28,250.24,"Big-12","2015"
-"Texas Tech",20,200.58,"Big-12","2015"
-"West Virginia",30,197.43,"Big-12","2015"
-"Baylor",19,195.62,"Big-12","2015"
-"Oklahoma State",21,192.06,"Big-12","2015"
-"TCU",22,187.52,"Big-12","2015"
-"Kansas State",24,173.16,"Big-12","2015"
-"Iowa State",24,164.4,"Big-12","2015"
-"Kansas",26,151.33,"Big-12","2015"
-"Cincinnati",28,163.32,"AAC","2015"
-"USF",20,162.72,"AAC","2015"
-"UCF",18,159.02,"AAC","2015"
-"Memphis",33,147.68,"AAC","2015"
-"SMU",24,143.56,"AAC","2015"
-"Temple",23,141.95,"AAC","2015"
-"Houston",21,128.82,"AAC","2015"
-"Tulane",19,128.68,"AAC","2015"
-"East Carolina",15,127.81,"AAC","2015"
-"Connecticut",23,122.86,"AAC","2015"
-"Navy",29,115.75,"AAC","2015"
-"Tulsa",18,114.02,"AAC","2015"
-"Ohio State",26,277.78,"Big-Ten","2015"
-"Penn State",25,250.22,"Big-Ten","2015"
-"Michigan State",21,222.36,"Big-Ten","2015"
-"Nebraska",21,212.17,"Big-Ten","2015"
-"Michigan",14,194.69,"Big-Ten","2015"
-"Wisconsin",19,190.29,"Big-Ten","2015"
-"Illinois",24,182.36,"Big-Ten","2015"
-"Maryland",19,181.86,"Big-Ten","2015"
-"Indiana",23,175.82,"Big-Ten","2015"
-"Northwestern",20,174.34,"Big-Ten","2015"
-"Rutgers",25,171.46,"Big-Ten","2015"
-"Iowa",21,168.52,"Big-Ten","2015"
-"Minnesota",24,165.56,"Big-Ten","2015"
-"Purdue",26,164.54,"Big-Ten","2015"
-"Marshall",26,150.07,"C-USA","2015"
-"Florida Atlantic",26,145.75,"C-USA","2015"
-"Louisiana Tech",22,143.37,"C-USA","2015"
-"Middle Tennessee State",25,133.6,"C-USA","2015"
-"Southern Miss",27,133.47,"C-USA","2015"
-"North Texas",24,126.72,"C-USA","2015"
-"FIU",23,124.73,"C-USA","2015"
-"Old Dominion",24,122.17,"C-USA","2015"
-"Texas-San Antonio",32,120.58,"C-USA","2015"
-"Rice",19,118.29,"C-USA","2015"
-"Western Kentucky",21,114.09,"C-USA","2015"
-"Charlotte",17,87.53,"C-USA","2015"
-"UTEP",24,69.32,"C-USA","2015"
-"UAB",1,0,"C-USA","2015"
-"Notre Dame",24,266.46,"IND","2015"
-"Brigham Young",23,165.21,"IND","2015"
-"Army",39,102.12,"IND","2015"
-"Western Michigan",27,148.39,"MAC","2015"
-"Miami (OH)",29,147.85,"MAC","2015"
-"Northern Illinois",31,135.87,"MAC","2015"
-"Toledo",24,134.06,"MAC","2015"
-"Ohio",29,132.38,"MAC","2015"
-"Central Michigan",20,125.69,"MAC","2015"
-"Kent State",22,123.17,"MAC","2015"
-"Massachusetts",22,120.17,"MAC","2015"
-"Bowling Green",24,116.77,"MAC","2015"
-"Ball State",27,114.14,"MAC","2015"
-"Eastern Michigan",26,110.82,"MAC","2015"
-"Buffalo",20,106.1,"MAC","2015"
-"Akron",18,81.47,"MAC","2015"
-"Boise State",22,171.45,"M-West","2015"
-"San Jose State",33,168.85,"M-West","2015"
-"San Diego State",25,163.79,"M-West","2015"
-"Utah State",20,162.23,"M-West","2015"
-"Fresno State",21,155.13,"M-West","2015"
-"Nevada",18,120.94,"M-West","2015"
-"UNLV",22,120.01,"M-West","2015"
-"Wyoming",23,118.84,"M-West","2015"
-"New Mexico",25,107.96,"M-West","2015"
-"Colorado State",14,104.52,"M-West","2015"
-"Hawaii",14,93.46,"M-West","2015"
-"Air Force",28,89.65,"M-West","2015"
-"USC",27,308.3,"Pac-12","2015"
-"UCLA",19,268.66,"Pac-12","2015"
-"Oregon",24,245.07,"Pac-12","2015"
-"Arizona State",24,232.1,"Pac-12","2015"
-"Stanford",22,220.48,"Pac-12","2015"
-"Washington",25,215.86,"Pac-12","2015"
-"California",25,198.81,"Pac-12","2015"
-"Washington State",25,188.52,"Pac-12","2015"
-"Arizona",28,186.46,"Pac-12","2015"
-"Utah",25,183.29,"Pac-12","2015"
-"Oregon State",21,167.96,"Pac-12","2015"
-"Colorado",19,162.12,"Pac-12","2015"
-"Alabama",24,309.07,"SEC","2015"
-"Tennessee",30,285.64,"SEC","2015"
-"Georgia",30,282.44,"SEC","2015"
-"LSU",24,282.35,"SEC","2015"
-"Auburn",29,277.4,"SEC","2015"
-"Texas A&M",27,270.42,"SEC","2015"
-"Ole Miss",23,244.59,"SEC","2015"
-"Mississippi State",27,238,"SEC","2015"
-"South Carolina",31,237.05,"SEC","2015"
-"Florida",21,227.91,"SEC","2015"
-"Arkansas",25,221.95,"SEC","2015"
-"Missouri",24,217.59,"SEC","2015"
-"Kentucky",22,193.47,"SEC","2015"
-"Vanderbilt",19,183.15,"SEC","2015"
-"Louisiana-Lafayette",25,146.25,"SBC","2015"
-"Arkansas State",25,132.95,"SBC","2015"
-"South Alabama",24,132.26,"SBC","2015"
-"Georgia Southern",21,129.03,"SBC","2015"
-"Texas State",25,126.13,"SBC","2015"
-"Louisiana-Monroe",27,117.99,"SBC","2015"
-"Troy",21,117.63,"SBC","2015"
-"Appalachian State",23,112.49,"SBC","2015"
-"Idaho",26,98.61,"SBC","2015"
-"New Mexico State",26,93.38,"SBC","2015"
-"Georgia State",19,93.19,"SBC","2015"
-"Florida State",25,295.44,"ACC","2016"
-"Clemson",20,270.74,"ACC","2016"
-"Miami",19,235.05,"ACC","2016"
-"Pittsburgh",24,209.04,"ACC","2016"
-"Duke",21,204.76,"ACC","2016"
-"North Carolina",25,202.07,"ACC","2016"
-"Louisville",25,195.63,"ACC","2016"
-"Virginia Tech",22,191.24,"ACC","2016"
-"N.C. State",23,178.77,"ACC","2016"
-"Georgia Tech",18,167.26,"ACC","2016"
-"Wake Forest",22,167.26,"ACC","2016"
-"Virginia",25,163.79,"ACC","2016"
-"Syracuse",21,163.54,"ACC","2016"
-"Boston College",19,147.97,"ACC","2016"
-"Texas",28,280.31,"Big-12","2016"
-"Oklahoma",21,238.02,"Big-12","2016"
-"TCU",23,234.93,"Big-12","2016"
-"West Virginia",31,193.84,"Big-12","2016"
-"Baylor",18,190.32,"Big-12","2016"
-"Oklahoma State",22,183.52,"Big-12","2016"
-"Texas Tech",26,182.63,"Big-12","2016"
-"Iowa State",29,172.9,"Big-12","2016"
-"Kansas State",20,151.39,"Big-12","2016"
-"Kansas",18,135.7,"Big-12","2016"
-"Houston",20,203.39,"AAC","2016"
-"Temple",28,167.55,"AAC","2016"
-"UCF",22,165.16,"AAC","2016"
-"USF",16,162.38,"AAC","2016"
-"Memphis",22,161.76,"AAC","2016"
-"Cincinnati",21,151.61,"AAC","2016"
-"SMU",25,151.38,"AAC","2016"
-"East Carolina",25,148.45,"AAC","2016"
-"Tulane",24,137.3,"AAC","2016"
-"Navy",36,135.14,"AAC","2016"
-"Tulsa",20,127.52,"AAC","2016"
-"Connecticut",16,123.67,"AAC","2016"
-"Ohio State",25,289.12,"Big-Ten","2016"
-"Michigan",29,283.18,"Big-Ten","2016"
-"Michigan State",20,239.2,"Big-Ten","2016"
-"Penn State",20,237.79,"Big-Ten","2016"
-"Nebraska",21,218.49,"Big-Ten","2016"
-"Wisconsin",26,204.95,"Big-Ten","2016"
-"Maryland",21,189.1,"Big-Ten","2016"
-"Minnesota",21,181.41,"Big-Ten","2016"
-"Iowa",24,180.9,"Big-Ten","2016"
-"Northwestern",20,174.71,"Big-Ten","2016"
-"Indiana",21,169.77,"Big-Ten","2016"
-"Rutgers",18,155.28,"Big-Ten","2016"
-"Illinois",25,153.58,"Big-Ten","2016"
-"Purdue",23,144.94,"Big-Ten","2016"
-"Marshall",30,166.55,"C-USA","2016"
-"UAB",48,159.91,"C-USA","2016"
-"Louisiana Tech",20,129.41,"C-USA","2016"
-"Middle Tennessee State",21,127.79,"C-USA","2016"
-"Southern Miss",18,126.49,"C-USA","2016"
-"Western Kentucky",19,125.93,"C-USA","2016"
-"Florida Atlantic",19,125.69,"C-USA","2016"
-"FIU",26,124.31,"C-USA","2016"
-"North Texas",22,123.78,"C-USA","2016"
-"Old Dominion",24,119.17,"C-USA","2016"
-"Texas-San Antonio",18,117.44,"C-USA","2016"
-"Charlotte",16,108.02,"C-USA","2016"
-"UTEP",25,105.17,"C-USA","2016"
-"Rice",18,94.39,"C-USA","2016"
-"Notre Dame",23,249.43,"IND","2016"
-"Brigham Young",24,177.11,"IND","2016"
-"Army",49,116.25,"IND","2016"
-"Western Michigan",27,158.79,"MAC","2016"
-"Massachusetts",31,144.17,"MAC","2016"
-"Miami (OH)",21,128.12,"MAC","2016"
-"Toledo",22,126.59,"MAC","2016"
-"Ball State",23,112.58,"MAC","2016"
-"Ohio",25,107.77,"MAC","2016"
-"Bowling Green",15,106.05,"MAC","2016"
-"Central Michigan",13,104.92,"MAC","2016"
-"Eastern Michigan",21,104.7,"MAC","2016"
-"Buffalo",19,104.22,"MAC","2016"
-"Northern Illinois",20,101.47,"MAC","2016"
-"Akron",12,85.08,"MAC","2016"
-"Kent State",16,82.32,"MAC","2016"
-"Boise State",28,159.06,"M-West","2016"
-"Colorado State",25,150.53,"M-West","2016"
-"San Diego State",23,139.05,"M-West","2016"
-"UNLV",26,138.66,"M-West","2016"
-"Fresno State",24,135.59,"M-West","2016"
-"New Mexico",23,135.27,"M-West","2016"
-"San Jose State",18,134.3,"M-West","2016"
-"Utah State",24,130.2,"M-West","2016"
-"Hawaii",19,122.99,"M-West","2016"
-"Nevada",22,122.01,"M-West","2016"
-"Air Force",37,109.83,"M-West","2016"
-"Wyoming",24,108.13,"M-West","2016"
-"USC",20,272.54,"Pac-12","2016"
-"UCLA",29,262.28,"Pac-12","2016"
-"Stanford",25,247.03,"Pac-12","2016"
-"Arizona State",21,217.62,"Pac-12","2016"
-"Oregon",19,211.55,"Pac-12","2016"
-"Washington",17,209.35,"Pac-12","2016"
-"California",27,207.74,"Pac-12","2016"
-"Utah",30,200.88,"Pac-12","2016"
-"Arizona",20,184.35,"Pac-12","2016"
-"Oregon State",25,181.73,"Pac-12","2016"
-"Washington State",27,168.93,"Pac-12","2016"
-"Colorado",17,160.05,"Pac-12","2016"
-"Alabama",24,301.41,"SEC","2016"
-"LSU",25,290.6,"SEC","2016"
-"Ole Miss",26,281.69,"SEC","2016"
-"Georgia",21,276.94,"SEC","2016"
-"Auburn",23,274.55,"SEC","2016"
-"Florida",25,260.96,"SEC","2016"
-"Tennessee",23,253.94,"SEC","2016"
-"Texas A&M",22,240.17,"SEC","2016"
-"Arkansas",23,218.97,"SEC","2016"
-"South Carolina",27,218.91,"SEC","2016"
-"Mississippi State",20,214.99,"SEC","2016"
-"Kentucky",25,204.31,"SEC","2016"
-"Missouri",20,188.35,"SEC","2016"
-"Vanderbilt",21,173.22,"SEC","2016"
-"Georgia Southern",27,153.51,"SBC","2016"
-"Arkansas State",21,130.18,"SBC","2016"
-"Troy",29,129.87,"SBC","2016"
-"South Alabama",24,129.07,"SBC","2016"
-"Louisiana-Lafayette",23,117.34,"SBC","2016"
-"Texas State",24,115.5,"SBC","2016"
-"Louisiana-Monroe",19,107.09,"SBC","2016"
-"Appalachian State",23,106.72,"SBC","2016"
-"Georgia State",19,99.15,"SBC","2016"
-"Idaho",27,97.18,"SBC","2016"
-"New Mexico State",20,93.63,"SBC","2016"
+"Team","Recruits","Class_Points","Conference","Year"
+"Miami",32,291.27,"ACC",2008
+"Clemson",23,261.1,"ACC",2008
+"Florida State",29,254.37,"ACC",2008
+"Pittsburgh",22,221.09,"ACC",2008
+"Virginia Tech",31,213.6,"ACC",2008
+"N.C. State",26,211.96,"ACC",2008
+"North Carolina",20,200.76,"ACC",2008
+"Boston College",32,181.2,"ACC",2008
+"Louisville",25,165.71,"ACC",2008
+"Georgia Tech",21,162,"ACC",2008
+"Syracuse",23,155.4,"ACC",2008
+"Virginia",36,143.74,"ACC",2008
+"Wake Forest",18,141.14,"ACC",2008
+"Duke",16,133.91,"ACC",2008
+"Oklahoma",23,285.17,"Big-12",2008
+"Texas",21,266.14,"Big-12",2008
+"Texas A&M",20,222.56,"Big-12",2008
+"Missouri",25,197.85,"Big-12",2008
+"Oklahoma State",28,196.5,"Big-12",2008
+"Kansas State",33,193.72,"Big-12",2008
+"Kansas",18,174.67,"Big-12",2008
+"West Virginia",30,164.99,"Big-12",2008
+"Baylor",21,150.37,"Big-12",2008
+"Iowa State",24,147.72,"Big-12",2008
+"TCU",18,122.35,"Big-12",2008
+"Texas Tech",11,120.6,"Big-12",2008
+"Memphis",21,143.07,"AAC",2008
+"UCF",21,142.99,"AAC",2008
+"USF",27,135.49,"AAC",2008
+"Tulsa",26,125.49,"AAC",2008
+"SMU",30,123.76,"AAC",2008
+"Temple",26,121.69,"AAC",2008
+"Houston",20,120.47,"AAC",2008
+"Connecticut",21,118.35,"AAC",2008
+"East Carolina",20,108.73,"AAC",2008
+"Tulane",19,95.09,"AAC",2008
+"Cincinnati",21,92.13,"AAC",2008
+"Ohio State",21,269.61,"Big-Ten",2008
+"Michigan",24,256.91,"Big-Ten",2008
+"Illinois",27,211.64,"Big-Ten",2008
+"Nebraska",47,205.91,"Big-Ten",2008
+"Minnesota",29,203.93,"Big-Ten",2008
+"Penn State",17,188.51,"Big-Ten",2008
+"Wisconsin",26,184.77,"Big-Ten",2008
+"Rutgers",21,172.92,"Big-Ten",2008
+"Michigan State",37,171.28,"Big-Ten",2008
+"Maryland",15,168.8,"Big-Ten",2008
+"Iowa",33,160.55,"Big-Ten",2008
+"Purdue",27,156.89,"Big-Ten",2008
+"Northwestern",20,135.68,"Big-Ten",2008
+"Indiana",20,134.98,"Big-Ten",2008
+"Southern Miss",27,183.03,"C-USA",2008
+"North Texas",26,148.47,"C-USA",2008
+"Middle Tennessee State",26,142.87,"C-USA",2008
+"Marshall",21,137.56,"C-USA",2008
+"Louisiana Tech",21,113.68,"C-USA",2008
+"FIU",24,112.65,"C-USA",2008
+"Rice",19,104.04,"C-USA",2008
+"UAB",26,103.96,"C-USA",2008
+"Western Kentucky",1,0,"C-USA",2008
+"UTEP",1,0,"C-USA",2008
+"Notre Dame",34,294.67,"IND",2008
+"Brigham Young",23,172.24,"IND",2008
+"Navy",18,73.09,"IND",2008
+"Army",25,66.25,"IND",2008
+"Toledo",23,119.27,"MAC",2008
+"Ohio",20,109.93,"MAC",2008
+"Kent State",24,105.4,"MAC",2008
+"Western Michigan",24,103.75,"MAC",2008
+"Akron",21,103.68,"MAC",2008
+"Miami (OH)",18,101.49,"MAC",2008
+"Central Michigan",23,94.17,"MAC",2008
+"Ball State",21,84.93,"MAC",2008
+"Eastern Michigan",23,79.64,"MAC",2008
+"Bowling Green",17,74.91,"MAC",2008
+"Buffalo",19,72.01,"MAC",2008
+"Northern Illinois",14,65.4,"MAC",2008
+"Massachusetts",1,0,"MAC",2008
+"Fresno State",24,140.29,"M-West",2008
+"Hawaii",23,121.43,"M-West",2008
+"Boise State",18,119.06,"M-West",2008
+"San Diego State",20,110.98,"M-West",2008
+"Colorado State",24,109.46,"M-West",2008
+"Nevada",25,107.14,"M-West",2008
+"New Mexico",23,106.1,"M-West",2008
+"Wyoming",22,103.13,"M-West",2008
+"UNLV",22,101.14,"M-West",2008
+"San Jose State",16,80.98,"M-West",2008
+"Utah State",20,78.64,"M-West",2008
+"Air Force",4,23.97,"M-West",2008
+"USC",20,285.58,"Pac-12",2008
+"UCLA",23,248.32,"Pac-12",2008
+"Colorado",22,225.54,"Pac-12",2008
+"Washington",26,219.25,"Pac-12",2008
+"Arizona State",28,218.44,"Pac-12",2008
+"Oregon",24,208.93,"Pac-12",2008
+"Arizona",22,198.32,"Pac-12",2008
+"California",22,197.94,"Pac-12",2008
+"Stanford",17,171.07,"Pac-12",2008
+"Oregon State",19,160.03,"Pac-12",2008
+"Utah",15,147.72,"Pac-12",2008
+"Washington State",27,137.8,"Pac-12",2008
+"Alabama",32,289.05,"SEC",2008
+"Florida",22,280.69,"SEC",2008
+"Georgia",25,279.12,"SEC",2008
+"LSU",25,255.34,"SEC",2008
+"Auburn",35,207.35,"SEC",2008
+"Arkansas",29,201.01,"SEC",2008
+"Ole Miss",31,198.37,"SEC",2008
+"Tennessee",18,196.12,"SEC",2008
+"South Carolina",29,191.52,"SEC",2008
+"Mississippi State",24,161.26,"SEC",2008
+"Kentucky",19,148.93,"SEC",2008
+"Vanderbilt",21,116.91,"SEC",2008
+"Troy",28,141.37,"SBC",2008
+"Louisiana-Monroe",21,113.43,"SBC",2008
+"New Mexico State",19,93.71,"SBC",2008
+"Idaho",22,84.6,"SBC",2008
+"Arkansas State",24,82.13,"SBC",2008
+"Louisiana-Lafayette",23,81.53,"SBC",2008
+"Appalachian State",1,0,"SBC",2008
+"North Carolina",28,254.96,"ACC",2009
+"Florida State",25,251.48,"ACC",2009
+"Miami",18,236.28,"ACC",2009
+"Virginia Tech",24,217.55,"ACC",2009
+"Clemson",15,202.9,"ACC",2009
+"Virginia",34,195.7,"ACC",2009
+"Pittsburgh",20,191.37,"ACC",2009
+"Georgia Tech",27,190.16,"ACC",2009
+"N.C. State",27,176.3,"ACC",2009
+"Duke",28,169.28,"ACC",2009
+"Louisville",29,161.45,"ACC",2009
+"Wake Forest",23,155.33,"ACC",2009
+"Boston College",22,146.56,"ACC",2009
+"Syracuse",16,115.21,"ACC",2009
+"Texas",20,269.94,"Big-12",2009
+"Oklahoma",22,258.53,"Big-12",2009
+"West Virginia",29,220.6,"Big-12",2009
+"Texas A&M",30,215.79,"Big-12",2009
+"Missouri",26,197.24,"Big-12",2009
+"Oklahoma State",26,196.88,"Big-12",2009
+"Texas Tech",24,195.65,"Big-12",2009
+"Kansas",26,181.34,"Big-12",2009
+"TCU",21,178.83,"Big-12",2009
+"Baylor",30,173.24,"Big-12",2009
+"Iowa State",23,144.6,"Big-12",2009
+"Kansas State",24,134.98,"Big-12",2009
+"USF",29,211.06,"AAC",2009
+"Cincinnati",26,167.1,"AAC",2009
+"SMU",27,159.36,"AAC",2009
+"Tulsa",26,153.91,"AAC",2009
+"UCF",21,152.97,"AAC",2009
+"Houston",25,151.26,"AAC",2009
+"Connecticut",21,138.56,"AAC",2009
+"Tulane",27,136.2,"AAC",2009
+"Memphis",24,128.94,"AAC",2009
+"East Carolina",19,118.94,"AAC",2009
+"Temple",29,82.92,"AAC",2009
+"Ohio State",36,280.19,"Big-Ten",2009
+"Michigan",22,255.78,"Big-Ten",2009
+"Penn State",25,228.51,"Big-Ten",2009
+"Michigan State",41,211.36,"Big-Ten",2009
+"Maryland",30,205.49,"Big-Ten",2009
+"Illinois",24,203.37,"Big-Ten",2009
+"Rutgers",23,195.55,"Big-Ten",2009
+"Minnesota",23,194.32,"Big-Ten",2009
+"Nebraska",34,189.97,"Big-Ten",2009
+"Wisconsin",25,186.31,"Big-Ten",2009
+"Northwestern",19,157.34,"Big-Ten",2009
+"Indiana",20,151.49,"Big-Ten",2009
+"Iowa",22,151.17,"Big-Ten",2009
+"Purdue",21,146.62,"Big-Ten",2009
+"Southern Miss",26,172.99,"C-USA",2009
+"UAB",29,138.66,"C-USA",2009
+"FIU",28,134.35,"C-USA",2009
+"Louisiana Tech",26,133.35,"C-USA",2009
+"Rice",24,122.23,"C-USA",2009
+"Marshall",24,120.98,"C-USA",2009
+"Middle Tennessee State",26,119.58,"C-USA",2009
+"North Texas",20,110.08,"C-USA",2009
+"Florida Atlantic",2,0,"C-USA",2009
+"Western Kentucky",1,0,"C-USA",2009
+"Notre Dame",21,240.45,"IND",2009
+"Brigham Young",21,174.45,"IND",2009
+"Army",49,79.82,"IND",2009
+"Navy",6,33.97,"IND",2009
+"Central Michigan",30,134.79,"MAC",2009
+"Toledo",23,121.42,"MAC",2009
+"Kent State",23,120.63,"MAC",2009
+"Miami (OH)",24,117.77,"MAC",2009
+"Western Michigan",26,114.02,"MAC",2009
+"Akron",24,113.13,"MAC",2009
+"Bowling Green",23,112.02,"MAC",2009
+"Northern Illinois",25,104.08,"MAC",2009
+"Eastern Michigan",21,102.88,"MAC",2009
+"Ohio",21,97.25,"MAC",2009
+"Buffalo",24,84.89,"MAC",2009
+"Massachusetts",2,0,"MAC",2009
+"Boise State",22,150.36,"M-West",2009
+"Hawaii",29,143.61,"M-West",2009
+"UNLV",21,124.66,"M-West",2009
+"Fresno State",17,123.08,"M-West",2009
+"Colorado State",21,114.19,"M-West",2009
+"Nevada",19,113.49,"M-West",2009
+"San Diego State",20,113.34,"M-West",2009
+"Wyoming",24,110.89,"M-West",2009
+"New Mexico",18,94.38,"M-West",2009
+"Air Force",22,91.94,"M-West",2009
+"Utah State",20,87.65,"M-West",2009
+"San Jose State",2,3.33,"M-West",2009
+"USC",18,285.69,"Pac-12",2009
+"UCLA",31,255.36,"Pac-12",2009
+"Stanford",23,229.23,"Pac-12",2009
+"Oregon",37,207.52,"Pac-12",2009
+"California",21,199.41,"Pac-12",2009
+"Arizona State",22,199.28,"Pac-12",2009
+"Utah",24,181.72,"Pac-12",2009
+"Colorado",21,176.52,"Pac-12",2009
+"Oregon State",25,174.97,"Pac-12",2009
+"Arizona",20,171.06,"Pac-12",2009
+"Washington State",21,157.94,"Pac-12",2009
+"Washington",20,145.38,"Pac-12",2009
+"LSU",25,291.33,"SEC",2009
+"Alabama",28,285.91,"SEC",2009
+"Georgia",21,279.41,"SEC",2009
+"Florida",18,264.61,"SEC",2009
+"Tennessee",21,261.61,"SEC",2009
+"South Carolina",36,250.02,"SEC",2009
+"Ole Miss",37,227.81,"SEC",2009
+"Mississippi State",32,226.44,"SEC",2009
+"Arkansas",42,224.58,"SEC",2009
+"Auburn",28,218.28,"SEC",2009
+"Kentucky",28,188.55,"SEC",2009
+"Vanderbilt",18,147.2,"SEC",2009
+"Troy",41,158.31,"SBC",2009
+"Louisiana-Monroe",28,109.38,"SBC",2009
+"New Mexico State",18,84.96,"SBC",2009
+"Arkansas State",20,83.81,"SBC",2009
+"Louisiana-Lafayette",17,82.82,"SBC",2009
+"Idaho",20,77.63,"SBC",2009
+"Georgia Southern",1,0,"SBC",2009
+"Texas State",2,0,"SBC",2009
+"Georgia State",15,0,"SBC",2009
+"Appalachian State",3,0,"SBC",2009
+"South Alabama",10,0,"SBC",2009
+"Florida State",29,265.39,"ACC",2010
+"Miami",30,242,"ACC",2010
+"North Carolina",22,215.81,"ACC",2010
+"Clemson",24,209.53,"ACC",2010
+"Pittsburgh",24,205.26,"ACC",2010
+"Virginia Tech",21,203.77,"ACC",2010
+"N.C. State",24,197.88,"ACC",2010
+"Georgia Tech",28,191.03,"ACC",2010
+"Louisville",28,184.8,"ACC",2010
+"Boston College",26,181.41,"ACC",2010
+"Virginia",37,163.05,"ACC",2010
+"Wake Forest",23,160.75,"ACC",2010
+"Syracuse",34,160.09,"ACC",2010
+"Duke",24,155.98,"ACC",2010
+"Texas",24,311.49,"Big-12",2010
+"Oklahoma",31,281.85,"Big-12",2010
+"Texas A&M",26,227.22,"Big-12",2010
+"Missouri",25,218.93,"Big-12",2010
+"West Virginia",21,206.79,"Big-12",2010
+"Oklahoma State",28,204.94,"Big-12",2010
+"Texas Tech",31,197.13,"Big-12",2010
+"Baylor",30,193.35,"Big-12",2010
+"TCU",18,170.47,"Big-12",2010
+"Kansas",25,167.21,"Big-12",2010
+"Iowa State",31,161.08,"Big-12",2010
+"Kansas State",24,149.68,"Big-12",2010
+"UCF",26,173.47,"AAC",2010
+"Cincinnati",25,170.83,"AAC",2010
+"USF",20,170.82,"AAC",2010
+"Houston",28,165.99,"AAC",2010
+"Memphis",40,161.97,"AAC",2010
+"SMU",27,151.48,"AAC",2010
+"Tulsa",26,147.92,"AAC",2010
+"Connecticut",21,139.41,"AAC",2010
+"East Carolina",22,134.55,"AAC",2010
+"Temple",27,129.54,"AAC",2010
+"Tulane",26,123.29,"AAC",2010
+"Penn State",18,249.19,"Big-Ten",2010
+"Ohio State",20,233.61,"Big-Ten",2010
+"Michigan",28,232.13,"Big-Ten",2010
+"Michigan State",35,220.4,"Big-Ten",2010
+"Nebraska",41,211.15,"Big-Ten",2010
+"Maryland",25,195.39,"Big-Ten",2010
+"Iowa",31,193.59,"Big-Ten",2010
+"Wisconsin",36,184.46,"Big-Ten",2010
+"Rutgers",25,174.25,"Big-Ten",2010
+"Purdue",27,173.57,"Big-Ten",2010
+"Minnesota",27,167.16,"Big-Ten",2010
+"Illinois",33,166.62,"Big-Ten",2010
+"Northwestern",17,161.49,"Big-Ten",2010
+"Indiana",26,152.24,"Big-Ten",2010
+"Southern Miss",27,169.74,"C-USA",2010
+"Marshall",28,147.09,"C-USA",2010
+"Louisiana Tech",23,133.05,"C-USA",2010
+"FIU",19,131.82,"C-USA",2010
+"UAB",28,130.93,"C-USA",2010
+"UTEP",24,129.16,"C-USA",2010
+"Rice",17,123.36,"C-USA",2010
+"Western Kentucky",16,107.11,"C-USA",2010
+"Middle Tennessee State",22,89.91,"C-USA",2010
+"North Texas",20,82.95,"C-USA",2010
+"Florida Atlantic",10,61.25,"C-USA",2010
+"Old Dominion",4,0,"C-USA",2010
+"Notre Dame",25,232.42,"IND",2010
+"Brigham Young",26,205.87,"IND",2010
+"Army",47,94.48,"IND",2010
+"Navy",7,36.32,"IND",2010
+"Kent State",23,131.18,"MAC",2010
+"Bowling Green",27,130.29,"MAC",2010
+"Toledo",24,126.68,"MAC",2010
+"Western Michigan",25,124.47,"MAC",2010
+"Ball State",24,122.55,"MAC",2010
+"Akron",24,121.35,"MAC",2010
+"Miami (OH)",23,121.03,"MAC",2010
+"Northern Illinois",26,116.43,"MAC",2010
+"Central Michigan",21,113.29,"MAC",2010
+"Buffalo",22,112.35,"MAC",2010
+"Eastern Michigan",22,101.95,"MAC",2010
+"Ohio",17,93.38,"MAC",2010
+"Fresno State",20,153.44,"M-West",2010
+"San Diego State",27,150.56,"M-West",2010
+"New Mexico",19,144.25,"M-West",2010
+"Colorado State",32,143.93,"M-West",2010
+"Hawaii",32,132.38,"M-West",2010
+"Nevada",29,128.93,"M-West",2010
+"San Jose State",25,128.29,"M-West",2010
+"UNLV",20,124.77,"M-West",2010
+"Wyoming",25,123.36,"M-West",2010
+"Utah State",30,109.53,"M-West",2010
+"Boise State",13,104.16,"M-West",2010
+"Air Force",2,24.1,"M-West",2010
+"USC",21,293.22,"Pac-12",2010
+"UCLA",28,262.1,"Pac-12",2010
+"Oregon",26,243.37,"Pac-12",2010
+"Washington",33,230.56,"Pac-12",2010
+"California",18,223.44,"Pac-12",2010
+"Stanford",24,214.19,"Pac-12",2010
+"Arizona State",26,196.93,"Pac-12",2010
+"Utah",22,186.17,"Pac-12",2010
+"Arizona",27,178.73,"Pac-12",2010
+"Washington State",25,169.34,"Pac-12",2010
+"Oregon State",19,167.99,"Pac-12",2010
+"Colorado",23,166.98,"Pac-12",2010
+"Florida",30,323.66,"SEC",2010
+"Alabama",26,281.31,"SEC",2010
+"Auburn",43,274.03,"SEC",2010
+"LSU",27,263.7,"SEC",2010
+"Tennessee",28,262.7,"SEC",2010
+"Georgia",28,251.11,"SEC",2010
+"Ole Miss",27,218.17,"SEC",2010
+"South Carolina",29,213.28,"SEC",2010
+"Mississippi State",29,203.86,"SEC",2010
+"Arkansas",37,192.11,"SEC",2010
+"Kentucky",28,178.93,"SEC",2010
+"Vanderbilt",25,171.87,"SEC",2010
+"Idaho",26,137.29,"SBC",2010
+"Arkansas State",26,128.72,"SBC",2010
+"New Mexico State",21,120.9,"SBC",2010
+"Troy",29,114.01,"SBC",2010
+"Louisiana-Lafayette",23,84.21,"SBC",2010
+"Louisiana-Monroe",20,83.34,"SBC",2010
+"Georgia Southern",2,13.33,"SBC",2010
+"Georgia State",14,0,"SBC",2010
+"South Alabama",12,0,"SBC",2010
+"Appalachian State",2,0,"SBC",2010
+"Texas State",1,0,"SBC",2010
+"Florida State",29,296.41,"ACC",2011
+"Clemson",31,269.16,"ACC",2011
+"North Carolina",26,230.93,"ACC",2011
+"Virginia",27,221,"ACC",2011
+"Louisville",22,208.34,"ACC",2011
+"Miami",21,198.68,"ACC",2011
+"Virginia Tech",22,190.68,"ACC",2011
+"Boston College",26,180.05,"ACC",2011
+"Georgia Tech",22,174.84,"ACC",2011
+"Syracuse",29,157.74,"ACC",2011
+"Duke",20,149.33,"ACC",2011
+"Pittsburgh",21,148.73,"ACC",2011
+"Wake Forest",16,141.84,"ACC",2011
+"N.C. State",20,136.6,"ACC",2011
+"Texas",22,283.61,"Big-12",2011
+"Oklahoma",18,256.21,"Big-12",2011
+"Texas Tech",36,231.9,"Big-12",2011
+"Oklahoma State",27,213.53,"Big-12",2011
+"TCU",26,207.48,"Big-12",2011
+"Texas A&M",22,195.86,"Big-12",2011
+"Kansas",32,178.77,"Big-12",2011
+"Baylor",25,170.16,"Big-12",2011
+"West Virginia",24,164.85,"Big-12",2011
+"Kansas State",27,163.66,"Big-12",2011
+"Missouri",14,158.06,"Big-12",2011
+"Iowa State",23,154.28,"Big-12",2011
+"Cincinnati",24,167.47,"AAC",2011
+"UCF",26,159.43,"AAC",2011
+"SMU",27,144.35,"AAC",2011
+"USF",21,141.95,"AAC",2011
+"East Carolina",26,139,"AAC",2011
+"Houston",22,134.24,"AAC",2011
+"Memphis",40,122.3,"AAC",2011
+"Tulsa",21,113.11,"AAC",2011
+"Connecticut",17,112.7,"AAC",2011
+"Tulane",22,110.8,"AAC",2011
+"Temple",20,93.23,"AAC",2011
+"Ohio State",26,278.08,"Big-Ten",2011
+"Nebraska",21,245.6,"Big-Ten",2011
+"Michigan",20,210.78,"Big-Ten",2011
+"Iowa",27,208.64,"Big-Ten",2011
+"Rutgers",23,206.28,"Big-Ten",2011
+"Penn State",21,201.4,"Big-Ten",2011
+"Michigan State",21,198.91,"Big-Ten",2011
+"Wisconsin",21,184.53,"Big-Ten",2011
+"Illinois",29,183.66,"Big-Ten",2011
+"Maryland",21,162.43,"Big-Ten",2011
+"Minnesota",25,158.2,"Big-Ten",2011
+"Indiana",24,157.88,"Big-Ten",2011
+"Northwestern",16,149.67,"Big-Ten",2011
+"Purdue",15,129.39,"Big-Ten",2011
+"Marshall",24,152.84,"C-USA",2011
+"Western Kentucky",29,64.38,"C-USA",2011
+"Southern Miss",26,60.37,"C-USA",2011
+"FIU",25,59.68,"C-USA",2011
+"Florida Atlantic",24,46.77,"C-USA",2011
+"Middle Tennessee State",17,45.96,"C-USA",2011
+"UAB",26,31.22,"C-USA",2011
+"North Texas",25,23.4,"C-USA",2011
+"Rice",19,17.94,"C-USA",2011
+"Louisiana Tech",24,17.58,"C-USA",2011
+"Old Dominion",10,9.99,"C-USA",2011
+"UTEP",21,0,"C-USA",2011
+"Texas-San Antonio",3,0,"C-USA",2011
+"Notre Dame",28,269.31,"IND",2011
+"Brigham Young",18,143.97,"IND",2011
+"Navy",22,24.64,"IND",2011
+"Army",27,4.96,"IND",2011
+"Toledo",22,130.09,"MAC",2011
+"Western Michigan",19,93.69,"MAC",2011
+"Bowling Green",22,43.71,"MAC",2011
+"Central Michigan",25,43.51,"MAC",2011
+"Ball State",19,41.78,"MAC",2011
+"Northern Illinois",22,37.01,"MAC",2011
+"Eastern Michigan",19,36.78,"MAC",2011
+"Buffalo",22,34.96,"MAC",2011
+"Miami (OH)",19,20.81,"MAC",2011
+"Ohio",23,17.86,"MAC",2011
+"Kent State",18,13.99,"MAC",2011
+"Akron",22,13.72,"MAC",2011
+"Massachusetts",1,0,"MAC",2011
+"Boise State",22,159.9,"M-West",2011
+"Colorado State",26,122.79,"M-West",2011
+"San Diego State",23,118.05,"M-West",2011
+"Hawaii",26,42.06,"M-West",2011
+"New Mexico",21,39.33,"M-West",2011
+"Fresno State",17,32.9,"M-West",2011
+"Wyoming",22,29.8,"M-West",2011
+"UNLV",22,27.69,"M-West",2011
+"Utah State",25,20.37,"M-West",2011
+"Nevada",23,8.99,"M-West",2011
+"San Jose State",22,8.84,"M-West",2011
+"Air Force",36,0,"M-West",2011
+"USC",29,286.99,"Pac-12",2011
+"Oregon",26,257.09,"Pac-12",2011
+"California",23,248.9,"Pac-12",2011
+"Stanford",19,221.85,"Pac-12",2011
+"Washington",23,219.9,"Pac-12",2011
+"Utah",18,182.11,"Pac-12",2011
+"Oregon State",25,175.75,"Pac-12",2011
+"UCLA",17,170.82,"Pac-12",2011
+"Arizona",27,166.94,"Pac-12",2011
+"Colorado",19,147.7,"Pac-12",2011
+"Arizona State",16,144.33,"Pac-12",2011
+"Washington State",25,144.21,"Pac-12",2011
+"Alabama",26,298.5,"SEC",2011
+"Auburn",33,280.98,"SEC",2011
+"Georgia",26,279.82,"SEC",2011
+"LSU",23,274.04,"SEC",2011
+"Florida",19,259.45,"SEC",2011
+"Tennessee",27,253.78,"SEC",2011
+"South Carolina",33,244.12,"SEC",2011
+"Ole Miss",26,226.45,"SEC",2011
+"Arkansas",34,225.88,"SEC",2011
+"Mississippi State",24,192.65,"SEC",2011
+"Kentucky",26,183.89,"SEC",2011
+"Vanderbilt",23,163.64,"SEC",2011
+"Louisiana-Lafayette",29,91.52,"SBC",2011
+"Troy",19,27.16,"SBC",2011
+"South Alabama",20,24.8,"SBC",2011
+"Louisiana-Monroe",21,22.7,"SBC",2011
+"Arkansas State",22,22.37,"SBC",2011
+"Idaho",23,19.29,"SBC",2011
+"Texas State",1,12.55,"SBC",2011
+"New Mexico State",21,3.33,"SBC",2011
+"Appalachian State",1,1.99,"SBC",2011
+"Georgia State",5,0,"SBC",2011
+"Georgia Southern",1,0,"SBC",2011
+"Florida State",19,287.73,"ACC",2012
+"Miami",33,264.52,"ACC",2012
+"Clemson",22,245.9,"ACC",2012
+"Virginia Tech",31,226.62,"ACC",2012
+"Virginia",31,219,"ACC",2012
+"Pittsburgh",17,196.01,"ACC",2012
+"North Carolina",24,195.17,"ACC",2012
+"Louisville",22,191.68,"ACC",2012
+"Georgia Tech",17,180.57,"ACC",2012
+"N.C. State",22,179.32,"ACC",2012
+"Syracuse",24,165.66,"ACC",2012
+"Duke",21,163.5,"ACC",2012
+"Wake Forest",20,153.48,"ACC",2012
+"Boston College",26,142.89,"ACC",2012
+"Texas",28,295.82,"Big-12",2012
+"Oklahoma",24,251.2,"Big-12",2012
+"Baylor",26,218.36,"Big-12",2012
+"Texas Tech",25,217.78,"Big-12",2012
+"TCU",24,214.72,"Big-12",2012
+"Oklahoma State",23,209.48,"Big-12",2012
+"West Virginia",32,202.66,"Big-12",2012
+"Iowa State",21,152.85,"Big-12",2012
+"Kansas State",19,137.35,"Big-12",2012
+"Kansas",25,125.94,"Big-12",2012
+"Cincinnati",28,183.19,"AAC",2012
+"USF",18,179.41,"AAC",2012
+"Houston",25,172.27,"AAC",2012
+"SMU",22,148.28,"AAC",2012
+"Connecticut",22,143.05,"AAC",2012
+"Temple",31,137.72,"AAC",2012
+"East Carolina",20,130.88,"AAC",2012
+"Tulane",16,123.24,"AAC",2012
+"Tulsa",20,117.25,"AAC",2012
+"Memphis",41,114.76,"AAC",2012
+"UCF",15,110.95,"AAC",2012
+"Ohio State",26,281.68,"Big-Ten",2012
+"Michigan",34,275.89,"Big-Ten",2012
+"Rutgers",22,219.65,"Big-Ten",2012
+"Nebraska",17,210.46,"Big-Ten",2012
+"Michigan State",24,206.97,"Big-Ten",2012
+"Maryland",26,201.19,"Big-Ten",2012
+"Iowa",26,197.75,"Big-Ten",2012
+"Penn State",23,189.29,"Big-Ten",2012
+"Purdue",29,184.57,"Big-Ten",2012
+"Northwestern",22,177.2,"Big-Ten",2012
+"Indiana",30,171.55,"Big-Ten",2012
+"Minnesota",26,167.47,"Big-Ten",2012
+"Illinois",21,159.74,"Big-Ten",2012
+"Wisconsin",14,157.55,"Big-Ten",2012
+"Southern Miss",23,146.72,"C-USA",2012
+"FIU",29,134.23,"C-USA",2012
+"Marshall",22,133.94,"C-USA",2012
+"Florida Atlantic",28,123.46,"C-USA",2012
+"Rice",24,119.15,"C-USA",2012
+"North Texas",23,109.58,"C-USA",2012
+"Louisiana Tech",15,108.99,"C-USA",2012
+"Western Kentucky",13,104.96,"C-USA",2012
+"UAB",25,93.04,"C-USA",2012
+"UTEP",22,83.29,"C-USA",2012
+"Middle Tennessee State",21,80.89,"C-USA",2012
+"Texas-San Antonio",6,61.78,"C-USA",2012
+"Old Dominion",18,40.57,"C-USA",2012
+"Charlotte",5,19.34,"C-USA",2012
+"Notre Dame",18,244.29,"IND",2012
+"Brigham Young",15,142.87,"IND",2012
+"Navy",16,77.25,"IND",2012
+"Army",15,34.14,"IND",2012
+"Toledo",27,133.84,"MAC",2012
+"Miami (OH)",24,119.05,"MAC",2012
+"Central Michigan",24,118.95,"MAC",2012
+"Bowling Green",20,113.01,"MAC",2012
+"Western Michigan",28,112.79,"MAC",2012
+"Ohio",21,112.25,"MAC",2012
+"Ball State",24,108.02,"MAC",2012
+"Kent State",24,102.12,"MAC",2012
+"Northern Illinois",30,100.92,"MAC",2012
+"Eastern Michigan",24,92.83,"MAC",2012
+"Buffalo",19,77.86,"MAC",2012
+"Akron",22,59.6,"MAC",2012
+"Massachusetts",5,19.91,"MAC",2012
+"Boise State",25,167.2,"M-West",2012
+"San Diego State",21,137.73,"M-West",2012
+"Nevada",21,130.84,"M-West",2012
+"Hawaii",20,121.83,"M-West",2012
+"Air Force",39,121.46,"M-West",2012
+"New Mexico",26,116.03,"M-West",2012
+"San Jose State",21,102.84,"M-West",2012
+"UNLV",19,102.45,"M-West",2012
+"Utah State",15,95.68,"M-West",2012
+"Wyoming",23,88.81,"M-West",2012
+"Fresno State",14,81.28,"M-West",2012
+"Colorado State",23,60.76,"M-West",2012
+"Stanford",22,272.45,"Pac-12",2012
+"USC",17,270.22,"Pac-12",2012
+"Oregon",21,247.3,"Pac-12",2012
+"UCLA",26,243.5,"Pac-12",2012
+"Washington",25,220.93,"Pac-12",2012
+"California",16,206.59,"Pac-12",2012
+"Arizona State",28,203.11,"Pac-12",2012
+"Utah",27,202.19,"Pac-12",2012
+"Colorado",28,199.39,"Pac-12",2012
+"Arizona",27,196.15,"Pac-12",2012
+"Oregon State",23,192.35,"Pac-12",2012
+"Washington State",24,169.03,"Pac-12",2012
+"Alabama",26,310.09,"SEC",2012
+"Florida",23,287,"SEC",2012
+"Georgia",19,270.38,"SEC",2012
+"Auburn",21,257.6,"SEC",2012
+"LSU",25,247.12,"SEC",2012
+"Texas A&M",19,245.27,"SEC",2012
+"South Carolina",30,244.95,"SEC",2012
+"Tennessee",23,239.1,"SEC",2012
+"Mississippi State",28,223.68,"SEC",2012
+"Arkansas",26,217.57,"SEC",2012
+"Missouri",19,209.77,"SEC",2012
+"Ole Miss",18,188.84,"SEC",2012
+"Vanderbilt",22,188.56,"SEC",2012
+"Kentucky",29,184.47,"SEC",2012
+"Arkansas State",29,162.05,"SBC",2012
+"New Mexico State",20,119.49,"SBC",2012
+"Troy",32,113.37,"SBC",2012
+"Louisiana-Lafayette",22,96.09,"SBC",2012
+"Texas State",13,95.41,"SBC",2012
+"Idaho",22,90.15,"SBC",2012
+"Louisiana-Monroe",21,88.4,"SBC",2012
+"South Alabama",26,60.47,"SBC",2012
+"Appalachian State",8,38.74,"SBC",2012
+"Georgia Southern",5,24.75,"SBC",2012
+"Georgia State",13,21.87,"SBC",2012
+"Florida State",22,262.44,"ACC",2013
+"Miami",21,250.42,"ACC",2013
+"Clemson",23,249.51,"ACC",2013
+"Virginia Tech",25,223.02,"ACC",2013
+"North Carolina",18,206.44,"ACC",2013
+"Virginia",23,203.2,"ACC",2013
+"Pittsburgh",27,195.37,"ACC",2013
+"Louisville",18,193.72,"ACC",2013
+"N.C. State",23,161.86,"ACC",2013
+"Wake Forest",27,148.32,"ACC",2013
+"Duke",20,147.18,"ACC",2013
+"Syracuse",22,144.45,"ACC",2013
+"Georgia Tech",15,143.14,"ACC",2013
+"Boston College",17,126.12,"ACC",2013
+"Oklahoma",24,241.41,"Big-12",2013
+"Texas",15,234.51,"Big-12",2013
+"Baylor",26,206.9,"Big-12",2013
+"Oklahoma State",25,200.8,"Big-12",2013
+"West Virginia",40,200.75,"Big-12",2013
+"TCU",23,194.38,"Big-12",2013
+"Texas Tech",30,182.63,"Big-12",2013
+"Kansas",37,178.85,"Big-12",2013
+"Iowa State",25,161.61,"Big-12",2013
+"Kansas State",19,160.68,"Big-12",2013
+"USF",24,173.78,"AAC",2013
+"Houston",27,170.53,"AAC",2013
+"Cincinnati",20,159.05,"AAC",2013
+"Connecticut",26,157.16,"AAC",2013
+"East Carolina",29,147.91,"AAC",2013
+"SMU",26,146.79,"AAC",2013
+"Temple",23,137.71,"AAC",2013
+"Tulsa",22,137.51,"AAC",2013
+"UCF",19,136.69,"AAC",2013
+"Tulane",23,133.49,"AAC",2013
+"Memphis",44,125.88,"AAC",2013
+"Ohio State",29,303.27,"Big-Ten",2013
+"Michigan",35,289.15,"Big-Ten",2013
+"Nebraska",24,220.22,"Big-Ten",2013
+"Penn State",16,195.03,"Big-Ten",2013
+"Michigan State",19,194.39,"Big-Ten",2013
+"Wisconsin",23,191.24,"Big-Ten",2013
+"Maryland",23,190.61,"Big-Ten",2013
+"Indiana",26,188.56,"Big-Ten",2013
+"Illinois",26,177.6,"Big-Ten",2013
+"Rutgers",29,176.18,"Big-Ten",2013
+"Northwestern",19,173.91,"Big-Ten",2013
+"Iowa",25,169.95,"Big-Ten",2013
+"Purdue",24,159.12,"Big-Ten",2013
+"Minnesota",19,151.4,"Big-Ten",2013
+"Marshall",22,170.31,"C-USA",2013
+"Southern Miss",26,132.31,"C-USA",2013
+"Florida Atlantic",26,128.15,"C-USA",2013
+"Middle Tennessee State",25,125.9,"C-USA",2013
+"UAB",29,125.45,"C-USA",2013
+"Louisiana Tech",20,123.39,"C-USA",2013
+"Rice",19,122.51,"C-USA",2013
+"Western Kentucky",35,121.26,"C-USA",2013
+"Texas-San Antonio",22,106.81,"C-USA",2013
+"Charlotte",23,102,"C-USA",2013
+"FIU",19,101.26,"C-USA",2013
+"North Texas",19,94.5,"C-USA",2013
+"UTEP",18,84.91,"C-USA",2013
+"Old Dominion",37,75.52,"C-USA",2013
+"Notre Dame",24,284.76,"IND",2013
+"Brigham Young",31,153.42,"IND",2013
+"Navy",23,95.49,"IND",2013
+"Army",13,70.68,"IND",2013
+"Toledo",22,144,"MAC",2013
+"Bowling Green",23,137.62,"MAC",2013
+"Massachusetts",25,118.77,"MAC",2013
+"Northern Illinois",26,108.66,"MAC",2013
+"Miami (OH)",22,106.88,"MAC",2013
+"Central Michigan",20,106.44,"MAC",2013
+"Ball State",21,102.32,"MAC",2013
+"Western Michigan",18,100.8,"MAC",2013
+"Akron",17,98.15,"MAC",2013
+"Eastern Michigan",21,94.97,"MAC",2013
+"Kent State",21,94.14,"MAC",2013
+"Ohio",21,91.72,"MAC",2013
+"Buffalo",18,66.73,"MAC",2013
+"Boise State",27,172.95,"M-West",2013
+"San Diego State",24,145.85,"M-West",2013
+"Fresno State",29,144.25,"M-West",2013
+"Hawaii",28,138.94,"M-West",2013
+"Colorado State",23,132.55,"M-West",2013
+"Nevada",20,124.4,"M-West",2013
+"New Mexico",26,123.3,"M-West",2013
+"UNLV",22,120.23,"M-West",2013
+"Air Force",43,112.68,"M-West",2013
+"Utah State",24,105.32,"M-West",2013
+"Wyoming",20,102.68,"M-West",2013
+"San Jose State",18,82.32,"M-West",2013
+"UCLA",28,276.26,"Pac-12",2013
+"USC",12,256.42,"Pac-12",2013
+"Washington",22,234.44,"Pac-12",2013
+"Oregon",20,227.7,"Pac-12",2013
+"Arizona State",28,191.15,"Pac-12",2013
+"California",25,190.82,"Pac-12",2013
+"Arizona",35,186.75,"Pac-12",2013
+"Oregon State",25,186.45,"Pac-12",2013
+"Utah",28,180.94,"Pac-12",2013
+"Stanford",13,174.43,"Pac-12",2013
+"Washington State",30,173.67,"Pac-12",2013
+"Colorado",20,148.16,"Pac-12",2013
+"Alabama",26,319.48,"SEC",2013
+"Florida",28,291.48,"SEC",2013
+"LSU",28,281.03,"SEC",2013
+"Ole Miss",30,275.5,"SEC",2013
+"Texas A&M",33,267.79,"SEC",2013
+"Auburn",26,267.37,"SEC",2013
+"Georgia",34,260.38,"SEC",2013
+"South Carolina",24,223.67,"SEC",2013
+"Arkansas",36,215.94,"SEC",2013
+"Tennessee",25,213.57,"SEC",2013
+"Mississippi State",23,212.84,"SEC",2013
+"Vanderbilt",27,210.75,"SEC",2013
+"Kentucky",24,194.59,"SEC",2013
+"Missouri",21,188.16,"SEC",2013
+"Louisiana-Lafayette",21,140.25,"SBC",2013
+"South Alabama",28,122.04,"SBC",2013
+"Texas State",22,121.25,"SBC",2013
+"Troy",24,115.84,"SBC",2013
+"Arkansas State",21,113.66,"SBC",2013
+"New Mexico State",17,87.63,"SBC",2013
+"Idaho",21,79.99,"SBC",2013
+"Appalachian State",16,75.26,"SBC",2013
+"Louisiana-Monroe",16,72.64,"SBC",2013
+"Georgia State",27,65.9,"SBC",2013
+"Georgia Southern",9,29.36,"SBC",2013
+"Florida State",29,286.77,"ACC",2014
+"Miami",27,255.8,"ACC",2014
+"Clemson",20,240.66,"ACC",2014
+"Virginia Tech",30,216.97,"ACC",2014
+"North Carolina",21,211.63,"ACC",2014
+"Virginia",17,204.94,"ACC",2014
+"N.C. State",31,200.91,"ACC",2014
+"Pittsburgh",23,184.56,"ACC",2014
+"Louisville",26,183.93,"ACC",2014
+"Syracuse",25,176.8,"ACC",2014
+"Boston College",30,175.46,"ACC",2014
+"Georgia Tech",21,172.2,"ACC",2014
+"Duke",19,166.42,"ACC",2014
+"Wake Forest",25,160.87,"ACC",2014
+"Oklahoma",28,248.55,"Big-12",2014
+"Texas",23,240.71,"Big-12",2014
+"Baylor",28,217,"Big-12",2014
+"Oklahoma State",27,216.48,"Big-12",2014
+"West Virginia",32,196.51,"Big-12",2014
+"Texas Tech",37,190.12,"Big-12",2014
+"TCU",27,188.06,"Big-12",2014
+"Kansas State",26,177.47,"Big-12",2014
+"Kansas",30,176.39,"Big-12",2014
+"Iowa State",25,169.6,"Big-12",2014
+"USF",28,190.54,"AAC",2014
+"UCF",17,165.79,"AAC",2014
+"Cincinnati",27,161.11,"AAC",2014
+"Temple",31,155.7,"AAC",2014
+"Houston",26,143.91,"AAC",2014
+"East Carolina",29,142.56,"AAC",2014
+"Memphis",25,130.4,"AAC",2014
+"Tulsa",24,128.58,"AAC",2014
+"SMU",24,128.3,"AAC",2014
+"Tulane",20,120.75,"AAC",2014
+"Connecticut",16,97.85,"AAC",2014
+"Ohio State",31,296.06,"Big-Ten",2014
+"Michigan",26,233.57,"Big-Ten",2014
+"Penn State",26,222.38,"Big-Ten",2014
+"Michigan State",22,217.41,"Big-Ten",2014
+"Wisconsin",27,204.85,"Big-Ten",2014
+"Nebraska",25,197.83,"Big-Ten",2014
+"Maryland",18,191.72,"Big-Ten",2014
+"Northwestern",15,182.1,"Big-Ten",2014
+"Indiana",31,180.15,"Big-Ten",2014
+"Rutgers",32,173.71,"Big-Ten",2014
+"Minnesota",22,169.94,"Big-Ten",2014
+"Iowa",22,168.33,"Big-Ten",2014
+"Purdue",19,157.42,"Big-Ten",2014
+"Illinois",19,152.35,"Big-Ten",2014
+"Marshall",28,165.7,"C-USA",2014
+"Old Dominion",37,144.24,"C-USA",2014
+"Southern Miss",25,130.09,"C-USA",2014
+"Louisiana Tech",20,124.81,"C-USA",2014
+"Middle Tennessee State",23,122.13,"C-USA",2014
+"Western Kentucky",26,120.8,"C-USA",2014
+"Rice",19,116.38,"C-USA",2014
+"Florida Atlantic",23,114.9,"C-USA",2014
+"North Texas",22,105.66,"C-USA",2014
+"FIU",26,102.91,"C-USA",2014
+"UAB",37,97.63,"C-USA",2014
+"Charlotte",22,92.58,"C-USA",2014
+"UTEP",23,85.83,"C-USA",2014
+"Texas-San Antonio",16,81.76,"C-USA",2014
+"Notre Dame",24,260.44,"IND",2014
+"Brigham Young",20,160.55,"IND",2014
+"Navy",22,94.58,"IND",2014
+"Army",24,80.46,"IND",2014
+"Western Michigan",28,153.7,"MAC",2014
+"Toledo",23,117.53,"MAC",2014
+"Buffalo",22,110.69,"MAC",2014
+"Northern Illinois",31,109.96,"MAC",2014
+"Ball State",18,104.9,"MAC",2014
+"Ohio",24,102.45,"MAC",2014
+"Akron",19,101.86,"MAC",2014
+"Bowling Green",19,101.48,"MAC",2014
+"Massachusetts",17,90.2,"MAC",2014
+"Central Michigan",19,87.62,"MAC",2014
+"Eastern Michigan",22,84.86,"MAC",2014
+"Miami (OH)",25,81.99,"MAC",2014
+"Kent State",21,81.79,"MAC",2014
+"Boise State",22,159.21,"M-West",2014
+"San Diego State",27,148.06,"M-West",2014
+"Fresno State",24,126.85,"M-West",2014
+"Nevada",29,126.7,"M-West",2014
+"San Jose State",20,124.04,"M-West",2014
+"Colorado State",26,123.25,"M-West",2014
+"New Mexico",26,111.82,"M-West",2014
+"Hawaii",25,108.61,"M-West",2014
+"Air Force",24,97.93,"M-West",2014
+"Utah State",28,97.71,"M-West",2014
+"UNLV",19,89.8,"M-West",2014
+"Wyoming",22,82.31,"M-West",2014
+"USC",26,264.21,"Pac-12",2014
+"Stanford",20,250.06,"Pac-12",2014
+"UCLA",20,239.47,"Pac-12",2014
+"Oregon",22,232.45,"Pac-12",2014
+"Arizona State",28,222.47,"Pac-12",2014
+"Arizona",32,211.66,"Pac-12",2014
+"Washington",25,197.58,"Pac-12",2014
+"California",20,173.56,"Pac-12",2014
+"Washington State",22,172.66,"Pac-12",2014
+"Oregon State",30,164.97,"Pac-12",2014
+"Utah",18,160.27,"Pac-12",2014
+"Colorado",24,144.97,"Pac-12",2014
+"Alabama",29,319.58,"SEC",2014
+"LSU",27,299.3,"SEC",2014
+"Texas A&M",22,278.25,"SEC",2014
+"Auburn",27,277.02,"SEC",2014
+"Tennessee",32,274.76,"SEC",2014
+"Georgia",21,273.38,"SEC",2014
+"Florida",24,267.75,"SEC",2014
+"Ole Miss",27,241.12,"SEC",2014
+"South Carolina",21,239.46,"SEC",2014
+"Kentucky",32,225.45,"SEC",2014
+"Arkansas",27,215.62,"SEC",2014
+"Mississippi State",24,200.03,"SEC",2014
+"Missouri",29,195.14,"SEC",2014
+"Vanderbilt",23,183.62,"SEC",2014
+"Appalachian State",28,123.34,"SBC",2014
+"Georgia Southern",22,120.95,"SBC",2014
+"Arkansas State",24,114.25,"SBC",2014
+"Texas State",25,109.6,"SBC",2014
+"Georgia State",29,106.78,"SBC",2014
+"Louisiana-Lafayette",21,102.11,"SBC",2014
+"South Alabama",24,97.84,"SBC",2014
+"New Mexico State",27,87.81,"SBC",2014
+"Louisiana-Monroe",23,84.11,"SBC",2014
+"Idaho",23,79,"SBC",2014
+"Troy",17,64.29,"SBC",2014
+"Florida State",20,285.69,"ACC",2015
+"Clemson",26,277.24,"ACC",2015
+"Miami",22,216.19,"ACC",2015
+"North Carolina",19,213.7,"ACC",2015
+"Virginia Tech",24,212.5,"ACC",2015
+"N.C. State",23,207.36,"ACC",2015
+"Louisville",26,201.19,"ACC",2015
+"Georgia Tech",27,185.72,"ACC",2015
+"Pittsburgh",15,182.8,"ACC",2015
+"Virginia",23,179.54,"ACC",2015
+"Duke",18,175.85,"ACC",2015
+"Wake Forest",25,174.82,"ACC",2015
+"Syracuse",29,169.14,"ACC",2015
+"Boston College",25,166.13,"ACC",2015
+"Texas",30,271.84,"Big-12",2015
+"Oklahoma",28,250.24,"Big-12",2015
+"Texas Tech",20,200.58,"Big-12",2015
+"West Virginia",30,197.43,"Big-12",2015
+"Baylor",19,195.62,"Big-12",2015
+"Oklahoma State",21,192.06,"Big-12",2015
+"TCU",22,187.52,"Big-12",2015
+"Kansas State",24,173.16,"Big-12",2015
+"Iowa State",24,164.4,"Big-12",2015
+"Kansas",26,151.33,"Big-12",2015
+"Cincinnati",28,163.32,"AAC",2015
+"USF",20,162.72,"AAC",2015
+"UCF",18,159.02,"AAC",2015
+"Memphis",33,147.68,"AAC",2015
+"SMU",24,143.56,"AAC",2015
+"Temple",23,141.95,"AAC",2015
+"Houston",21,128.82,"AAC",2015
+"Tulane",19,128.68,"AAC",2015
+"East Carolina",15,127.81,"AAC",2015
+"Connecticut",23,122.86,"AAC",2015
+"Navy",29,115.75,"AAC",2015
+"Tulsa",18,114.02,"AAC",2015
+"Ohio State",26,277.78,"Big-Ten",2015
+"Penn State",25,250.22,"Big-Ten",2015
+"Michigan State",21,222.36,"Big-Ten",2015
+"Nebraska",21,212.17,"Big-Ten",2015
+"Michigan",14,194.69,"Big-Ten",2015
+"Wisconsin",19,190.29,"Big-Ten",2015
+"Illinois",24,182.36,"Big-Ten",2015
+"Maryland",19,181.86,"Big-Ten",2015
+"Indiana",23,175.82,"Big-Ten",2015
+"Northwestern",20,174.34,"Big-Ten",2015
+"Rutgers",25,171.46,"Big-Ten",2015
+"Iowa",21,168.52,"Big-Ten",2015
+"Minnesota",24,165.56,"Big-Ten",2015
+"Purdue",26,164.54,"Big-Ten",2015
+"Marshall",26,150.07,"C-USA",2015
+"Florida Atlantic",26,145.75,"C-USA",2015
+"Louisiana Tech",22,143.37,"C-USA",2015
+"Middle Tennessee State",25,133.6,"C-USA",2015
+"Southern Miss",27,133.47,"C-USA",2015
+"North Texas",24,126.72,"C-USA",2015
+"FIU",23,124.73,"C-USA",2015
+"Old Dominion",24,122.17,"C-USA",2015
+"Texas-San Antonio",32,120.58,"C-USA",2015
+"Rice",19,118.29,"C-USA",2015
+"Western Kentucky",21,114.09,"C-USA",2015
+"Charlotte",17,87.53,"C-USA",2015
+"UTEP",24,69.32,"C-USA",2015
+"UAB",1,0,"C-USA",2015
+"Notre Dame",24,266.46,"IND",2015
+"Brigham Young",23,165.21,"IND",2015
+"Army",39,102.12,"IND",2015
+"Western Michigan",27,148.39,"MAC",2015
+"Miami (OH)",29,147.85,"MAC",2015
+"Northern Illinois",31,135.87,"MAC",2015
+"Toledo",24,134.06,"MAC",2015
+"Ohio",29,132.38,"MAC",2015
+"Central Michigan",20,125.69,"MAC",2015
+"Kent State",22,123.17,"MAC",2015
+"Massachusetts",22,120.17,"MAC",2015
+"Bowling Green",24,116.77,"MAC",2015
+"Ball State",27,114.14,"MAC",2015
+"Eastern Michigan",26,110.82,"MAC",2015
+"Buffalo",20,106.1,"MAC",2015
+"Akron",18,81.47,"MAC",2015
+"Boise State",22,171.45,"M-West",2015
+"San Jose State",33,168.85,"M-West",2015
+"San Diego State",25,163.79,"M-West",2015
+"Utah State",20,162.23,"M-West",2015
+"Fresno State",21,155.13,"M-West",2015
+"Nevada",18,120.94,"M-West",2015
+"UNLV",22,120.01,"M-West",2015
+"Wyoming",23,118.84,"M-West",2015
+"New Mexico",25,107.96,"M-West",2015
+"Colorado State",14,104.52,"M-West",2015
+"Hawaii",14,93.46,"M-West",2015
+"Air Force",28,89.65,"M-West",2015
+"USC",27,308.3,"Pac-12",2015
+"UCLA",19,268.66,"Pac-12",2015
+"Oregon",24,245.07,"Pac-12",2015
+"Arizona State",24,232.1,"Pac-12",2015
+"Stanford",22,220.48,"Pac-12",2015
+"Washington",25,215.86,"Pac-12",2015
+"California",25,198.81,"Pac-12",2015
+"Washington State",25,188.52,"Pac-12",2015
+"Arizona",28,186.46,"Pac-12",2015
+"Utah",25,183.29,"Pac-12",2015
+"Oregon State",21,167.96,"Pac-12",2015
+"Colorado",19,162.12,"Pac-12",2015
+"Alabama",24,309.07,"SEC",2015
+"Tennessee",30,285.64,"SEC",2015
+"Georgia",30,282.44,"SEC",2015
+"LSU",24,282.35,"SEC",2015
+"Auburn",29,277.4,"SEC",2015
+"Texas A&M",27,270.42,"SEC",2015
+"Ole Miss",23,244.59,"SEC",2015
+"Mississippi State",27,238,"SEC",2015
+"South Carolina",31,237.05,"SEC",2015
+"Florida",21,227.91,"SEC",2015
+"Arkansas",25,221.95,"SEC",2015
+"Missouri",24,217.59,"SEC",2015
+"Kentucky",22,193.47,"SEC",2015
+"Vanderbilt",19,183.15,"SEC",2015
+"Louisiana-Lafayette",25,146.25,"SBC",2015
+"Arkansas State",25,132.95,"SBC",2015
+"South Alabama",24,132.26,"SBC",2015
+"Georgia Southern",21,129.03,"SBC",2015
+"Texas State",25,126.13,"SBC",2015
+"Louisiana-Monroe",27,117.99,"SBC",2015
+"Troy",21,117.63,"SBC",2015
+"Appalachian State",23,112.49,"SBC",2015
+"Idaho",26,98.61,"SBC",2015
+"New Mexico State",26,93.38,"SBC",2015
+"Georgia State",19,93.19,"SBC",2015
+"Florida State",25,295.44,"ACC",2016
+"Clemson",20,270.74,"ACC",2016
+"Miami",19,235.05,"ACC",2016
+"Pittsburgh",24,209.04,"ACC",2016
+"Duke",21,204.76,"ACC",2016
+"North Carolina",25,202.07,"ACC",2016
+"Louisville",25,195.63,"ACC",2016
+"Virginia Tech",22,191.24,"ACC",2016
+"N.C. State",23,178.77,"ACC",2016
+"Georgia Tech",18,167.26,"ACC",2016
+"Wake Forest",22,167.26,"ACC",2016
+"Virginia",25,163.79,"ACC",2016
+"Syracuse",21,163.54,"ACC",2016
+"Boston College",19,147.97,"ACC",2016
+"Texas",28,280.31,"Big-12",2016
+"Oklahoma",21,238.02,"Big-12",2016
+"TCU",23,234.93,"Big-12",2016
+"West Virginia",31,193.84,"Big-12",2016
+"Baylor",18,190.32,"Big-12",2016
+"Oklahoma State",22,183.52,"Big-12",2016
+"Texas Tech",26,182.63,"Big-12",2016
+"Iowa State",29,172.9,"Big-12",2016
+"Kansas State",20,151.39,"Big-12",2016
+"Kansas",18,135.7,"Big-12",2016
+"Houston",20,203.39,"AAC",2016
+"Temple",28,167.55,"AAC",2016
+"UCF",22,165.16,"AAC",2016
+"USF",16,162.38,"AAC",2016
+"Memphis",22,161.76,"AAC",2016
+"Cincinnati",21,151.61,"AAC",2016
+"SMU",25,151.38,"AAC",2016
+"East Carolina",25,148.45,"AAC",2016
+"Tulane",24,137.3,"AAC",2016
+"Navy",36,135.14,"AAC",2016
+"Tulsa",20,127.52,"AAC",2016
+"Connecticut",16,123.67,"AAC",2016
+"Ohio State",25,289.12,"Big-Ten",2016
+"Michigan",29,283.18,"Big-Ten",2016
+"Michigan State",20,239.2,"Big-Ten",2016
+"Penn State",20,237.79,"Big-Ten",2016
+"Nebraska",21,218.49,"Big-Ten",2016
+"Wisconsin",26,204.95,"Big-Ten",2016
+"Maryland",21,189.1,"Big-Ten",2016
+"Minnesota",21,181.41,"Big-Ten",2016
+"Iowa",24,180.9,"Big-Ten",2016
+"Northwestern",20,174.71,"Big-Ten",2016
+"Indiana",21,169.77,"Big-Ten",2016
+"Rutgers",18,155.28,"Big-Ten",2016
+"Illinois",25,153.58,"Big-Ten",2016
+"Purdue",23,144.94,"Big-Ten",2016
+"Marshall",30,166.55,"C-USA",2016
+"UAB",48,159.91,"C-USA",2016
+"Louisiana Tech",20,129.41,"C-USA",2016
+"Middle Tennessee State",21,127.79,"C-USA",2016
+"Southern Miss",18,126.49,"C-USA",2016
+"Western Kentucky",19,125.93,"C-USA",2016
+"Florida Atlantic",19,125.69,"C-USA",2016
+"FIU",26,124.31,"C-USA",2016
+"North Texas",22,123.78,"C-USA",2016
+"Old Dominion",24,119.17,"C-USA",2016
+"Texas-San Antonio",18,117.44,"C-USA",2016
+"Charlotte",16,108.02,"C-USA",2016
+"UTEP",25,105.17,"C-USA",2016
+"Rice",18,94.39,"C-USA",2016
+"Notre Dame",23,249.43,"IND",2016
+"Brigham Young",24,177.11,"IND",2016
+"Army",49,116.25,"IND",2016
+"Western Michigan",27,158.79,"MAC",2016
+"Massachusetts",31,144.17,"MAC",2016
+"Miami (OH)",21,128.12,"MAC",2016
+"Toledo",22,126.59,"MAC",2016
+"Ball State",23,112.58,"MAC",2016
+"Ohio",25,107.77,"MAC",2016
+"Bowling Green",15,106.05,"MAC",2016
+"Central Michigan",13,104.92,"MAC",2016
+"Eastern Michigan",21,104.7,"MAC",2016
+"Buffalo",19,104.22,"MAC",2016
+"Northern Illinois",20,101.47,"MAC",2016
+"Akron",12,85.08,"MAC",2016
+"Kent State",16,82.32,"MAC",2016
+"Boise State",28,159.06,"M-West",2016
+"Colorado State",25,150.53,"M-West",2016
+"San Diego State",23,139.05,"M-West",2016
+"UNLV",26,138.66,"M-West",2016
+"Fresno State",24,135.59,"M-West",2016
+"New Mexico",23,135.27,"M-West",2016
+"San Jose State",18,134.3,"M-West",2016
+"Utah State",24,130.2,"M-West",2016
+"Hawaii",19,122.99,"M-West",2016
+"Nevada",22,122.01,"M-West",2016
+"Air Force",37,109.83,"M-West",2016
+"Wyoming",24,108.13,"M-West",2016
+"USC",20,272.54,"Pac-12",2016
+"UCLA",29,262.28,"Pac-12",2016
+"Stanford",25,247.03,"Pac-12",2016
+"Arizona State",21,217.62,"Pac-12",2016
+"Oregon",19,211.55,"Pac-12",2016
+"Washington",17,209.35,"Pac-12",2016
+"California",27,207.74,"Pac-12",2016
+"Utah",30,200.88,"Pac-12",2016
+"Arizona",20,184.35,"Pac-12",2016
+"Oregon State",25,181.73,"Pac-12",2016
+"Washington State",27,168.93,"Pac-12",2016
+"Colorado",17,160.05,"Pac-12",2016
+"Alabama",24,301.41,"SEC",2016
+"LSU",25,290.6,"SEC",2016
+"Ole Miss",26,281.69,"SEC",2016
+"Georgia",21,276.94,"SEC",2016
+"Auburn",23,274.55,"SEC",2016
+"Florida",25,260.96,"SEC",2016
+"Tennessee",23,253.94,"SEC",2016
+"Texas A&M",22,240.17,"SEC",2016
+"Arkansas",23,218.97,"SEC",2016
+"South Carolina",27,218.91,"SEC",2016
+"Mississippi State",20,214.99,"SEC",2016
+"Kentucky",25,204.31,"SEC",2016
+"Missouri",20,188.35,"SEC",2016
+"Vanderbilt",21,173.22,"SEC",2016
+"Georgia Southern",27,153.51,"SBC",2016
+"Arkansas State",21,130.18,"SBC",2016
+"Troy",29,129.87,"SBC",2016
+"South Alabama",24,129.07,"SBC",2016
+"Louisiana-Lafayette",23,117.34,"SBC",2016
+"Texas State",24,115.5,"SBC",2016
+"Louisiana-Monroe",19,107.09,"SBC",2016
+"Appalachian State",23,106.72,"SBC",2016
+"Georgia State",19,99.15,"SBC",2016
+"Idaho",27,97.18,"SBC",2016
+"New Mexico State",20,93.63,"SBC",2016
