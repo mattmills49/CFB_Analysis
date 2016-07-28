@@ -9,7 +9,7 @@ library(stringr) # For string processing
 
 base_url <- "http://www.247sports.com/Season/%i-Football/CompositeTeamRankings"
 
-year_list <- seq(from = 2008, to = 2016, by = 1)
+year_list <- seq(from = 2005, to = 2016, by = 1)
 conf_list <- c("ACC", "Big-12", "AAC", "Big-Ten", "C-USA", "IND", "MAC", "M-West", "Pac-12", "SEC", "SBC")
 
 # initialize the matrix to append teams to
@@ -39,7 +39,7 @@ recruit_df <- data.frame(Team = recruit_matrix[, 1],
                          Year = recruit_matrix[, 6], 
                          stringsAsFactors = F)
 
-write.csv(recruit_df, "247_recruit_rankings_08_16.csv", row.names = F)
+write.csv(recruit_df, "247_recruit_rankings_05_16.csv", row.names = F)
 
 ###################
 #                 #
