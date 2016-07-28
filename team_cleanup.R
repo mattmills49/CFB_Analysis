@@ -5,6 +5,7 @@
 #################
 library(readr)
 library(dplyr)
+library(stringr)
 
 recruits <- read_csv("247_recruit_rankings_05_16.csv")
 schedule <- read_csv("cfb_schedule_05_15.csv")
