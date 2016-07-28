@@ -30,6 +30,7 @@ for(year in year_list){
   schedule_list[[as.character(year)]] <- year_schedule
 }
 
+
 year_names <- lapply(schedule_list, names)
 first_names <- year_names[[1]]
 
@@ -38,9 +39,11 @@ schedule_df <- bind_rows(schedule_list, .id = "Season") %>%
   mutate(Game_Num = as.numeric(Game_Num),
          Week = as.numeric(Week),
          Winner_Points = as.numeric(Winner_Points),
-         Loser_Points = as.numeric(Loser_Points), 
-         Winner = str_trim(str_replace_all(Winner, "\\(.*\\)", "")),
-         Loser = str_trim(str_replace_all(Loser, "\\(.*\\)", "")), 
+         Loser_Points = as.numeric(Loser_Points),
+         Winner = str_replace_all(Winner, "[0-9]+", ""),
+         Loser = str_replace_all(Loser, "[0-9]+", ""),
+         Winner = str_trim(str_replace_all(Winner, fixed("()"), "")),
+         Loser = str_trim(str_replace_all(Loser, fixed("()"), "")), 
          Home = ifelse(Location == "@", Loser, Winner),
          Away = ifelse(Location != "@", Loser, Winner),
          Neutral = 1 * (Notes != ""))
