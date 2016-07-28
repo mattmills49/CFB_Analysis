@@ -19,7 +19,8 @@ for(year in year_list){
   draft_list[[as.character(year)]] <- year_draft
 }
 
-draft_df <- bind_rows(draft_list, .id = "Year")
+draft_df <- bind_rows(draft_list, .id = "Year") 
 draft_df <- draft_df[, -(ncol(draft_df))]
+draft_df <- filter(draft_df, Rnd != "Rnd")
 
 write.csv(draft_df, file = "nfl_draft_05_16.csv", row.names = F)
