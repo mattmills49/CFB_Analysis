@@ -9,6 +9,7 @@ This repo contains some scripts and data for my college football analytics work.
 * [cfb_schedule_16.csv](https://raw.githubusercontent.com/mattmills49/CFB_Analysis/master/cfb_schedule_16.csv): Contains the upcoming FBS schedule from college football reference. 
 * [nfl_draft_05_16.csv](https://raw.githubusercontent.com/mattmills49/CFB_Analysis/master/nfl_draft_05_16.csv) contains the last 11 years of draft picks from [pro football reference](http://www.pro-football-reference.com/years/2005/draft.htm).
 * [DraftValue.csv](https://raw.githubusercontent.com/mattmills49/CFB_Analysis/master/DraftValue.csv): Chase Stuart's [Draft Value charts](http://www.footballperspective.com/draft-value-chart/)
+* [team_name_master_list.csv](https://raw.githubusercontent.com/mattmills49/CFB_Analysis/master/team_name_master_list.csv): Provides a common naming convention for teams across the different files. 
 
 ## R Scripts
 
