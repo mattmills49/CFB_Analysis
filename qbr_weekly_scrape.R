@@ -70,7 +70,7 @@ qbr_13 <- qbr_grab(2013, base_url = baseurl, pause = 5)
 qbr_14 <- qbr_grab(2014, base_url = baseurl, pause = 5)
 qbr_15 <- qbr_grab(2015, base_url = baseurl, pause = 6)
 
-temp_list <- list(qbr_05, qbr_06, qbr_07, qbr_08, qbr_09, qbr_10, qbr_11, qbr_12, qbr_13, qbr_14, qbr_15)
+temp_list <- c(qbr_05, qbr_06, qbr_07, qbr_08, qbr_09, qbr_10, qbr_11, qbr_12, qbr_13, qbr_14, qbr_15)
 save(temp_list, file = "temp_list.rdata")
 
 qbr_list <- c(qbr_05, qbr_06, qbr_07, qbr_08, qbr_09, qbr_10, qbr_11, qbr_12, qbr_13, qbr_14, qbr_15)
