@@ -79,7 +79,7 @@ I'm going to do a bit of R Kung Fu but here is my basic approach:
 * ["Nest"](https://blog.rstudio.org/2016/02/02/tidyr-0-4-0/) the stacked team
 data so that the data is grouped by Season. Since each season's data is just
 stored as a list in a column of the data frame we can use `purrr`'s
-`map` function to apply functions to each season of data seperately.
+`map` function to perform functions on each season of data seperately.
 * Use the `spread` function from the `tidyr` package to go from a tall to 
 wide format
 * Use a linear regression to calculate the Massey Rankings
@@ -109,7 +109,15 @@ season_team_values <- results %>%
 |   2005|Alabama-Birmingham | 30.838248| 15.8030438|  1.951412| 0.0515135|
 |   2005|Appalachian State  | 22.981138| 18.3074848|  1.255286| 0.2099059|
 
-Hopefully that wasn't too complicated
+Let's show the top 5 teams from the last 9 years. To do this I actually have 
+to center the predictions so that the average team rating in each season is
+0. This is because the regression doesn't really have any reason to make the
+average team value zero (or any specific value); it is just concerned with
+getting difference between team ratings as close to the actial margin of
+victory, not the rating values themselves.
+
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+
 
 ### Problems
 
@@ -142,12 +150,14 @@ Let's find the accuracy of this base method we have already used. I'm using
 a helper function called `safe_pred` which you can find in the raw R file I
 used to write this post. It basically helps make predictions when a team 
 only shows up in the training or test data but not both, which normally
-would cause an error. 
+would cause an error. If there is a game in the test set that we can't
+predict then I just remove it which biases our results some. Since this is, 
+well was, supposed to be a quick post I'm cool with that for now. 
 
 
 
 ```r
-K <- 4
+K <- 4 # number of cross validated folds
 cv_results <- results %>%
   mutate(fold_id = sample(1:K, size = n(), replace = T)) %>%
   organize_game_results(fold_id) %>% 
@@ -168,7 +178,7 @@ c(mean(cv_results$mean_mse), mean(cv_results$sd_mse))
 ```
 
 ```
-## [1] 259.69974  26.38866
+## [1] 262.15520  21.53612
 ```
 
 So that's our baseline Mean Squared Error.  
@@ -209,22 +219,24 @@ c(mean(fcs_fix_results$mean_mse), mean(fcs_fix_results$sd_mse))
 ```
 
 ```
-## [1] 264.72531  24.29716
+## [1] 264.92329  24.70148
 ```
 
 Well that wasn't even an improvement, I guess since by definition those 
 teams don't appear too often it really wouldn't make that much of a 
 difference. What about using a penalized regression like ridge regression
 to reduce the size of the coefficients? Once again we are going to need a
-helper function to help us accomplish this. 
+helper function to help us accomplish this. Also there is a bit of weird
+stuff we should focus on more if we had time. For example we use cross 
+validation to split the data and then more cross validation on that to find
+the optimal lambda value to use in the ridge regression to predict on the 
+holdout data for that fold. I don't love this idea but it's also quick and
+easy so, we will worry about it later. 
 
 
 
 ```r
 ridge_results <- game_list %>%
-  left_join(bad_teams, by = c("Season", "Team")) %>%
-  mutate(Team = ifelse(bad_team, "FCS", Team)) %>%
-  select(-n, -bad_team) %>%
   group_by(Season) %>%
   nest() %>% 
   crossing(fold = 1:K) %>% 
@@ -242,7 +254,7 @@ c(mean(ridge_results$mean_mse), mean(ridge_results$sd_mse))
 ```
 
 ```
-## [1] 514.3699 117.7764
+## [1] 686.80903  84.38344
 ```
 
 Wow, that's way worse than the linear regression results.
@@ -251,5 +263,9 @@ Wow, that's way worse than the linear regression results.
 
 So there you have it, we've shown a way to generate ratings for team quality
 in a season and shown that those are about as good as we could do using the
-limited data we do have. Also I'm pretty proud of getting that grouped cross
-validation code to work using nested data frames and the `purrr` package. 
+limited data we do have. I'd love to do some more analysis around how 
+variable the estimates are and other predictive models but that's not really
+the goal of this poist. Also I'm pretty proud of getting that grouped cross
+validation code to work using nested data frames and the `purrr` package so
+I'll call it a day. As always please reach out if you have any comments or 
+questions!
