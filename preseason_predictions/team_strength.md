@@ -4,7 +4,7 @@ In order to build a prediction model for next season I need to know how good
 each team was in the previous season(s). A decent and simple way to measure
 team quality is to use the [Massey rankings](http://public.gettysburg.edu/~cwessell/RankingPage/massey.pdf), which basically just finds the
 points above average that each team contributes to the margin of victory of 
-each game using [Ordinary Least Squares Regression])https://en.wikipedia.org/wiki/Ordinary_least_squares). We will get into more complicated measures later on in this post. 
+each game using [Ordinary Least Squares Regression](https://en.wikipedia.org/wiki/Ordinary_least_squares). We will get into more complicated measures later on in this post. 
 
 To do this, for each season, I need to organize the data so that each row 
 corresponds to a game. The dependent variable (what we are trying to predict)
@@ -21,7 +21,8 @@ Let's get started by reading in the data I've pulled from CFB Reference that
 includes the results of every FBS football game over the last 10 seasons.
 
 
-```{r }
+
+```r
 library(readr) 
 library(purrr)  
 library(dplyr)
@@ -31,7 +32,7 @@ library(lubridate)
 library(broom)
 options(dplyr.width = Inf)
 
-raw_schedule <- read_csv(file = "Datasets/cfb_schedule_05_15.csv"
+raw_schedule <- read_csv(file = "~/Documents/fb_analysis/Datasets/cfb_schedule_05_15.csv",
                     col_types = cols(Date = col_date(format = "%b %d, %Y")))
 
 ## Need to add the points for the home and away teams and find what season each
@@ -43,17 +44,24 @@ results <- raw_schedule %>%
          Home_MOV = Home_Points - Away_Points,
          Season = ifelse(month(Date) == 1, year(Date) - 1, year(Date))) %>%
   filter(!is.na(Home_MOV))
-
-```{r echo = F}
-knitr::kable(select(results, Season, Week, Home, Away, Home_Points, Away_Points, Home_MOV))
 ```
+
+| Season| Week|Home             |Away               | Home_Points| Away_Points| Home_MOV|
+|------:|----:|:----------------|:------------------|-----------:|-----------:|--------:|
+|   2005|    1|Arizona State    |Temple             |          63|          16|       47|
+|   2005|    1|Cincinnati       |Eastern Michigan   |          28|          26|        2|
+|   2005|    1|Connecticut      |Buffalo            |          38|           0|       38|
+|   2005|    1|Marshall         |William & Mary     |          36|          24|       12|
+|   2005|    1|Tulsa            |Minnesota          |          10|          41|      -31|
+|   2005|    1|Louisiana-Monroe |Northwestern State |          23|          27|       -4|
 
 Now comes the tricky part. I need to turn this long data frame of game
 results into a wide format that includes the team names as variable names.
 I've written the following helper function to "stack" the teams in each 
 game so that we don't have to worry about having two team name columns.
 
-```{r }
+
+```r
 organize_game_results <- function(df, ...){
   home_teams <- df %>%
     select(Season, Game_Num, Home, Home_MOV, ...) %>% 
@@ -79,7 +87,8 @@ wide format
 values (which are the actual team rankings)
 * Then unnest each season to get one data frame for our results
 
-```{r }
+
+```r
 season_team_values <- results %>%
   organize_game_results %>%
   group_by(Season) %>%
@@ -88,10 +97,17 @@ season_team_values <- results %>%
          model = map(regression_df, ~ lm(Home_MOV ~ . - Game_Num, data = .)),
          team_values = map(model, tidy)) %>%
   unnest(team_values) %>%
-  mutate(Team = str_replace_all(term, fixed("`"), ""))
-
-knitr::kable(head(season_team_values))
+  mutate(term = str_replace_all(term, fixed("`"), ""))
 ```
+
+| Season|term               |  estimate|  std.error| statistic|   p.value|
+|------:|:------------------|---------:|----------:|---------:|---------:|
+|   2005|(Intercept)        |  3.646571|  0.5735598|  6.357787| 0.0000000|
+|   2005|Air Force          | 31.465096| 15.7468260|  1.998187| 0.0461865|
+|   2005|Akron              | 27.347303| 15.5560123|  1.757989| 0.0793035|
+|   2005|Alabama            | 46.604288| 15.6858803|  2.971098| 0.0030966|
+|   2005|Alabama-Birmingham | 30.838248| 15.8030438|  1.951412| 0.0515135|
+|   2005|Appalachian State  | 22.981138| 18.3074848|  1.255286| 0.2099059|
 
 Hopefully that wasn't too complicated
 
@@ -106,7 +122,7 @@ example, Portland State beat two very bad teams in 2015 but those were their
 only games so they are rated as one of the best teams in the country. We 
 could just consider all teams who only showed up 1-2 times as one team, sort
 of as a placeholder for "FCS" teams (the lower division of CFB).
-3. We don't regularize our results at all
+3. We don't use a penalized regression to regularize our results at all
 4. We don't include any team priors from the previous season.
 
 While I certainly believe all of these areas could help improve our results
@@ -122,36 +138,15 @@ will have to generate our team rankings and then test their accuracy on
 different sets of games. I'm going to do this using cross validation which is 
 a popular way to test the accuracy of models while avoiding overfitting. 
 
-Let's find the accuracy of this base method we have already used. 
+Let's find the accuracy of this base method we have already used. I'm using 
+a helper function called `safe_pred` which you can find in the raw R file I
+used to write this post. It basically helps make predictions when a team 
+only shows up in the training or test data but not both, which normally
+would cause an error. 
 
-```{r echo = F}
-safe_pred <- function(mod, df){
-  coef_names <- coef(mod) %>%
-    names %>%
-    keep(~ .x != "(Intercept)") %>%
-    str_replace_all(fixed("`"), "")
-  
-  col_names <- colnames(select(df, -Game_Num, -Home_MOV, -fold_id))
-  
-  ## add columns not in the test data
-  
-  missing_teams <- coef_names[!(coef_names %in% col_names)]
-  extra_cols <- matrix(0, nrow = nrow(df), ncol = length(missing_teams))
-  full_df <- bind_cols(df, data.frame(extra_cols))
-  names(full_df)[seq(ncol(df) + 1, ncol(df) + length(missing_teams))] <- missing_teams
-  
-  ## remove columns not in the trained_model
-  
-  no_fit_teams <- col_names[!(col_names %in% coef_names)]
-  good_data <- select(full_df, -one_of(no_fit_teams))
-  good_rows <- rowSums(good_data[, -c(1:3)]) == 0
-  good_data <- good_data[good_rows, ]
-  
-  good_data$pred <- suppressWarnings(predict(mod, newdata = good_data))
-  return(good_data)
-}
 
-```{r }
+
+```r
 K <- 4
 cv_results <- results %>%
   mutate(fold_id = sample(1:K, size = n(), replace = T)) %>%
@@ -167,9 +162,94 @@ cv_results <- results %>%
          preds = map2(model, test_df, safe_pred),
          error = map_dbl(preds, function(df) mean((df$Home_MOV - df$pred)^2))) %>%
   group_by(Season) %>%
-  summarize(mean_mse = mean(error))
+  summarize(mean_mse = mean(error), sd_mse = sd(error))
 
-mean(cv_results$mean_mse)
+c(mean(cv_results$mean_mse), mean(cv_results$sd_mse))
+```
+
+```
+## [1] 259.69974  26.38866
 ```
 
 So that's our baseline Mean Squared Error.  
+
+Let's try and beat it using the 2nd idea I had. The first is kind of arbitrary
+(what do we define as a blowout?) and the fourth we will focus on in the actual
+prediction model we are trying to build, so I don't think it's needed yet.
+
+
+
+```r
+game_list <- results %>%
+  mutate(fold_id = sample(1:K, size = n(), replace = T)) %>%
+  organize_game_results(fold_id)
+
+bad_teams <- game_list %>%
+  count(Season, Team) %>%
+  mutate(bad_team = n <= 2)
+
+fcs_fix_results <- game_list %>%
+  left_join(bad_teams, by = c("Season", "Team")) %>%
+  mutate(Team = ifelse(bad_team, "FCS", Team)) %>%
+  select(-n, -bad_team) %>%
+  group_by(Season) %>%
+  nest() %>% 
+  crossing(fold = 1:K) %>% 
+  mutate(train = map2(data, fold, function(df, fold_num) filter(df, fold_id != fold_num)),
+         test = map2(data, fold, function(df, fold_num) filter(df, fold_id == fold_num)),
+         regression_df = map(train, spread, Team, involved, fill = 0),
+         test_df = map(test, spread, Team, involved, fill = 0),
+         model = map(regression_df, ~ lm(Home_MOV ~ . - Game_Num - fold_id, data = .)),
+         preds = map2(model, test_df, safe_pred),
+         error = map_dbl(preds, function(df) mean((df$Home_MOV - df$pred)^2))) %>%
+  group_by(Season) %>%
+  summarize(mean_mse = mean(error), sd_mse = sd(error))
+  
+c(mean(fcs_fix_results$mean_mse), mean(fcs_fix_results$sd_mse))
+```
+
+```
+## [1] 264.72531  24.29716
+```
+
+Well that wasn't even an improvement, I guess since by definition those 
+teams don't appear too often it really wouldn't make that much of a 
+difference. What about using a penalized regression like ridge regression
+to reduce the size of the coefficients? Once again we are going to need a
+helper function to help us accomplish this. 
+
+
+
+```r
+ridge_results <- game_list %>%
+  left_join(bad_teams, by = c("Season", "Team")) %>%
+  mutate(Team = ifelse(bad_team, "FCS", Team)) %>%
+  select(-n, -bad_team) %>%
+  group_by(Season) %>%
+  nest() %>% 
+  crossing(fold = 1:K) %>% 
+  mutate(train = map2(data, fold, function(df, fold_num) filter(df, fold_id != fold_num)),
+         test = map2(data, fold, function(df, fold_num) filter(df, fold_id == fold_num)),
+         regression_df = map(train, spread, Team, involved, fill = 0),
+         test_df = map(test, spread, Team, involved, fill = 0),
+         model = map(regression_df, ridge_fit),
+         preds = map2(model, test_df, ridge_pred),
+         error = map_dbl(preds, function(df) mean((df$Home_MOV - df$pred)^2))) %>%
+  group_by(Season) %>%
+  summarize(mean_mse = mean(error), sd_mse = sd(error))
+
+c(mean(ridge_results$mean_mse), mean(ridge_results$sd_mse))
+```
+
+```
+## [1] 514.3699 117.7764
+```
+
+Wow, that's way worse than the linear regression results.
+
+### Conclussions
+
+So there you have it, we've shown a way to generate ratings for team quality
+in a season and shown that those are about as good as we could do using the
+limited data we do have. Also I'm pretty proud of getting that grouped cross
+validation code to work using nested data frames and the `purrr` package. 

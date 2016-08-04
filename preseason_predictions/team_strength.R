@@ -4,7 +4,7 @@
 #' each team was in the previous season(s). A decent and simple way to measure
 #' team quality is to use the [Massey rankings](http://public.gettysburg.edu/~cwessell/RankingPage/massey.pdf), which basically just finds the
 #' points above average that each team contributes to the margin of victory of 
-#' each game using [Ordinary Least Squares Regression])https://en.wikipedia.org/wiki/Ordinary_least_squares). We will get into more complicated measures later on in this post. 
+#' each game using [Ordinary Least Squares Regression](https://en.wikipedia.org/wiki/Ordinary_least_squares). We will get into more complicated measures later on in this post. 
 #' 
 #' To do this, for each season, I need to organize the data so that each row 
 #' corresponds to a game. The dependent variable (what we are trying to predict)
@@ -30,7 +30,7 @@ library(lubridate)
 library(broom)
 options(dplyr.width = Inf)
 
-raw_schedule <- read_csv(file = "Datasets/cfb_schedule_05_15.csv"
+raw_schedule <- read_csv(file = "~/Documents/fb_analysis/Datasets/cfb_schedule_05_15.csv",
                     col_types = cols(Date = col_date(format = "%b %d, %Y")))
 
 ## Need to add the points for the home and away teams and find what season each
@@ -44,7 +44,7 @@ results <- raw_schedule %>%
   filter(!is.na(Home_MOV))
 
 #+ echo = F
-knitr::kable(select(results, Season, Week, Home, Away, Home_Points, Away_Points, Home_MOV))
+knitr::kable(head(select(results, Season, Week, Home, Away, Home_Points, Away_Points, Home_MOV)))
 
 #' Now comes the tricky part. I need to turn this long data frame of game
 #' results into a wide format that includes the team names as variable names.
@@ -83,9 +83,14 @@ season_team_values <- results %>%
          model = map(regression_df, ~ lm(Home_MOV ~ . - Game_Num, data = .)),
          team_values = map(model, tidy)) %>%
   unnest(team_values) %>%
-  mutate(Team = str_replace_all(term, fixed("`"), ""))
+  mutate(term = str_replace_all(term, fixed("`"), ""))
 
+#+ echo = F
 knitr::kable(head(season_team_values))
+
+ggplot(aes(x = Season, y = estimate, group = term), data = season_team_values) +
+  geom_line(alpha = .5) +
+  scale_x_continuous(breaks = 2005:2015)
 
 #' Hopefully that wasn't too complicated
 #' 
@@ -100,7 +105,7 @@ knitr::kable(head(season_team_values))
 #' only games so they are rated as one of the best teams in the country. We 
 #' could just consider all teams who only showed up 1-2 times as one team, sort
 #' of as a placeholder for "FCS" teams (the lower division of CFB).
-#' 3. We don't regularize our results at all
+#' 3. We don't use a penalized regression to regularize our results at all
 #' 4. We don't include any team priors from the previous season.
 #' 
 #' While I certainly believe all of these areas could help improve our results
@@ -116,7 +121,11 @@ knitr::kable(head(season_team_values))
 #' different sets of games. I'm going to do this using cross validation which is 
 #' a popular way to test the accuracy of models while avoiding overfitting. 
 #' 
-#' Let's find the accuracy of this base method we have already used. 
+#' Let's find the accuracy of this base method we have already used. I'm using 
+#' a helper function called `safe_pred` which you can find in the raw R file I
+#' used to write this post. It basically helps make predictions when a team 
+#' only shows up in the training or test data but not both, which normally
+#' would cause an error. 
 #+ echo = F
 safe_pred <- function(mod, df){
   coef_names <- coef(mod) %>%
@@ -129,16 +138,20 @@ safe_pred <- function(mod, df){
   ## add columns not in the test data
   
   missing_teams <- coef_names[!(coef_names %in% col_names)]
-  extra_cols <- matrix(0, nrow = nrow(df), ncol = length(missing_teams))
-  full_df <- bind_cols(df, data.frame(extra_cols))
-  names(full_df)[seq(ncol(df) + 1, ncol(df) + length(missing_teams))] <- missing_teams
+  if (length(missing_teams) > 0) {
+    extra_cols <- matrix(0, nrow = nrow(df), ncol = length(missing_teams))
+    full_df <- bind_cols(df, data.frame(extra_cols))
+    names(full_df)[seq(ncol(df) + 1, ncol(df) + length(missing_teams))] <- missing_teams
+  } else full_df <- df
   
   ## remove columns not in the trained_model
   
   no_fit_teams <- col_names[!(col_names %in% coef_names)]
-  good_data <- select(full_df, -one_of(no_fit_teams))
-  good_rows <- rowSums(good_data[, -c(1:3)]) == 0
-  good_data <- good_data[good_rows, ]
+  if (length(no_fit_teams) > 0) {
+    good_data <- select(full_df, -one_of(no_fit_teams))
+    good_rows <- rowSums(good_data[, -c(1:3)]) == 0
+    good_data <- good_data[good_rows, ]
+  } else good_data <- full_df
   
   good_data$pred <- suppressWarnings(predict(mod, newdata = good_data))
   return(good_data)
@@ -160,15 +173,110 @@ cv_results <- results %>%
          preds = map2(model, test_df, safe_pred),
          error = map_dbl(preds, function(df) mean((df$Home_MOV - df$pred)^2))) %>%
   group_by(Season) %>%
-  summarize(mean_mse = mean(error))
+  summarize(mean_mse = mean(error), sd_mse = sd(error))
 
-mean(cv_results$mean_mse)
+c(mean(cv_results$mean_mse), mean(cv_results$sd_mse))
 
 #' So that's our baseline Mean Squared Error.  
+#' 
+#' Let's try and beat it using the 2nd idea I had. The first is kind of arbitrary
+#' (what do we define as a blowout?) and the fourth we will focus on in the actual
+#' prediction model we are trying to build, so I don't think it's needed yet.
+#' 
+#+
 
+game_list <- results %>%
+  mutate(fold_id = sample(1:K, size = n(), replace = T)) %>%
+  organize_game_results(fold_id)
 
+bad_teams <- game_list %>%
+  count(Season, Team) %>%
+  mutate(bad_team = n <= 2)
 
-
+fcs_fix_results <- game_list %>%
+  left_join(bad_teams, by = c("Season", "Team")) %>%
+  mutate(Team = ifelse(bad_team, "FCS", Team)) %>%
+  select(-n, -bad_team) %>%
+  group_by(Season) %>%
+  nest() %>% 
+  crossing(fold = 1:K) %>% 
+  mutate(train = map2(data, fold, function(df, fold_num) filter(df, fold_id != fold_num)),
+         test = map2(data, fold, function(df, fold_num) filter(df, fold_id == fold_num)),
+         regression_df = map(train, spread, Team, involved, fill = 0),
+         test_df = map(test, spread, Team, involved, fill = 0),
+         model = map(regression_df, ~ lm(Home_MOV ~ . - Game_Num - fold_id, data = .)),
+         preds = map2(model, test_df, safe_pred),
+         error = map_dbl(preds, function(df) mean((df$Home_MOV - df$pred)^2))) %>%
+  group_by(Season) %>%
+  summarize(mean_mse = mean(error), sd_mse = sd(error))
   
+c(mean(fcs_fix_results$mean_mse), mean(fcs_fix_results$sd_mse))
 
+#' Well that wasn't even an improvement, I guess since by definition those 
+#' teams don't appear too often it really wouldn't make that much of a 
+#' difference. What about using a penalized regression like ridge regression
+#' to reduce the size of the coefficients? Once again we are going to need a
+#' helper function to help us accomplish this. 
+#+ echo = F
+library(glmnet)
+ridge_fit <- function(df){
+  X_test <- as.matrix(select(df, -Home_MOV, -Game_Num, -fold_id))
+  Y <- df$Home_MOV
+  
+  ridge_fit <- cv.glmnet(x = X_test, y = Y, alpha = 0, family = "gaussian")
+  return(ridge_fit)
+}
+
+ridge_pred <- function(mod, df){
+  train_teams <- predict(mod, type = "coefficients", s = "lambda.1se")@Dimnames[[1]] %>%
+    keep(~ .x != "(Intercept)")
+  test_teams <- colnames(df) %>%
+    keep(~ !(.x %in% c("Game_Num", "fold_id", "Home_MOV")))
+  X_test <- as.matrix(select(df, -Game_Num, -Home_MOV, -fold_id))
+  
+  teams_to_add <- train_teams[!(train_teams %in% test_teams)]
+  if (length(teams_to_add) > 0) {
+    extra_cols <- matrix(0, nrow = nrow(df), ncol = length(teams_to_add))
+    colnames(extra_cols) <- teams_to_add
+    X_test <- cbind(X_test, extra_cols)
+  } 
+  
+  teams_to_remove <- test_teams[!(test_teams %in% train_teams)]
+  if (length(teams_to_remove) > 0) {
+    X_test <- X_test[, !(colnames(X_test) %in% teams_to_remove)]
+    X_test <- X_test[rowsum(X_test) == 0, ]
+  }
+  
+  df$pred <- predict(mod, newx = X_test, s = "lambda.1se")[, 1]
+  return(df)
+}
+
+#+
+ridge_results <- game_list %>%
+  left_join(bad_teams, by = c("Season", "Team")) %>%
+  mutate(Team = ifelse(bad_team, "FCS", Team)) %>%
+  select(-n, -bad_team) %>%
+  group_by(Season) %>%
+  nest() %>% 
+  crossing(fold = 1:K) %>% 
+  mutate(train = map2(data, fold, function(df, fold_num) filter(df, fold_id != fold_num)),
+         test = map2(data, fold, function(df, fold_num) filter(df, fold_id == fold_num)),
+         regression_df = map(train, spread, Team, involved, fill = 0),
+         test_df = map(test, spread, Team, involved, fill = 0),
+         model = map(regression_df, ridge_fit),
+         preds = map2(model, test_df, ridge_pred),
+         error = map_dbl(preds, function(df) mean((df$Home_MOV - df$pred)^2))) %>%
+  group_by(Season) %>%
+  summarize(mean_mse = mean(error), sd_mse = sd(error))
+
+c(mean(ridge_results$mean_mse), mean(ridge_results$sd_mse))
+
+#' Wow, that's way worse than the linear regression results.
+#' 
+#' ### Conclussions
+#' 
+#' So there you have it, we've shown a way to generate ratings for team quality
+#' in a season and shown that those are about as good as we could do using the
+#' limited data we do have. Also I'm pretty proud of getting that grouped cross
+#' validation code to work using nested data frames and the `purrr` package. 
 
