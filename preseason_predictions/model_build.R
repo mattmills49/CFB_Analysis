@@ -26,6 +26,8 @@ library(ggplot2)
 library(lubridate)
 library(viridis)
 library(tidyr)
+library(purrr)
+library(broom)
 options(dplyr.width = Inf)
 
 past_schedules <- read_csv(file = "Datasets/cfb_schedule_05_15.csv",
@@ -40,7 +42,7 @@ preseason_info <- read_csv(file = "Datasets/team_preseason_info.csv")
 
 class_draft <- select(preseason_info, Year, Team, Class_Points, Points)
 
-class_draft %>%
+team_draft_recruit_info <- class_draft %>%
   inner_join(mutate(class_draft, Year = Year + 1), by = c("Year", "Team")) %>%
   inner_join(mutate(class_draft, Year = Year + 2), by = c("Year", "Team")) %>%
   filter(Year %in% seq(2006, 2012)) %>%
@@ -49,7 +51,9 @@ class_draft %>%
          Recruit_n_1 = Class_Points.y,
          Draft_n_1 = Points.y,
          Recruit_n_2 = Class_Points,
-         Draft_n_2 = Points) %>%
+         Draft_n_2 = Points)
+
+team_draft_recruit_info %>%
   gather(Recruit_Years, Recruit_Points, -Year, -Team, -contains("Draft")) %>%
   gather(Draft_Years, Draft_Points, -Year, -Team, -Recruit_Years, -Recruit_Points) %>%
   filter(!is.na(Recruit_Points)) %>%
@@ -57,6 +61,18 @@ class_draft %>%
   geom_point() +
   geom_smooth() +
   facet_grid(Recruit_Years ~ Draft_Years, switch = "y")
+
+draft_recruit_pca <- prcomp(~ . - Year - Team, data = filter(team_draft_recruit_info, !is.na(Recruit_n)), center = T, scale = T)
+
+theta <- seq(0,2*pi,length.out = 100)
+circle <- data.frame(x = cos(theta), y = sin(theta))
+p <- ggplot(circle,aes(x,y)) + geom_path()
+
+loadings <- data.frame(draft_recruit_pca$rotation, variable = row.names(draft_recruit_pca$rotation))
+p + geom_text(data = loadings, aes(x = PC1, y = PC2, label = variable, colour = variable)) +
+  coord_fixed(ratio = 1) +
+  labs(x = "PC1", y = "PC2")
+
 
 
 team_game_info <- past_schedules %>%
