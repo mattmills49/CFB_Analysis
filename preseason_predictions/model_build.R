@@ -158,6 +158,14 @@ model_data <- model_data %>%
 model_data$Train <- model_data$Season <= 2012
 model_data$Home_win <- 1 * (model_data$Home_MOV > 0)
 
+away <- model_data
+names(away) <- str_replace_all(names(away), "_Home", "_Away")
+names(away) <- str_replace_all(names(away), "_Away", "_Home")
+away$Is_Home <- 0
+
+home_away <- bind_rows(mutate(model_data, Is_Home = ifelse(Neutral == 1, 0, 1)), away)
+
+
 library(mgcv)
 
 gam_formula <- function(dependent_var, independent_vars){
@@ -167,7 +175,7 @@ gam_formula <- function(dependent_var, independent_vars){
     as.formula
 }
 
-game_gam <- gam(formula = Home_win ~ Neutral + s(Team_Strength_n_1_Home) + s(Team_Strength_n_2_Home) + 
+game_gam <- gam(formula = Home_win ~ Neutral + Is_Home + s(Team_Strength_n_1_Home) + s(Team_Strength_n_2_Home) + 
     s(Team_Strength_n_3_Home) + s(Recruit_n_Home) + s(Draft_n_Home) + 
                 s(Recruit_n_1_Home) + s(Draft_n_1_Home) + s(Recruit_n_2_Home) + 
                 s(Draft_n_2_Home) + s(Team_Strength_n_1_Away) + s(Team_Strength_n_2_Away) + 
@@ -175,7 +183,7 @@ game_gam <- gam(formula = Home_win ~ Neutral + s(Team_Strength_n_1_Home) + s(Tea
                 s(Recruit_n_1_Away) + s(Draft_n_1_Away) + s(Recruit_n_2_Away) + 
                 s(Draft_n_2_Away),
                 family = "binomial",
-                data = filter(model_data, Train, Season >= 2008))
+                data = filter(home_away, Train, Season >= 2008))
 
 model_data$preds <- as.numeric(predict(game_gam, newdata = model_data, type = "response"))
 
@@ -222,6 +230,7 @@ pred_data <- pred_data %>%
          Draft_n_Away = ifelse(is.na(Draft_n_Away), 0, Draft_n_Away),
          Draft_n_1_Away = ifelse(is.na(Draft_n_1_Away), 0, Draft_n_1_Away),
          Draft_n_2_Away = ifelse(is.na(Draft_n_2_Away), 0, Draft_n_2_Away))
+
 
 pred_data$preds <- as.numeric(predict(game_gam, newdata = pred_data, type = "response"))
 pred_data <- select(pred_data, Home, Away, Week, preds, everything())
