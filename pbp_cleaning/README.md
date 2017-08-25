@@ -19,3 +19,11 @@ I'd like to at least seperate out the following information into seperate files
 
 Each of these should be able to be easily merged with another by `id`s and I 
 want each year to be a seperate file. 
+
+
+### Process
+
+I'm going to generate each file from a seperate function. This may be more time
+consuming but it will be easier to update what information I save for each file.
+I assume I will make some mistakes along the way to being able to just update
+the game file or run file will make that process quicker. 
