@@ -20,13 +20,13 @@ library(rjson)
 get_game_info <- function(json_file){
   team_locations <- map_chr(json_file[["teams"]], function(x) x[["homeAway"]])
   team_scores <- map_chr(json_file[["teams"]], function(x) x[["score"]]) %>% as.integer
-  team_ids <- map_chr(json_file[["teams"]], function(x) x[["id"]])
-  names(team_ids) <- team_locations
+  team_names <- map_chr(json_file[["teams"]], function(x) x[["team"]][["nickname"]])
+  names(team_names) <- team_locations
   names(team_scores) <- team_locations
   
   game_info <- data.frame(game_id = json_file[["id"]], stringsAsFactors = F)
-  game_info$home_team <- team_ids["home"]
-  game_info$away_team <- team_ids["away"]
+  game_info$home_team <- team_names["home"]
+  game_info$away_team <- team_names["away"]
   game_info$home_score <- team_scores["home"]
   game_info$away_score <- team_scores["away"]
   game_info$neutral_site <- json_file[["competitions"]][[1]][["neutralSite"]]
@@ -35,7 +35,9 @@ get_game_info <- function(json_file){
   game_info$season <- json_file[["season"]][["year"]]
   game_info$season_type <- json_file[["season"]][["type"]]
   
-  game_info$week <- with(game_info, ifelse(season_type == 3, week == 16))
+  game_info$week[game_info$season_type == 3] <- 16
+  
+  game_info$date <- as.POSIXct(game_info$date, format = "%Y-%m-%dT%H:%MZ", tz = "UTC")
   
   return(game_info)
 }
@@ -59,16 +61,15 @@ for(y in years){
   
   game_info <- game_files %>%
     map_dfr(get_game_info)
-# game_id home_team away_team home_score away_score neutral_site              date
-# 1 400876038      2636       167         20         23         TRUE 2016-12-17T19:00Z
-# 2 400876039        21       248         34         10         TRUE 2016-12-17T20:30Z
-# 3 400876040      2649      2026         28         31         TRUE 2016-12-17T22:30Z
-# week season season_type
-# 1    1   2016           3
-# 2    1   2016           3
-# 3    1   2016           3
-  
+  #     game_id     home_team      away_team home_score away_score neutral_site
+  # 1 400852668    New Mexico        Arizona         37         45         TRUE
+  # 2 400852683 Georgia State San Jose State         16         27         TRUE
+  # 3 400852684          Utah            BYU         35         28         TRUE
+  #                date week season season_type
+  # 2015-12-19 19:00:00   16   2015           3
+  # 2015-12-20 00:00:00   16   2015           3
+  # 2015-12-19 20:30:00   16   2015           3
+
   saved_file <- sprintf(save_files, y) %>%
     saveRDS(game_info, file = .)
 }
-
