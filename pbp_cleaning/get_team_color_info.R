@@ -1,4 +1,4 @@
-#' # Team Info
+#' # Team Color Info
 #' 
 #' We want the following information at a team level:
 #' 
