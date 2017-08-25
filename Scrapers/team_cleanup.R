@@ -7,9 +7,9 @@ library(readr)
 library(dplyr)
 library(stringr)
 
-recruits <- read_csv("247_recruit_rankings_05_16.csv")
-schedule <- read_csv("cfb_schedule_05_15.csv")
-draft <- read_csv("nfl_draft_05_16.csv")
+recruits <- read_csv("Datasets/247_recruit_rankings_05_16.csv")
+schedule <- read_csv("Datasets/cfb_schedule_05_15.csv")
+draft <- read_csv("Datasets/nfl_draft_05_16.csv")
 names(draft)[23] <- c("College")
 draft$College <- str_replace_all(draft$College, fixed("St."), "State")
 
@@ -37,7 +37,8 @@ fix_recruit_names <- c("Bowling Green" = "Bowling Green State",
                        "UNLV" = "Nevada-Las Vegas",
                        "USC" = "Southern California",
                        "USF" = "South Florida",
-                       "UTEP" = "Texas-El Paso")
+                       "UTEP" = "Texas-El Paso",
+                       "Miami" = "Miami (FL)")
 
 recruits$Fix_Team <- ifelse(is.na(fix_recruit_names[recruits$Team]), recruits$Team, fix_recruit_names[recruits$Team])
 
@@ -94,4 +95,4 @@ master_team <- draft %>%
   distinct %>%
   left_join(master_team, ., by = c("Team" = "Fix_Team"))
 
-write.csv(master_team, file = "team_name_master_list.csv", row.names = F)
+write.csv(master_team, file = "Datasets/team_name_master_list.csv", row.names = F)

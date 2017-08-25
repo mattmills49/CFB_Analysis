@@ -55,7 +55,7 @@ write.csv(schedule_df, file = "cfb_schedule_05_15.csv", row.names = F)
 ### 2. Get New Schedule ###
 
 new_url <- sprintf(base_url, 2016)
-new_schedule <- read_html(year_url) %>%
+new_schedule <- read_html(new_url) %>%
   html_node("#schedule") %>%
   html_table
 names(new_schedule) <- c("Game_Num", "Week", "Date", "Time", "Day", "Home", "Home_Points", "Location", "Away", "Away_Points", "TV", "Notes")
@@ -63,5 +63,5 @@ new_schedule <- filter(new_schedule, Game_Num != "Rk") %>%
   select(-TV, -Away_Points, -Home_Points) %>%
   mutate(Neutral = 1 * (Notes != ""))
 
-write.csv(new_schedule, file = "cfb_schedule_16.csv", row.names = F)
+write.csv(new_schedule, file = "Datasets/cfb_schedule_16.csv", row.names = F)
 
