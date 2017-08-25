@@ -54,5 +54,5 @@ for(y in years){
   # 3      21     San Diego State Aztecs      Aztecs San Diego State         SDSU
   
   saved_file <- sprintf(save_files, y) %>%
-    saveRDS(game_info, file = .)
+    saveRDS(team_info, file = .)
 }
