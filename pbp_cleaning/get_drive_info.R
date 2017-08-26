@@ -17,6 +17,10 @@
 #' - Spot
 #' 
 #+
+library(purrr)
+library(magrittr)
+library(rjson)
+library(dplyr)
 
 extract_drive_info <- function(drive_list){
   drive_info <- data.frame(drive_id = drive_list[["id"]], stringsAsFactors = F)

@@ -33,6 +33,10 @@
 #' - TD
 #' - Runner
 #+
+library(purrr)
+library(magrittr)
+library(rjson)
+library(dplyr)
 
 extract_play_info <- function(play_list){
   play_info <- data.frame(play_id = play_list[["id"]], stringsAsFactors = F)
