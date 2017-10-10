@@ -2,6 +2,17 @@
 #' 
 #' The biggest issue with this is going to be parsing the play types and 
 #' descriptions from the larger play file. 
+#' 
+#' We have a `type` and a `desc` field. Some problems:
+#' 
+#' Steps:
+#' 
+#' 1. Filter out extra descriptions in an extra column
+#'   + those that have extra desc in parenthesis
+#' 2. Go through the types to classify them
+#' 
+#' - PATs are included in the description. So if the play scores there is this
+#' extra information which may containt information about a play. 
 #+
 library(dplyr)
 library(stringr)
@@ -9,6 +20,29 @@ library(purrr)
 years <- 2015:2016
 plays <- map2_chr("~/Documents/fb_analysis/pbp_cleaning/cleaned_files/%i/play_info.rds", years, sprintf) %>%
   map_dfr(readRDS)
+
+plays$extra <- plays$desc %>%
+  str_extract_all("\\(.*\\)", simplify = T) %>% 
+  drop
+
+plays$clean_desc <- plays$desc %>%
+  str_replace_all("\\(.*\\)", "") %>%
+  str_trim()
+
+desc_type <- case_when(
+  str_detect(tolower(plays$clean_desc), "run") ~ "Run",
+  str_detect(tolower(plays$clean_desc), "rush") ~ "Rush",
+  str_detect(tolower(plays$clean_desc), "pass") ~ "Pass",
+  str_detect(tolower(plays$clean_desc), "sack") ~ "sack",
+  TRUE ~ "Other")
+
+desc_table <- table(type = plays$type, desc = desc_type)
+
+play_types <- with(plays, case_when(
+  str_detect(type, "Fumble Recovery") & str_detect(desc, "rush | run") ~ "rush",
+  str_detect(type, "Fumble Recovery") & str_detect(desc, "pass | sack") ~ "pass"
+)
+
 
 play_types <- plays %>%
   group_by(type) %>% 
@@ -65,7 +99,13 @@ plays %>%
 #' and result. So the type will be run, pass, kick, etc... and the result will
 #' be fumble, int, sack, etc...
 #' 
+#' Problems:
+#' 
+#' - Blocked Punt
+
+#'
 #+
+
 
 run_words <- plays %>%
   filter(str_detect(desc, "rush | run")) %>%
@@ -79,9 +119,7 @@ plays %>%
   filter(str_detect(desc, "rush | run")) %>%
   filter(str_detect(desc, "KICK")) %>% View
 
-type <- case_when(str_detect(plays$desc, "rush | run") ~ "Run",
-                  str_detect(plays$desc, "pass | sack") ~ "Pass",
-                  TRUE ~ "Other")
+
 
 
 
