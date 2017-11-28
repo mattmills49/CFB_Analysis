@@ -28,7 +28,6 @@ extract_drive_info <- function(drive_list){
   drive_info$start_spot <- drive_list[["start"]][["yardLine"]]
   drive_info$start_time <- drive_list[["start"]][["clock"]][["displayValue"]]
   drive_info$start_text <- drive_list[["start"]][["text"]]
-  drive_info$offense <- drive_list[["team"]][["nickname"]]
   drive_info$description <- drive_list[["description"]]
   drive_info$yards_gained <- drive_list[["yards"]]
   drive_info$time_elapsed <- drive_list[["timeElapsed"]]
@@ -38,6 +37,8 @@ extract_drive_info <- function(drive_list){
   drive_info$end_spot <- drive_list[["end"]][["yardLine"]]
   drive_info$end_time <- drive_list[["end"]][["clock"]][["displayValue"]]
   drive_info$end_text <- drive_list[["end"]][["text"]]
+  drive_info$offense_short <- drive_list[["team"]][["abbreviation"]]
+  drive_info$offense_name <- drive_list[["team"]][["displayName"]]
   return(drive_info)
 }
 
@@ -55,7 +56,7 @@ file_locations <- "/Users/MM/Documents/CFB/Clean PBP JSONs/%i_PBP"
 
 save_files <- "/Users/MM/Documents/fb_analysis/pbp_cleaning/cleaned_files/%i/drive_info.rds"
 
-years <- 2015:2016
+years <- 2011:2017
 
 for(y in years){
   
@@ -81,4 +82,6 @@ for(y in years){
   
   saved_file <- sprintf(save_files, y) %>%
     saveRDS(drive_info, file = .)
+  
+  print(sprintf("Finished %i files", y))
 }

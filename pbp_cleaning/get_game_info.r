@@ -21,12 +21,16 @@ get_game_info <- function(json_file){
   team_locations <- map_chr(json_file[["teams"]], function(x) x[["homeAway"]])
   team_scores <- map_chr(json_file[["teams"]], function(x) x[["score"]]) %>% as.integer
   team_names <- map_chr(json_file[["teams"]], function(x) x[["team"]][["nickname"]])
+  team_abbrs <- map_chr(json_file[["teams"]], function(x) x[["team"]][["abbreviation"]])
   names(team_names) <- team_locations
   names(team_scores) <- team_locations
+  names(team_abbrs) <- team_locations
   
   game_info <- data.frame(game_id = json_file[["id"]], stringsAsFactors = F)
   game_info$home_team <- team_names["home"]
+  game_info$home_abbr <- team_abbrs["home"]
   game_info$away_team <- team_names["away"]
+  game_info$away_abbr <- team_abbrs["away"]
   game_info$home_score <- team_scores["home"]
   game_info$away_score <- team_scores["away"]
   game_info$neutral_site <- json_file[["competitions"]][[1]][["neutralSite"]]
@@ -46,7 +50,7 @@ file_locations <- "/Users/MM/Documents/CFB/Clean PBP JSONs/%i_PBP"
 
 save_files <- "/Users/MM/Documents/fb_analysis/pbp_cleaning/cleaned_files/%i/game_info.rds"
 
-years <- 2015:2016
+years <- 2011:2017
 
 for(y in years){
   
